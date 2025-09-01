@@ -1,0 +1,47 @@
+  
+
+* * *
+
+AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - Projection Views](javascript:call_link\('abencds_proj_views.htm'\)) →  [CDS DDL - CDS Projection View, Transactional Queries](javascript:call_link\('abencds_pv_transactional_query.htm'\)) →  [CDS DDL - projection\_list, transactional query](javascript:call_link\('abencds_proj_view_element_list.htm'\)) →  [CDS DDL - proj\_element, transactional query](javascript:call_link\('abencds_proj_view_element.htm'\)) → 
+
+CDS DDL - expose\_assoc
+
+Syntax
+
+... association*\[* \[[filter](javascript:call_link\('abencds_pv_assoc_modified.htm'\))\]*\]* *\[*AS alias*\]* *\[*: [redirection](javascript:call_link\('abencds_pv_assoc_redirected.htm'\)) *\]*
+
+Effect
+
+CDS associations from the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry") can be exposed in the projection list of a CDS projection view. Note that only an association from the projected entity can be exposed, path expressions are not valid to expose an association.
+
+All elements included in the ON clause of an exposed [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") must also be included in the projection list of the CDS projection view.
+
+The following additions are possible:
+
+-   [filter](javascript:call_link\('abencds_pv_assoc_modified.htm'\))
+    
+    An exposed association in a CDS projection view can be modified. That means that you can add a filter condition and in this way implicitly change the [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry").
+    
+-   AS alias
+    
+    The names of the elements of a SELECT list must be unique. There must be no other element with this name. If necessary, AS must be used to define an alternative element name alias for the CDS association. If no alternative element name alias is defined, the element name is defined by the name of the CDS association used in the path expression. When a CDS association with a [filter condition](javascript:call_link\('abencds_pv_assoc_modified.htm'\)) cds\_cond is exposed, an alternative element name alias using AS is mandatory.
+    
+-   [redirection](javascript:call_link\('abencds_pv_assoc_redirected.htm'\))
+    
+    If the original [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") is also projected, you can redirect the association to the new target using the keyword REDIRECTED TO. Find details in the topic [CDS DDL - projection\_view, REDIRECTED TO](javascript:call_link\('abencds_pv_assoc_redirected.htm'\)) below.
+    
+
+A CDS association can be exposed multiple times with various alternative element names. This makes it possible to use different filter conditions.
+
+An exposed CDS association is part of the projection list. It is not, however, part of the result set, nor a component of the type defined in ABAP with respect to the CDS projection view.
+
+Hint
+
+-   Projected CDS associations, CDS compositions, and CDS to-parent associations can be specified as values for the CDS annotations [ElementRef](javascript:call_link\('abencds_f1_define_annotation_type.htm'\)) and [AssociationRef](javascript:call_link\('abencds_f1_define_annotation_type.htm'\)).
+-   As alternative to exposing an association with a filter and redirection described in this topic, it is also possible to redefine an association on header level using the keyword [REDEFINE ASSOCIATION](javascript:call_link\('abencds_proj_view_redefined_assoc.htm'\)). The filter and redirection is then automatically applied to all fields exposed via path expression.
+
+Continue
+[CDS DDL - filter](javascript:call_link\('abencds_pv_assoc_modified.htm'\))
+[CDS DDL - redirection](javascript:call_link\('abencds_pv_assoc_redirected.htm'\))

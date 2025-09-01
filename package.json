@@ -1,0 +1,26 @@
+{
+  "name": "abap-docs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node scripts/scrape-abap-docs.js",
+    "scrape:758": "node scripts/scrape-abap-docs.js --version 7.58 --force",
+    "scrape:all": "node scripts/scrape-abap-docs.js --all",
+    "generate:md": "node scripts/generate-md-bundles.js",
+    "generate:md:all": "node scripts/generate-md-bundles.js --all",
+    "generate:756": "node scripts/generate-md-bundles.js --version 7.56 --force",
+    "scrape:latest": "node scripts/scrape-abap-docs.js --version latest --force",
+    "generate:758": "node scripts/generate-md-bundles.js --version 7.58 --force",
+    "generate:latest": "node scripts/generate-md-bundles.js --version latest --force"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "turndown": "^7.2.0"
+  }
+}

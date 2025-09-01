@@ -1,0 +1,56 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Declarations](javascript:call_link\('abenobsolete_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_data_obsolete.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: TYPES, CLIENT SPECIFIED, ABAPTYPES_CLIENT_SPECIFIED, 757%0D%0A%0D%0AError:%0D%0A%0D%0
+A%0D%0A%0D%0ASuggestion for improvement:)
+
+TYPES, CLIENT SPECIFIED
+
+[Short Reference](javascript:call_link\('abaptypes_shortref.htm'\))
+
+Obsolete Syntax
+
+TYPES dtype TYPE cds\_entity CLIENT SPECIFIED clnt.
+
+Effect
+
+With the addition CLIENT SPECIFIED the statement TYPES defines a structured type constructed from all components of a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") cds\_entity and an additional first component clnt with the type of a [client column](javascript:call_link\('abenclient_column_glosry.htm'\) "Glossary Entry").
+
+cds\_entity expects the name of a non-abstract [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"), namely:
+
+-   The name of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry")
+-   The name of a [CDS table function](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry")
+-   The name of a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
+
+as defined in the corresponding [DEFINE](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) statement of the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry").
+
+Any name for the client column that follows the [naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) can be specified for clnt.
+
+Hints
+
+-   A structure of a type defined using this statement can be used as a work area of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement for CDS entities in which [implicit client handling](javascript:call_link\('abenabap_sql_client_handling.htm'\)) is disabled using the obsolete statement [CLIENT SPECIFIED](javascript:call_link\('abenabap_sql_client_handling.htm'\)). [USING](javascript:call_link\('abapselect_client.htm'\)) is used to switch implicit client handling and not disable it, which means the addition CLIENT SPECIFIED is also obsolete for TYPES.
+-   If the statement is used for a [client-dependent CDS table function](javascript:call_link\('abencds_func_client_handling.htm'\)), a structured type is produced that matches the line structure of the return value of the associated [AMDP function implementation](javascript:call_link\('abenamdp_function_methods.htm'\)). This type is not, however, required in ABAP programs, since the AMDP function implementation cannot be called like a regular function method
+-   The name specified for clnt is completely independent of the actual name of a client column in a data source of a CDS view.
+-   Abstract [CDS](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry") entities cannot be specified.
+
+Example
+
+Defines a line type scarr\_spfli\_clnt for an internal table that is used as a target area when a client-dependent CDS view is accessed using the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)) of the SELECT statement. If the addition CLIENT SPECIFIED of the statement TYPES is not used, the column clnt would not exist in the table scarr\_spfli\_clnt and could not be used as a target range.
+
+TYPES scarr\_spfli\_clnt TYPE demo\_cds\_scarr\_spfli CLIENT SPECIFIED clnt.
+DATA scarr\_spfli\_clnt TYPE TABLE OF scarr\_spfli\_clnt WITH EMPTY KEY.
+SELECT \*
+       FROM demo\_cds\_scarr\_spfli CLIENT SPECIFIED
+       INTO TABLE @scarr\_spfli\_clnt.
+
+The following example shows how the recommended addition [USING ALL CLIENTS](javascript:call_link\('abapselect_client.htm'\)) is used, for which no special target area is required.
+
+DATA scarr\_spfli TYPE TABLE OF demo\_cds\_scarr\_spfli WITH EMPTY KEY.
+SELECT \*
+       FROM demo\_cds\_scarr\_spfli USING ALL CLIENTS
+       INTO TABLE @scarr\_spfli.

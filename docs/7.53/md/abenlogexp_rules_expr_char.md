@@ -1,0 +1,38 @@
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [log\_exp - Logical Expressions](javascript:call_link\('abenlogexp.htm'\)) →  [rel\_exp - Comparison Expressions](javascript:call_link\('abenlogexp_comp.htm'\)) →  [rel\_exp - Comparison Rules](javascript:call_link\('abenlogexp_rules.htm'\)) →  [rel\_exp - Comparing Elementary Data Types](javascript:call_link\('abenlogexp_rules_operands.htm'\)) →  [rel\_exp - Comparison Type of Calculation Expressions](javascript:call_link\('abenlogexp_rules_expressions.htm'\)) → 
+
+rel\_exp - Comparison Type of String Expressions
+
+[String expressions](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry") can be used as operands in comparison expressions with the following:
+
+-   [comparison operators for all data types](javascript:call_link\('abenlogexp_compare_all.htm'\))
+
+-   [comparison operators for character-like data types](javascript:call_link\('abenlogexp_strings.htm'\))
+
+It is possible to compare a [string expression](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry") with a single operand of any [elementary data type](javascript:call_link\('abenelementary_data_type_glosry.htm'\) "Glossary Entry") or with another string expression.
+
+If one of the operands of a comparison is a string expression, the [comparison type](javascript:call_link\('abencomparison_type_glosry.htm'\) "Glossary Entry") whose [comparison rules](javascript:call_link\('abencomparison_type.htm'\)) are used to perform the comparison is always string. If necessary, single operands are [converted](javascript:call_link\('abenconversion_elementary.htm'\)) to the type string before the comparison.
+
+Note
+
+A string expression cannot be specified as the operand of a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry").
+
+Example
+
+This example demonstrates the effect of different comparison types. The first comparison is true, since the character-like operand is converted to the type of the numeric operand (in accordance with the rule for [comparing character-like data types](javascript:call_link\('abenlogexp_character.htm'\))) and the number value is compared. The second comparison is false, since the numeric operand is converted to the type string of the string expression and the internal representation of the code page used is compared.
+
+IF \`02\` > 1.
+  ...
+ELSE.
+  ...
+ENDIF.
+IF |02| > 1.
+  ...
+ELSE.
+  ...
+ENDIF.

@@ -1,0 +1,33 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [News for ABAP Release 7.53](javascript:call_link\('abennews-753.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Internal%20Tables%20in%20ABAP%20Release%207.53%2C%20ABENNEWS-753-ITAB%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+Internal Tables in ABAP Release 7.53
+
+[1\. Predicates in WHERE Conditions](#!ABAP_MODIFICATION_1@1@)
+[2\. Stricter Syntax Check in COLLECT](#!ABAP_MODIFICATION_2@2@)
+[3\. Changes to Write-Protected Components](#!ABAP_MODIFICATION_3@3@)
+
+Modification 1   
+
+Predicates in WHERE Conditions
+
+In WHERE conditions of the statements [LOOP AT itab](javascript:call_link\('abaploop_at_itab_variants.htm'\)), [DELETE itab](javascript:call_link\('abapdelete_itab.htm'\)), and [MODIFY itab](javascript:call_link\('abapmodify_itab.htm'\)), and in table iterations with [FOR](javascript:call_link\('abenfor_itab.htm'\)), [IS *\[*NOT*\]* INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) can now be specified alongside the predicate expressions [IS *\[*NOT*\]* INITIAL](javascript:call_link\('abenlogexp_initial.htm'\)) and [IS *\[*NOT*\]* BOUND](javascript:call_link\('abenlogexp_bound.htm'\)).
+
+Modification 2   
+
+Stricter Syntax Check in COLLECT
+
+Before the statement [COLLECT](javascript:call_link\('abapcollect.htm'\)) can be executed for an internal table, all components that are not part of the primary table key must have a numeric data type. Until now, if certain structured components broke this rule, a syntax check warning and a program runtime error occurred. Now a syntax error occurs here too.
+
+Modification 3   
+
+Changes to Write-Protected Components
+
+Before ABAP release 7.53 it was possible to overwrite those write-protected components addressed using a data reference variable in a standard table, if the profile parameter abap/runt/write\_check\_fix was set to off. This profile parameter was removed in ABAP release 7.53 and it is no longer possible to modify write-protected components.

@@ -1,0 +1,59 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Built-In Data Types in ABAP Dictionary](javascript:call_link\('abenddic_builtin_types_intro.htm'\)) →  [Attributes of the Predefined Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\)) →  [Special Dictionary Types](javascript:call_link\('abenddic_builtin_types_special.htm'\)) → 
+
+Date Fields, Time Fields, and Time Stamp Fields
+
+The following data types in ABAP Dictionary describe date fields, time fields, and time stamp fields:
+
+-   [Date Types, Time Types, and Time Stamp Types](#@@ITOC@@ABENDDIC_DATE_TIME_TYPES_1)
+
+-   [Character-Like Date Fields and Time Fields](#@@ITOC@@ABENDDIC_DATE_TIME_TYPES_2)
+
+Date Types, Time Types, and Time Stamp Types
+
+The following built-in data types in ABAP Dictionary represent real date types, time types, and time stamp types in a database:
+
+-   [DATN](javascript:call_link\('abenddic_builtin_types.htm'\)) for date fields in the database
+
+-   [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)) for time fields in the database
+
+-   [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)) for time stamp fields in the database
+
+Database fields with these types generally contain only valid values for dates, times, and time stamps (in the internal representation of the database). These types are currently only supported by [SAP HANA databases](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry").
+
+Notes
+
+-   The dictionary types DATN and TIMN are mapped to the character-like ABAP date type and time type [d](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) or [t](javascript:call_link\('abenbuiltin_types_date_time.htm'\)). The built-in ABAP type [utclong](javascript:call_link\('abenbuiltin_types_date_time.htm'\)), on the other hand, provides a real time stamp type for UTCLONG.
+
+-   The types DATN and TIMN are recommended for saving individual dates and times. Access to dates and times in the corresponding functions and expressions is optimized for these types. In the case of the dictionary types DATS and TIMS, such access may not be possible at all or they may need to be converted to real date and time types.
+
+-   The output formats for fields on dynpros and Web dynpros and in the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) can be predefined for the types DATN, TIMN, and UTCLONG specific to each user in the [user master record](javascript:call_link\('abenuser_master_record_glosry.htm'\) "Glossary Entry"). The output length required for formatted output is usually greater than the number of places in ABAP Dictionary.
+
+Character-Like Date Fields and Time Fields
+
+Instances of the following data types in ABAP Dictionary are created on the database using character-like fields:
+
+-   [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) for [date fields](javascript:call_link\('abendate_field_glosry.htm'\) "Glossary Entry")
+
+From a technical perspective, the built-in data type DATS describes objects of the type CHAR with a length of 8 characters. It is intended to be used for a [calendar date](javascript:call_link\('abencalendar_date_glosry.htm'\) "Glossary Entry") with the format YYYYMMDD. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to DATS. In ABAP, DATS is assigned to the special type [d](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) and the associated rules apply.
+
+-   [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)) for [time fields](javascript:call_link\('abentime_field_glosry.htm'\) "Glossary Entry")
+
+From a technical perspective, the built-in data type TIMS describes objects of the type CHAR with a length of 6 characters. It is intended to be used for a [time](javascript:call_link\('abenday_time_glosry.htm'\) "Glossary Entry") with the format HHMMSS. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to TIMS. In ABAP, TIMS is assigned to the special type [t](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) and the associated rules apply.
+
+-   [ACCP](javascript:call_link\('abenddic_builtin_types.htm'\)) for posting periods
+
+From a technical perspective, the built-in data type ACCP describes objects of the type CHAR with a length of 6 characters. It is intended to be used for a posting period with the format YYYYMM. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to ACCP.
+
+Notes
+
+-   If possible, the types DATN and TIMN should be used.
+
+-   The output formats for fields on dynpros and Web Dynpros and in the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) can be predefined for the types DATS and TIMS specific to each user in the [user master record](javascript:call_link\('abenuser_master_record_glosry.htm'\) "Glossary Entry"). The output length required for formatted output is usually greater than the number of places in ABAP Dictionary. If the output length is too short, any formatting characters are suppressed.
+
+-   When a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") is represented with reference to the type ACCP (but not in the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\))) and there is enough output length, a point is inserted between the year YYYY and the month MM.

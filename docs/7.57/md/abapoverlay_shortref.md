@@ -1,0 +1,27 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  O
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: OVERLAY, ABAPOVERLAY_SHORTREF, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestio
+n for improvement:)
+
+OVERLAY - Short Reference
+
+[Reference](javascript:call_link\('abapoverlay.htm'\))
+
+Syntax
+
+OVERLAY text1 WITH text2 *\[*ONLY mask*\]*.
+
+Effect
+
+Replaces blanks in text1 with characters in the same position in text2.
+
+Addition  
+
+-   ONLY mask
+    Instead of blanks, replaces all characters that occur in the data object mask.

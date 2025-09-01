@@ -1,0 +1,17 @@
+  
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [DDIC - Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [DDIC - Table-Specific Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) → 
+
+DDIC - Client Dependency of Database Tables
+
+If the first column of a DDIC database table is a key field with the [built-in type](javascript:call_link\('abenddic_builtin_types.htm'\)) CLNT, the table is client-dependent. In this case, the column contains the [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") evaluated in client copies and in [implicit client handling](javascript:call_link\('abenopen_sql_client_handling.htm'\)) in [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry").
+
+Hints
+
+-   Generally, tables in the [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)) A are client-dependent, whereas system tables in the delivery classes E, S, and W are client-independent.
+
+-   The system table T000, which contains the [client IDs](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") of an [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry"), is an exception. The first column has the type CLNT, but the table is client-independent. If the table is accessed using ABAP SQL, the additions [USING](javascript:call_link\('abapselect_client.htm'\)) and the obsolete [CLIENT SPECIFIED](javascript:call_link\('abapselect_client.htm'\)) cannot be specified.

@@ -1,0 +1,79 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Transformation of ABAP Values](javascript:call_link\('abenst_abap_values.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ST%20-%20tt%3Acopy%2C%20asXML%20Format%2C%20ABENST_TT_COPY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+ST - tt:copy, asXML Format
+
+Syntax
+
+<tt:copy *\[*ref="node"*\]* />
+
+Effect
+
+Statement tt:copy is used to serialize in and deserialize from the [asXML format](javascript:call_link\('abenabap_xslt_asxml.htm'\)). It can be used on all data objects with the exception of reference variables or objects containing reference variables as components.
+
+The optional attribute ref can be used to define the [current node](javascript:call_link\('abenst_tt_ref.htm'\)) for the statement. If ref is not specified, the current node of the surrounding element is used implicitly.
+
+Serialization   
+
+In serializations, the entire ABAP data object that is bound to the current node is recursively transformed with all its components to [asXML](javascript:call_link\('abenabap_xslt_asxml.htm'\)) format and inserted into the XML data in place of the statement.
+
+Deserialization   
+
+In deserializations, the XML data stream is interpreted as [asXML format](javascript:call_link\('abenabap_xslt_asxml.htm'\)) and its values are passed to the ABAP data object that is bound to the current node.
+
+Hint
+
+In serializations of data objects using tt:copy, it is important to note that a node will not be automatically inserted for the asXML format created. To get valid XML data, the node must be explicitly specified in the template. If not, the XML data cannot be deserialized. The only exceptions are structures with a single component or internal tables with a single line. However, these do not generally have any practical use.
+
+Example
+
+The following Simple Transformation DEMO\_ST\_COPY serializes the ABAP data object that is bound to data root ROOT under the node <node> into the asXML format. If the node <node> is not specified, the transformation would not produce valid XML data and deserialization would raise an exception.
+
+<?sap.transform simple?>
+<tt:transform
+  xmlns:tt="http://www.sap.com/transformation-templates">
+  <tt:root name="ROOT"/>
+  <tt:template>
+    <node>
+      <tt:copy  ref="ROOT" />
+    </node>
+  </tt:template>
+</tt:transform>
+
+When the ABAP program from the example in section [Internal Tables](javascript:call_link\('abenst_tt_loop.htm'\)) calls this transformation, the serialization process has the following result:
+
+<node>
+  <item>
+    <KEY>2</KEY>
+    <VALUES>
+      <item>4</item>
+      <item>8</item>
+      <item>16</item>
+    </VALUES>
+  </item>
+  <item>
+    <KEY>3</KEY>
+    <VALUES>
+      <item>9</item>
+      <item>27</item>
+      <item>81</item>
+    </VALUES>
+  </item>
+  <item>
+    <KEY>4</KEY>
+    <VALUES>
+      <item>16</item>
+      <item>64</item>
+      <item>256</item>
+    </VALUES>
+  </item>
+</node>
+
+The Simple Transformation is [symmetrical](javascript:call_link\('abenst_symmetry.htm'\)).

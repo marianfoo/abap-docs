@@ -1,0 +1,14 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP Test Cockpit, ABENABAP_TEST_COCKPIT_GLOSRY, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D
+%0A%0D%0ASuggestion for improvement:)
+
+ABAP Test Cockpit
+
+ATC for short. Framework for executing and evaluating various tests for [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") integrated into [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry") or [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") and the [Change and Transport System (CTS)](javascript:call_link\('abencts_glosry.htm'\) "Glossary Entry").

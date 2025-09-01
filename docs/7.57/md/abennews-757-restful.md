@@ -1,0 +1,21 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [News for Release 7.57](javascript:call_link\('abennews-757.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP RESTful Application Programming Model in Release 7.57, ABENNEWS-757-RESTFUL, 757
+%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+ABAP RESTful Application Programming Model in Release 7.57
+
+In release 7.57, the [ABAP RESTful Application Programming Model (RAP)](javascript:call_link\('abenarap_glosry.htm'\) "Glossary Entry") was enhanced as follows:
+
+-   [CDS BDL in Release 7.57](javascript:call_link\('abennews-757-cds_bdl.htm'\))
+-   [ABAP EML in Release 7.57](javascript:call_link\('abennews-757-eml.htm'\))
+
+Continue
+[CDS BDL in Release 7.57](javascript:call_link\('abennews-757-cds_bdl.htm'\))
+[ABAP EML in Release 7.57](javascript:call_link\('abennews-757-eml.htm'\))

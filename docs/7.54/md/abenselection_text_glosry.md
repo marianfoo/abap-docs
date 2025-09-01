@@ -1,0 +1,11 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+selection text
+
+Part of the [text elements](javascript:call_link\('abentext_element_glosry.htm'\) "Glossary Entry") of an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry"). A selection text or a text from [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry") can be associated with every [parameter](javascript:call_link\('abenparameter_glosry.htm'\) "Glossary Entry") or [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") defined using [PARAMETERS](javascript:call_link\('abapparameters.htm'\)) or [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)). This text is then displayed alongside the corresponding [input fields](javascript:call_link\('abeninput_output_field_glosry.htm'\) "Glossary Entry") on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry").

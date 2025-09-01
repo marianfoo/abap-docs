@@ -1,0 +1,40 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Syntax Elements of an ABAP Program](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operand Positions](javascript:call_link\('abenoperand_positions.htm'\)) →  [Expression Positions for Functions and Expressions](javascript:call_link\('abenexpression_positions.htm'\)) →  [Read Positions for Functions and Expressions](javascript:call_link\('abenexpression_positions_read.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Time-Stamp-Like%20Expression%20Positions%2C%20ABENTIMESTAMP_EXPR_POSITIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+Time-Stamp-Like Expression Positions
+
+Time-stamp-like expression positions are [read positions](javascript:call_link\('abenread_position_glosry.htm'\) "Glossary Entry") where [time stamp fields](javascript:call_link\('abentimestamp_field_glosry.htm'\) "Glossary Entry") and [constructor expressions](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry"), [table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry"), and [built-in functions](javascript:call_link\('abenbuiltin_function_glosry.htm'\) "Glossary Entry") can be specified, or [functional method calls](javascript:call_link\('abenfunctional_method_call_glosry.htm'\) "Glossary Entry") and [method chainings](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry") whose return value has a [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry"). The following time-stamp-like expression positions exist:
+
+-   Time-stamp-like arguments in time stamp functions
+    -   Operand time\_stamp of the function
+        
+        [utclong\_add( val  = time\_stamp ... )](javascript:call_link\('abenutclong_add.htm'\))
+        
+    -   Operands time\_stamp2 and time\_stamp1 of the function
+        
+        [utclong\_diff( high = time\_stamp2 low = time\_stamp1 )](javascript:call_link\('abenutclong_diff.htm'\))
+        
+-   Functional operand positions in statements for time stamps
+    -   Operand time\_stamp of the statement
+        
+        [CONVERT UTCLONG time\_stamp TIME ZONE tz INTO ...](javascript:call_link\('abapconvert_utclong.htm'\))
+        
+
+Example
+
+Specification of a functional method call and a time stamp function as arguments of the time stamp function utclong\_diff.
+
+DATA ts TYPE timestampl.
+GET TIME STAMP FIELD ts.
+cl\_demo\_output=>display(
+  utclong\_diff(
+    low =  cl\_abap\_tstmp=>tstmp2utclong( timestamp =  ts )
+    high = utclong\_add( val = utclong\_current( )
+                        hours = 1 ) ) ).

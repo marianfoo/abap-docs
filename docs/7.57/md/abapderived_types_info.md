@@ -1,0 +1,37 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Components Related to Information Processing, ABAPDERIVED_TYPES_INFO, 757%0D%0A%0D%0A
+Error:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+Components Related to Information Processing
+
+-   [%element](javascript:call_link\('abapderived_types_element.htm'\))
+-   [%fail](javascript:call_link\('abapderived_types_fail.htm'\))
+-   [%foreign](javascript:call_link\('abapderived_types_foreign.htm'\))
+-   [%global](javascript:call_link\('abapderived_types_global.htm'\))
+-   [%msg](javascript:call_link\('abapderived_types_msg.htm'\))
+-   [%other](javascript:call_link\('abapderived_types_other.htm'\))
+-   [%own](javascript:call_link\('abapderived_types_own.htm'\))
+-   [%path](javascript:call_link\('abapderived_types_path.htm'\))
+-   [%state\_area](javascript:call_link\('abapderived_types_state_area.htm'\))
+
+Further Information
+
+Several of the components of [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") are related to message handling. See more details in the Development Guide for the ABAP RESTful Application Programming Model, section Messages.
+
+Continue
+[%element](javascript:call_link\('abapderived_types_element.htm'\))
+[%fail](javascript:call_link\('abapderived_types_fail.htm'\))
+[%foreign](javascript:call_link\('abapderived_types_foreign.htm'\))
+[%global](javascript:call_link\('abapderived_types_global.htm'\))
+[%msg](javascript:call_link\('abapderived_types_msg.htm'\))
+[%other](javascript:call_link\('abapderived_types_other.htm'\))
+[%own](javascript:call_link\('abapderived_types_own.htm'\))
+[%path](javascript:call_link\('abapderived_types_path.htm'\))
+[%state\_area](javascript:call_link\('abapderived_types_state_area.htm'\))

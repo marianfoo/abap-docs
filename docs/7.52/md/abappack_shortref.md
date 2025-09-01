@@ -1,0 +1,19 @@
+  
+
+* * *
+
+SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  P
+
+PACK - Quick reference
+
+[Reference](javascript:call_link\('abappack.htm'\))
+
+Syntax
+
+PACK source TO destination.
+
+Effect
+
+Obsolete: Packs the numeric content of a character-like data object source in the digits of a packed number destination.

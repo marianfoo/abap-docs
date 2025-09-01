@@ -1,0 +1,62 @@
+  
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Behavior Pools (ABP)](javascript:call_link\('abenabap_behavior_pools.htm'\)) → 
+
+ABP - Global class
+
+\* Work in progress \*
+
+Syntax
+
+CLASS class\_name DEFINITION PUBLIC
+  *\[*ABSTRACT*\]*
+  *\[*FINAL*\]*
+  FOR BEHAVIOR OF CDS\_entity\_behavior.
+  PUBLIC SECTION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+CLASS class\_name IMPLEMENTATION.
+ENDCLASS.
+
+Effect
+
+The [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"), a special global ABAP class, is used to implement the transactional behavior of a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"). The global class is implicitly defined as abstract and final.
+
+The [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") CDS\_entity\_behavior specifies the behavior of the business object. ABAP Compiler derives both the operations to implement and the structure types and table types used from behavior definitions. The behavior pool depends on the behavior definition: Changes to the behavior definition lead to its regeneration.
+
+Any number of behavior pools can be assigned to a behavior definition (1:n relation). This way, applications can structure their implementations in multiple units.
+
+The behavior pool can have static methods, CLASS-DATA, CONSTANTS and TYPES.
+
+The actual substance of a behavior pool is located in the local classes. Two types of special local classes can be defined:
+
+-   one or more [handler classes](javascript:call_link\('abenabp_handler_class.htm'\)) to implement the interaction phase of the business object behavior
+
+-   and a [saver class](javascript:call_link\('abenabp_saver_class.htm'\)) to implement the save phase of the business object behavior.
+
+Note
+
+The behavior pool is not instantiated or inherited.
+
+Example
+
+In the following example, the data from the ABAP flight data reference scenario (short flight data scenario) is used. It represents a legacy business logic that can be used to create and update flight bookings. The root entity Travel represents the business object for managing flight trips. The underlying data model and the behavior of the root entity Travel are described in the CDS BDL - Example.
+
+The following example shows the global class of the behavior implementation of the business object.
+
+CLASS zcl\_travel DEFINITION
+  PUBLIC
+  ABSTRACT
+  FINAL
+  FOR BEHAVIOR OF travel.
+  PUBLIC SECTION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+CLASS zcl\_travel IMPLEMENTATION.
+ENDCLASS.

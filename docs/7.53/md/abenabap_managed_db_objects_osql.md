@@ -1,0 +1,75 @@
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP-Managed Database Objects](javascript:call_link\('abenabap_managed_db_objects.htm'\)) →  [Access to ABAP-Managed Database Objects](javascript:call_link\('abenabap_managed_db_objects_access.htm'\)) → 
+
+ABAP SQL Access to ABAP-Managed Database Objects
+
+[ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") includes a set of [ABAP SQL statements](javascript:call_link\('abenopensql.htm'\)) for use in ABAP programs. The database is accessed using the [ABAP SQL interface](javascript:call_link\('abenopen_sql_interface_glosry.htm'\) "Glossary Entry") of the [database interface](javascript:call_link\('abendatabase_interface_glosry.htm'\) "Glossary Entry"), which transforms the ABAP SQL statements into platform-specific SQL.
+
+ABAP SQL can be used to access [ABAP-managed database objects](javascript:call_link\('abenabap_managed_db_object_glosry.htm'\) "Glossary Entry") as follows:
+
+-   Reads and writes on [database tables](javascript:call_link\('abenddic_database_tables.htm'\)) and [classic database views](javascript:call_link\('abenddic_database_views.htm'\)) defined in ABAP Dictionary. Writes on database views are only possible with restrictions.
+
+-   Reads on the database objects of CDS views and CDS table functions. When a CDS table function is accessed, the associated [AMDP table function](javascript:call_link\('abenamdp_table_function_glosry.htm'\) "Glossary Entry") is called internally and its result is provided as the results set of the ABAP SQL statement.
+
+The most important ABAP SQL features are as follows:
+
+-   ABAP SQL is to a great extent platform-independent
+
+-   ABAP SQL is based on the data types defined in ABAP Dictionary and any enhancements made to them:
+
+-   ABAP SQL respects the order of fields defined in ABAP Dictionary, since this can differ from the order in the database.
+
+-   ABAP SQL checks the compatibility of [host variables](javascript:call_link\('abenopen_sql_host_variables.htm'\)) with the associated dictionary types or database types.
+
+-   ABAP SQL enables conversions to be made between ABAP types and platform-specific data types in accordance with uniform ABAP-specific rules.
+
+-   ABAP SQL has its own [handler](javascript:call_link\('abenopen_sql_null_values.htm'\)) for [null values](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry").
+
+-   ABAP SQL supports the following ABAP Dictionary and ABAP CDS functions:
+
+-   Automatic [client handling](javascript:call_link\('abenopen_sql_client_handling.htm'\))
+
+-   [Table buffering](javascript:call_link\('abensap_puffering.htm'\))
+
+-   Evaluating [CDS access control](javascript:call_link\('abencds_authorizations.htm'\))
+
+-   [Enhancement categories](javascript:call_link\('abenddic_structures_enh_cat.htm'\)) are respected
+
+-   [Logging of database tables](javascript:call_link\('abenddic_database_tables_protocol.htm'\))
+
+-   ABAP SQL uses the name of a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") to access the entity and respects all relevant attributes. Access to [CDS database views](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry") is [obsolete](javascript:call_link\('abenopen_sql_cds_obsolete.htm'\)) and forbidden in [strict mode from Release 7.50](javascript:call_link\('abenopensql_strict_mode_750.htm'\)).
+
+-   Automatic [client handling](javascript:call_link\('abenopen_sql_client_handling.htm'\)) runs in accordance with how client dependency is defined using the relevant annotations in the [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry").
+
+-   The [CDS roles](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry") mapped to the CDS entity are evaluated.
+
+-   The key fields defined in the CDS entity are respected.
+
+-   [Actual parameters](javascript:call_link\('abenopen_sql_parameters.htm'\)) can be associated with the input parameters of a CDS entity in uniform syntax.
+
+-   [CDS path expressions](javascript:call_link\('abencds_path_expression_glosry.htm'\) "Glossary Entry") can be specified for [CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry").
+
+-   All [session variables](javascript:call_link\('abencds_f1_session_variable.htm'\)) are set correctly on all platforms when ABAP SQL is used to access a CDS view. More specifically, the addition [USING CLIENT](javascript:call_link\('abapselect_client.htm'\)) modifies the session variable client.
+
+-   When ABAP SQL is used to access a [CDS table function](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry"), the access is transformed to the associated [AMDP table function](javascript:call_link\('abenamdp_table_function_glosry.htm'\) "Glossary Entry").
+
+-   Database objects specified statically in ABAP SQL are recorded in the where-used list in ABAP tools. Each time an ABAP-managed database object is modified it is advisable to record it in the where-used list. In this way, any consequences of modifying the object can be checked.
+
+-   ABAP SQL enables dynamic tokens to be specified that are evaluated at runtime of an ABAP program.
+
+-   DDL statements are not included in the scope of ABAP SQL. The respective ABAP-managed database objects cannot be modified in ABAP SQL and no other database objects can be created or modified.
+
+-   ABAP SQL does not support [secondary connections](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") or [service connections](javascript:call_link\('abenservice_connection_glosry.htm'\) "Glossary Entry").
+
+-   ABAP SQL respects the [dependency rules](javascript:call_link\('abendependency_rule_glosry.htm'\) "Glossary Entry") defined for a database.
+
+-   ABAP SQL respects [data aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry") by default.
+
+Note
+
+Some of the semantic attributes defined in ABAP Dictionary or ABAP CDS, such as foreign key relationships or reference fields, are ignored in ABAP SQL and are respected only by classic [Dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), [Web Dynpros](javascript:call_link\('abenweb_dynpro_glosry.htm'\) "Glossary Entry"), and some other frameworks. This applies in particular to the evaluation of [framework-specific annotations](javascript:call_link\('abencomponent_annotation_glosry.htm'\) "Glossary Entry") in ABAP CDS as well.

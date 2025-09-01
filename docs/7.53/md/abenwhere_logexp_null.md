@@ -1,0 +1,47 @@
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - Conditions sql\_cond](javascript:call_link\('abenopen_sql_cond.htm'\)) →  [sql\_cond - rel\_exp for Statements](javascript:call_link\('abenwhere_logexp.htm'\)) → 
+
+[Quick Reference](javascript:call_link\('abensql_cond_shortref.htm'\))
+
+sql\_cond - IS NULL
+
+Syntax
+
+... operand IS *\[*NOT*\]* NULL ...
+
+Effect
+
+This relational expression is true if the value of the operand operand is (is not) the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"). [Columns](javascript:call_link\('abenopen_sql_columns.htm'\)) and [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) can be specified for operand. This covers literals, host variables, and host expressions. In a [HAVING](javascript:call_link\('abaphaving_clause.htm'\)) clause, [aggregate expressions](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry") can also be used.
+
+Note
+
+The relational expression IS *\[*NOT*\]* NULL is the only expression for which the result is true or false when the operand is given the null value. The result is unknown for all other possible relational expressions in a condition [sql\_cond](javascript:call_link\('abenwhere_logexp.htm'\)) when one of the operands in question is given the null value. More specifically, this is relevant for expressions specified as operands when their result is the null value.
+
+Example
+
+Compares the results of an inner and a left outer [join](javascript:call_link\('abenjoin_glosry.htm'\) "Glossary Entry"). The row with null values produced by the left outer join is removed again by the WHERE condition with IS NOT NULL, so the results are the same.
+
+DELETE FROM demo\_join1.
+INSERT demo\_join1 FROM TABLE @( VALUE #(
+  ( a = 'a1' b = 'b1' c = 'c1'  d = 'd1' )
+  ( a = 'a2' b = 'b2' c = 'c2'  d = 'd2' ) ) ).
+DELETE FROM demo\_join2.
+INSERT demo\_join2 FROM TABLE @( VALUE #(
+  ( d = 'd1' e = 'e1' f = 'f1'  g = 'g1'  h = 'h1' ) ) ).
+SELECT \*
+       FROM demo\_join1 AS d1
+         INNER JOIN demo\_join2 AS d2
+           ON d1~d = d2~d
+       INTO TABLE @DATA(result1).
+SELECT \*
+       FROM demo\_join1 AS d1
+         LEFT OUTER JOIN demo\_join2 AS d2
+           ON d1~d = d2~d
+       WHERE d2~d IS NOT NULL
+       INTO TABLE @DATA(result2).
+ASSERT result1 = result2.

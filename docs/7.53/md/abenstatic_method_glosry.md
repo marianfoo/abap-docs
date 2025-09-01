@@ -1,0 +1,13 @@
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+static method
+
+[Method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") of a [class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry") declared using [CLASS-METHODS](javascript:call_link\('abapclass-methods.htm'\)) that can be used independently of an [instance](javascript:call_link\('abeninstance_glosry.htm'\) "Glossary Entry") of the class. Static methods can only access [static attributes](javascript:call_link\('abenstatic_attribute_glosry.htm'\) "Glossary Entry") and [static events](javascript:call_link\('abenstatic_event_glosry.htm'\) "Glossary Entry") of their own class.
+
+[→ More](javascript:call_link\('abenclass_methods.htm'\))

@@ -1,0 +1,11 @@
+  
+
+* * *
+
+SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+dynpro number
+
+A unique number that identifies a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") in an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry") using a four-digit number.

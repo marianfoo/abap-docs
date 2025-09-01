@@ -1,0 +1,16 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SAP S/4HANA, ABENSAP_S4HANA_GLOSRY, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugg
+estion for improvement:)
+
+SAP S/4HANA
+
+SAP business suite that is based on the [ABAP Platform](javascript:call_link\('abenabap_platform_glosry.htm'\) "Glossary Entry") and runs on the [SAP HANA](javascript:call_link\('abensap_hana_glosry.htm'\) "Glossary Entry"). It is available in on-premise and as [SAP S/4HANA Cloud](javascript:call_link\('abensap_s4hana_cloud_glosry.htm'\) "Glossary Entry") in cloud deployments.
+
+[→ More about](https://www.sap.com/products/s4hana-erp.html)

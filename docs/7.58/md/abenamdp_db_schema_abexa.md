@@ -1,0 +1,98 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20AMDP%20-%20Access%20to%20Database%20Schemas%2C%20ABENAMDP_DB_SCHEMA_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+AMDP - Access to Database Schemas
+
+Demonstrates access to tables in explicitly specified [database schemas](javascript:call_link\('abendatabase_schema_glosry.htm'\) "Glossary Entry").
+
+Source Code   
+
+\* Public class definition
+CLASS cl\_demo\_amdp\_db\_schema\_access DEFINITION
+  INHERITING FROM cl\_demo\_classrun
+  PUBLIC
+  CREATE PUBLIC.
+  PUBLIC SECTION.
+    METHODS main REDEFINITION.
+ENDCLASS.
+\* Public class implementation
+CLASS cl\_demo\_amdp\_db\_schema\_access IMPLEMENTATION.
+  METHOD main.
+    IF NOT cl\_abap\_dbfeatures=>use\_features(
+          EXPORTING
+            requested\_features =
+              VALUE #( ( cl\_abap\_dbfeatures=>call\_amdp\_method ) ) ).
+      out->write(
+        \`Current database system does not support AMDP procedures\` ).
+      RETURN.
+    ENDIF.
+    TRY.
+        cl\_demo\_amdp\_db\_schema=>get\_schemas\_physical(
+          IMPORTING schemas = FINAL(schemas\_test) ).
+      CATCH cx\_amdp\_error INTO DATA(amdp\_error).
+        out->write( amdp\_error->get\_text( ) ).
+        RETURN.
+    ENDTRY.
+    TRY.
+        cl\_demo\_amdp\_db\_schema=>get\_schemas\_logical(
+          IMPORTING schemas = FINAL(schemas) ).
+      CATCH cx\_amdp\_error INTO amdp\_error.
+        out->write( amdp\_error->get\_text( ) ).
+        RETURN.
+    ENDTRY.
+    ASSERT schemas\_test = schemas.
+    out->write( schemas ).
+    TRY.
+        cl\_demo\_amdp\_db\_schema=>get\_schemas\_logical\_to\_abap(
+          IMPORTING carriers = FINAL(carriers) ).
+      CATCH cx\_amdp\_error INTO amdp\_error.
+        out->write( amdp\_error->get\_text( ) ).
+        RETURN.
+    ENDTRY.
+    out->write( carriers ).
+  ENDMETHOD.
+ENDCLASS.
+
+Description   
+
+This example accesses [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") that are declared and implemented in the [AMDP class](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") CL\_DEMO\_AMDP\_DB\_SCHEMA.
+
+-   The method GET\_SCHEMAS\_PHYSICAL accesses the table SCHEMAS of the physical database schema SYS by specifying the schema directly. All existing database schema are stored in this table.
+    
+    METHOD get\_schemas\_physical BY DATABASE PROCEDURE
+                                FOR HDB LANGUAGE SQLSCRIPT.
+      schemas =
+        select schema\_name
+          FROM "SYS"."SCHEMAS";
+    ENDMETHOD.
+    
+-   The method GET\_SCHEMAS\_LOGICAL accesses the physical database schema that is mapped to the [logical database schema](javascript:call_link\('abenlogical_database_schema_glosry.htm'\) "Glossary Entry") DEMO\_LOGICAL\_DB\_SCHEMA in transaction DB\_SCHEMA\_MAP by specifying the [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry") [$ABAP.schema](javascript:call_link\('abenamdp_logical_db_schemas.htm'\)). If this is SYS, the same table is accessed.
+    
+    METHOD get\_schemas\_logical BY DATABASE PROCEDURE
+                               FOR HDB LANGUAGE SQLSCRIPT.
+      schemas =
+        select schema\_name
+          FROM "$ABAP.schema( DEMO\_LOGICAL\_DB\_SCHEMA )"."SCHEMAS";
+    ENDMETHOD.
+    
+-   Another method GET\_SCHEMAS\_LOGICAL\_TO\_ABAP demonstrates how the addition [USING SCHEMA](javascript:call_link\('abapmethod_by_db_proc.htm'\)) of the statement METHOD is specified. The [logical database schema](javascript:call_link\('abenlogical_database_schema_glosry.htm'\) "Glossary Entry") DEMO\_LOGICAL\_DB\_SCHEMA\_TO\_ABAP is defined in such a way that it allows access to the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry"). Since it is used in the method in the macro [$ABAP.schema](javascript:call_link\('abenamdp_logical_db_schemas.htm'\)), it must be declared after USING SCHEMA.
+    
+    METHOD get\_schemas\_logical\_to\_abap BY DATABASE PROCEDURE
+                                       FOR HDB LANGUAGE SQLSCRIPT
+                                       USING SCHEMA
+                                         demo\_logical\_db\_schema\_to\_abap
+                                         OBJECTS scarr.
+      carriers =
+        select \*
+          FROM "$ABAP.schema( DEMO\_LOGICAL\_DB\_SCHEMA\_TO\_ABAP )"."SCARR";
+    ENDMETHOD.
+    
+    -   If the current ABAP database schema is mapped to the logical database schema using the predefined name :abap\_db\_schema, the full string "$ABAP.schema( DEMO\_LOGICAL\_DB\_SCHEMA\_TO\_ABAP  )". is omitted when the macro is evaluated and the ABAP database schema is accessed implicitly. The specification of scarr is checked statically against the ABAP Dictionary.
+    -   If another physical database schema is mapped to the logical database schema, there must be a suitable database object SCARR in this database schema when the method is executed.

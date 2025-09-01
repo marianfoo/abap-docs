@@ -1,0 +1,67 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) → 
+
+Internal Tables - comp1 comp2 ...
+
+Addresses individual components of internal table rows in a range of statements for editing internal tables and in [table expressions](javascript:call_link\('abentable_expressions.htm'\)). If not stated otherwise, the following syntax applies to the names comp1 comp2...:
+
+Syntax
+
+... *{* comp\_name*\[*\-sub\_comp*\]**\[**{*+off(len)*}**|**{*\->attr*}**\]* *}* *|* *{* (name) *}* ...
+
+Effect
+
+The following alternatives are available for specifying components:
+
+-   Directly specifying the name comp\_name of a component.
+
+-   If the data type of the components is character-like and [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry"), an offset/length +off(len) can be appended to the name of the component (as in [substring access](javascript:call_link\('abenoffset_length.htm'\))) to access subareas of the component. Only directly specified numbers or constants can be specified for off and len.
+
+-   If the component is structured, the structure component selector \- can be used to access the sub\_comp components of the substructure.
+
+-   If the component has a reference type, the object component selector \-> can be used to access all visible attributes attr of the referenced object. In this case, a table component can be specified more than once.
+
+-   Specifying a parenthesized [character-like data object](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") name, which contains the name of the component when the statement is executed.
+
+-   The name of the component in name can contain an offset/length.
+
+-   The object component selector \-> can be specified in name to read attributes, but only those attributes can be addressed that can be identified statically.
+
+-   name is not case-sensitive. If name only contains blanks, this specified component is ignored when the statement is executed. If name contains a nonexistent component, a non-handleable exception is raised.
+
+-   Specifying the [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line to address the whole table row as a component.
+
+Notes
+
+-   A component can only be specified more than once if it has a reference type. Further components, however, can be specified alongside table\_line. This is necessary, for example, if the row type of the internal table is an object reference and the value of the reference and the value of an attribute of the object are to be specified at the same time.
+
+-   If the table has a non-structured row type, the pseudo comment table\_line can be addressed as the only component.
+
+-   The pseudo component table\_line is a reserved name. In ABAP and in ABAP Dictionary, no structure components called table\_line can be declared.
+
+-   If the row type of the internal table cannot be statically identified, the components can usually only be specified dynamically and not directly.
+
+-   The components specified must not be elementary.
+
+-   If the data type allows it (character-like and flat), an offset/length can also include adjacent components
+
+-   A [customizing include](javascript:call_link\('abencustomizing_include_glosry.htm'\) "Glossary Entry") must not be specified as a component if it is empty.
+    
+
+Example
+
+Sorting by a dynamically specified component. An incorrect name produces a runtime error.
+
+DATA(column) = \`carrid\`.
+cl\_demo\_input=>request( CHANGING field = column ).
+DATA itab TYPE TABLE OF spfli WITH EMPTY KEY.
+SELECT \*
+       FROM spfli
+       INTO TABLE @itab.
+SORT itab BY (column).
+cl\_demo\_output=>display( itab ).

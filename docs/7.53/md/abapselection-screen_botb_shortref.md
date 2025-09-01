@@ -1,0 +1,29 @@
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+
+SELECTION-SCREEN - TABBED BLOCK - Quick reference
+
+[Reference](javascript:call_link\('abapselection-screen_tabbed.htm'\))
+
+Syntax
+
+SELECTION-SCREEN BEGIN OF TABBED BLOCK tblock FOR n LINES *\[*NO INTERVALS*\]*.
+...
+SELECTION-SCREEN END OF BLOCK tblock.
+
+Effect
+
+Defines a [tabstrip](javascript:call_link\('abentabstrip_control_glosry.htm'\) "Glossary Entry") control or [subscreen](javascript:call_link\('abensubscreen_arrea_glosry.htm'\) "Glossary Entry") area named tblock on the current [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry").
+
+Addition
+
+-   FOR n LINES
+    Defines the number of lines in the tabstrip control in n.
+    
+-   NO INTERVALS
+    Creates a narrower area.

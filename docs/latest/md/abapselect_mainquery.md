@@ -1,0 +1,85 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenabap_sql_reading.htm'\)) →  [SELECT](javascript:call_link\('abapselect.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SELECT%2C%20mainquery_clauses%2C%20ABAPSELECT_MAINQUERY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+SELECT, mainquery\_clauses
+
+Syntax
+
+... *\[*[SINGLE *\[*FOR UPDATE*\]*](javascript:call_link\('abapselect_single.htm'\))*\]*
+    *{* [FROM](javascript:call_link\('abapfrom_clause.htm'\)) source
+      [FIELDS](javascript:call_link\('abapfields_clause.htm'\)) [select\_clause](javascript:call_link\('abapselect_clause.htm'\)) *}*
+  *|* *{* [select\_clause](javascript:call_link\('abapselect_clause.htm'\))
+      [FROM](javascript:call_link\('abapfrom_clause.htm'\)) source *}*
+    *\[**\[*[FOR ALL ENTRIES IN](javascript:call_link\('abenwhere_all_entries.htm'\)) itab*\]*
+      [WHERE](javascript:call_link\('abapwhere.htm'\)) sql\_cond*\]*
+    *\[*[GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)) group*\]* *\[* [HAVING](javascript:call_link\('abaphaving_clause.htm'\)) group\_cond*\]*
+    *\[*[ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) sort\_key*\]*
+    *\[*[db\_hints](javascript:call_link\('abenabap_sql_db_hints.htm'\))*\]*  ...
+
+Effect
+
+Possible [clauses and additions](javascript:call_link\('abenselect_clauses.htm'\)) of a [main query](javascript:call_link\('abenmainquery_glosry.htm'\) "Glossary Entry") represented by a standalone [SELECT](javascript:call_link\('abapselect.htm'\)) statement. The clauses and additions define the result set of the SELECT statement:
+
+-   Rows of the result set
+    -   Multirow result set
+        
+        If SINGLE is not specified and if [aggregate expressions](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry") are not exclusively specified in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) of the SELECT clause [select\_clause](javascript:call_link\('abapselect_clause.htm'\)), the result set is multirow or tabular by default. All database rows that are selected by the remaining additions of the statement SELECT are included in the result set. If the addition [ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) is not used, the order of the rows in the result set is not defined and can be different if the same statement SELECT is executed multiple times. A data object specified after [INTO](javascript:call_link\('abapinto_clause.htm'\)) can be an internal table and the addition [APPENDING](javascript:call_link\('abapinto_clause.htm'\)) can be used. If no internal table is specified after INTO or APPENDING, the statement SELECT for multirow result sets initiates a loop that must be closed using ENDSELECT.
+        
+    -   Single row result set
+        
+        The optional addition [SINGLE](javascript:call_link\('abapselect_single.htm'\)) defines a single-row result set that can be protected against parallel changes by another program. When using SINGLE, it is not possible to specify an internal table as the target object, and the addition SINGLE cannot be combined with all additions of the SELECT statement.
+        
+-   Columns of the result set
+    
+    The SELECT clause [select\_clause](javascript:call_link\('abapselect_clause.htm'\)) defines the structure of the result set. It consists mainly of a [SELECT list](javascript:call_link\('abapselect_list.htm'\)) that defines the columns of the result set. Optionally, duplicate rows can be excluded.
+    
+-   Data Sources
+    
+    The [FROM](javascript:call_link\('abapfrom_clause.htm'\)) clause specifies [data sources](javascript:call_link\('abapselect_data_source.htm'\)) source from which data is read. These can either be data sources in the database accessed by the current query or they can be [internal tables](javascript:call_link\('abapselect_itab.htm'\)). Data sources in the database must be defined in the ABAP Dictionary.
+    
+-   Conditions
+    
+    The result set can be restricted using the [WHERE](javascript:call_link\('abapwhere.htm'\)) clause. The optional addition [FOR ALL ENTRIES](javascript:call_link\('abenwhere_all_entries.htm'\)) can be used to compare the content of a column on the database with a component with all rows of a structured internal table itab.
+    
+-   Grouping
+    
+    The [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)) clause merges multiple database rows into one row of the result set. The [HAVING](javascript:call_link\('abaphaving_clause.htm'\)) clause restricts the merged rows.
+    
+-   Database Hints
+    
+    [db\_hints](javascript:call_link\('abenabap_sql_db_hints.htm'\)) can be used to specify [database hints](javascript:call_link\('abendatabase_hint_glosry.htm'\) "Glossary Entry").
+    
+-   Sorting
+    
+    The [ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) clause sorts the result set. If ORDER BY is not specified, the order of the rows in the result set is undefined.
+    
+
+The SELECT clause [select\_clause](javascript:call_link\('abapselect_clause.htm'\)) can be specified before or after the [FROM clause](javascript:call_link\('abapfrom_clause.htm'\)). After the FROM clause, the SELECT clause must be prefixed with the addition FIELDS.
+
+Hints
+
+-   Although the WHERE condition is optional, it should always be specified for performance reasons, and the result set should not be restricted in [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry").
+-   The arrangement of the [FROM clause](javascript:call_link\('abapfrom_clause.htm'\)) in front of a [SELECT clause](javascript:call_link\('abapselect_clause.htm'\)) with [FIELDS](javascript:call_link\('abapfields_clause.htm'\)) supports tools such as code completion in the ABAP Editor.
+-   If a [query](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry") accesses a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") that is linked with a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry") and for which [CDS access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry") is not disabled using the value #NOT\_ALLOWED for the annotation [@AccessControl.authorizationCheck](javascript:call_link\('abencds_view_anno_v1.htm'\)) or using the addition [WITH PRIVILEGED ACCESS](javascript:call_link\('abapselect_data_source.htm'\)) in the [FROM](javascript:call_link\('abapfrom_clause.htm'\)) clause or [PRIVILEGED ACCESS](javascript:call_link\('abapselect_privileged_access.htm'\)) for the complete SELECT statement, only that data is read that meets the [access condition](javascript:call_link\('abenaccess_condition_glosry.htm'\) "Glossary Entry") defined in the CDS role. If data cannot be read, ABAP programs cannot distinguish whether this is due to the conditions of the SELECT statement, the conditions of the CDS entity, or an associated CDS role. If the [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") of a [CDS DDIC-based view (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry") is accessed, no access control takes place.
+-   A [SELECT clause](javascript:call_link\('abapselect_clause.htm'\)) started with FIELDS after the [FROM clause](javascript:call_link\('abapfrom_clause.htm'\)) leads to the [strict mode as of ABAP release 7.50](javascript:call_link\('abenabap_sql_strictmode_750.htm'\)).
+
+Example
+
+[SELECT](javascript:call_link\('abapselect.htm'\)) statement with all possible clauses.
+
+SELECT FROM sflight
+       FIELDS carrid,
+              connid,
+              SUM( seatsocc ) AS seatsocc
+       WHERE carrid = 'LH'
+       GROUP BY carrid, connid
+       HAVING SUM( seatsocc ) > 1000
+       ORDER BY carrid, connid
+       INTO TABLE @FINAL(result).

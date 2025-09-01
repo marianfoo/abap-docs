@@ -1,0 +1,33 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](javascript:call_link\('abencds_operands_and_expr_v2.htm'\)) →  [CDS DDL - CDS View Entity, Elementary CDS Operands](javascript:call_link\('abencds_operands_v2.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - CDS View Entity, session_variable, ABENCDS_SESSION_VARIABLE_V2, 757%0D%0A%0
+D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+CDS DDL - CDS View Entity, session\_variable
+
+Syntax
+
+... $session.vname ...
+
+Effect
+
+Specifies a [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") vname in an operand position in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\)) of a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"). The variable must be prefixed by $session.. The prefix and the variable are case-sensitive. $session.vname, $Session.Vname, and $SESSION.VNAME can all be used. No other spellings are allowed.
+
+There are two types of session variables available:
+
+-   [Built-in session variables](javascript:call_link\('abencds_session_var_builtin_v2.htm'\)): Built-in session variables are set to their value when a CDS view entity is used in ABAP SQL. They cannot be set or changed from ABAP programs. The following built-in session variables are currently available: user, client, system\_language, system\_date, user\_timezone, user\_date.
+-   [Application session variables](javascript:call_link\('abencds_session_var_application_v2.htm'\)): Application session variables are required for specific applications and they are set by dedicated system programs. The following application session variables are currently available: bs\_instance\_id, bs\_zone\_id.
+
+Hint
+
+From a technical perspective, session variables indicate global variables of the current database and can be compared to [ABAP system fields](javascript:call_link\('abensystem_fields.htm'\)). Although application session variables can be changed from ABAP programs, outside of system programs they should only be used for reads.
+
+Continue
+[CDS DDL - CDS View Entity, Built-In Session Variables](javascript:call_link\('abencds_session_var_builtin_v2.htm'\))
+[CDS DDL - CDS View Entity, Application Session Variables](javascript:call_link\('abencds_session_var_application_v2.htm'\))

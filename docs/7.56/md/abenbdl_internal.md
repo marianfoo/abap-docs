@@ -1,0 +1,103 @@
+  
+
+* * *
+
+AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [ABAP CDS - managed and unmanaged behavior definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [CDS BDL - entity behavior definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [CDS BDL - entity behavior body](javascript:call_link\('abenbdl_body.htm'\)) →  [CDS BDL - RAP BO operations](javascript:call_link\('abenbdl_operations.htm'\)) →  [CDS BDL - RAP BO operation, additions](javascript:call_link\('abenbdl_operations_additions.htm'\)) → 
+
+CDS BDL - internal
+
+Syntax
+
+... internal ...
+
+Effect
+
+Defines a [RAP BO operation](javascript:call_link\('abenrap_bo_operation_glosry.htm'\) "Glossary Entry") as [internal](javascript:call_link\('abenrap_internal_operation_glosry.htm'\) "Glossary Entry"). That means that the operation in question can only be accessed from within the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"), for example from an [action](javascript:call_link\('abenbdl_action.htm'\)), a [validation](javascript:call_link\('abenbdl_validations.htm'\)), or a [determination](javascript:call_link\('abenbdl_determinations.htm'\)). When an external [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") tries to execute an internal RAP BO operation, a [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry") occurs.
+
+internal can be applied to the following operations:
+
+-   [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\))
+-   [operations for associations](javascript:call_link\('abenbdl_association.htm'\))
+-   [actions](javascript:call_link\('abenbdl_action.htm'\))
+-   [functions](javascript:call_link\('abenbdl_function.htm'\))
+-   [determine actions](javascript:call_link\('abenbdl_determine_action.htm'\))
+-   [draft actions](javascript:call_link\('abenbdl_draft_action.htm'\))
+
+This feature is provided by the [RAP framework](javascript:call_link\('abenrap_framework_glosry.htm'\) "Glossary Entry"). No implementation in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is required.
+
+Hints
+
+-   If an operation is marked as internal, [feature control](javascript:call_link\('abenbdl_actions_fc.htm'\)) is not supported. Feature control is for external access control and is not required for internal operations.
+-   [precheck](javascript:call_link\('abenbdl_precheck.htm'\)) is not available for internal operations.
+-   [authorization:update](javascript:call_link\('abenbdl_actions_auth_update.htm'\)) is not available for internal operations.
+
+Example
+
+The following example shows a managed BDEF that defines the internal action calculateTotalAmount and the on modify determination calcTotal.
+
+managed implementation in class bp\_demo\_rap\_internal unique;
+strict;
+define behavior for DEMO\_RAP\_INTERNAL alias RootEntity
+persistent table demo\_dbtab\_field
+lock master
+authorization master (global)
+{
+  create;
+  update;
+  delete;
+  field(numbering:managed, readonly) KeyField;
+  internal action calculateTotalAmount;
+  determination calcTotal on modify { create; }
+  mapping for demo\_dbtab\_field
+  {
+    KeyField = key\_field;
+    CharField = char\_field1;
+    Amount = int\_field1;
+    Quantity = int\_field2;
+    Total = int\_field3;
+  }
+}
+
+The internal action multiplies the value of field Quantity with the value of field Amount and inserts the result into field Total per entity instance. It is executed from the ABAP behavior pool by the on modify determination calcTotal.
+
+Code snippet: determination that triggers the internal action:
+
+METHOD calcTotal.
+  MODIFY ENTITIES OF demo\_rap\_internal IN LOCAL MODE
+      ENTITY RootEntity
+        EXECUTE calculateTotalAmount
+          FROM CORRESPONDING #( keys )
+          REPORTED DATA(lt\_reported).
+ENDMETHOD.
+
+For the full ABAP behavior pool implementation, see CCIMP include.
+
+The ABAP program DEMO\_RAP\_INTERNAL uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object:
+
+-   It creates five new entity instances by specifying values for the fields Amount and Quantity.
+    
+    Code snippet:
+    
+
+DELETE FROM demo\_dbtab\_field.
+    MODIFY ENTITIES OF demo\_rap\_internal
+       ENTITY RootEntity
+       CREATE
+       SET FIELDS WITH VALUE #(
+       ( %cid = '1' Amount = 16  Quantity = 1 )
+       ( %cid = '2' Amount = 211 Quantity = 2 )
+       ( %cid = '3' Amount = 3   Quantity = 3 )
+       ( %cid = '4' Amount = 18  Quantity = 4 )
+       ( %cid = '5' Amount = 10  Quantity = 5 ) )
+          MAPPED DATA(mapped)
+          FAILED  DATA(failed)
+          REPORTED DATA(reported).
+    COMMIT ENTITIES.
+
+-   Using the ABAP SQL SELECT statement, the content of the underlying database table is displayed.
+
+Result: for each entity instance, the value of the field Total is calculated.
+
+![Figure](bdoc_internal.png)

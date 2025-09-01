@@ -1,0 +1,16 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dropdown list box, ABENDROPDOWN_LISTBOX_GLOSRY, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%
+0A%0D%0ASuggestion for improvement:)
+
+dropdown list box
+
+A list of values for an [input/output field](javascript:call_link\('abeninput_output_field_glosry.htm'\) "Glossary Entry"). Entries can only be selected from this list. The value that is actually entered is assigned to an entry in the dropdown list box. The program uses the assigned value and not the entry.
+
+[→ More about](javascript:call_link\('abenabap_dynpros_listbox.htm'\))

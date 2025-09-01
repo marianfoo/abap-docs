@@ -1,0 +1,63 @@
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 3.0](javascript:call_link\('abennews-30.htm'\)) → 
+
+Further Changes in Release 3.0
+
+[1\. SET TITLEBAR with numbered variables](#!ABAP_MODIFICATION_1@1@)
+
+[2\. New additions for LEAVE: LEAVE PROGRAM, LEAVE LIST-PROCESSING](#!ABAP_MODIFICATION_2@2@)
+
+[3\. New language element CONTINUE for continuing a loop](#!ABAP_MODIFICATION_3@3@)
+
+[4\. Editing ABAP text elements](#!ABAP_MODIFICATION_4@4@)
+
+[5\. ASSIGN COMPONENT with component name](#!ABAP_MODIFICATION_5@5@)
+
+[6\. User interface for entering dynamic selections](#!ABAP_MODIFICATION_6@6@)
+
+[7\. New addition OR fld for the WHEN statement](#!ABAP_MODIFICATION_7@7@)
+
+Modification 1
+
+SET TITLEBAR with Numbered Variables
+[SET TITLEBAR](javascript:call_link\('abapset_titlebar_dynpro.htm'\)) now also replaces the variables &1 ... &9.
+
+Modification 2
+
+New Additions for LEAVE: LEAVE PROGRAM, LEAVE LIST-PROCESSING
+The new additions [LEAVE PROGRAM](javascript:call_link\('abapleave_program.htm'\)) and [LEAVE LIST-PROCESSING](javascript:call_link\('abapleave_list-processing.htm'\)) for LEAVE now make it possible to control the flow precisely when leaving processing.
+
+Modification 3
+
+New Language Element CONTINUE for Continuing a Loop
+[CONTINUE](javascript:call_link\('abapcontinue.htm'\)) terminates the current pass through a DO, WHILE, LOOP, or SELECT loop. However, the loop is not exited as in [EXIT](javascript:call_link\('abapexit_loop.htm'\)), but continues with the next loop element, as is the case when using [CHECK](javascript:call_link\('abapcheck_loop.htm'\)).
+
+Modification 4
+
+Editing ABAP text elements
+The term "numbered texts" has been changed to "text symbols".
+Until now a text symbol had an implicit length,
+calculated by comparing the text from the right until the first character not a blank.
+Due to translation difficulties (a text may sometimes need more space in a foreign language than in the original language), it became necessary to define the length explicitly. Here, the same process was chosen as already used for Screen Painter transactions. The underscore ("\_") allows you to vary the length for each entry. The underscore itself, however, is replaced by a blank before saving. As a result, underscores cannot be used in text symbols. In change mode, underscores (and therefore the internal length) are visible. In display mode, the text symbols are displayed as saved (without underscores).
+The Text Comparison function displays the text symbols in their defined lengths, and not with any extra underscores (if applicable).
+For all [screens](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), the function Print has been added to the Text Elements menu. This function can be used to print a list of the required text elements, dependent on context.
+
+Modification 5
+
+ASSIGN COMPONENT with Component Name
+[ASSIGN COMPONENT](javascript:call_link\('abapassign.htm'\)) now handles the next field as a component name and not as a component number, if the field is of type C or has a structure that contains no internal table.
+
+Modification 6
+
+User interface for entering dynamic selections
+You can use the function modules FREE\_SELECTIONS\_INIT and FREE\_SELECTIONS\_DIALOG to create a dialog for entering selections for any database fields. The selections entered by the user are returned in several different forms, for example, as tables with WHERE clauses that can be passed directly to a [SELECT](javascript:call_link\('abapselect.htm'\)) statement.
+
+Modification 7
+
+New Addition OR fld for the WHEN Statement
+The addition OR fld can now be used to define any number of comparison values for the [WHEN](javascript:call_link\('abapwhen.htm'\)) statement.

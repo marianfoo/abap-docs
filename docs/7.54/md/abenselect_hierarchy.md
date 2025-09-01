@@ -1,0 +1,81 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT - FROM](javascript:call_link\('abapfrom_clause.htm'\)) →  [SELECT - FROM data\_source](javascript:call_link\('abapselect_data_source.htm'\)) →  [SELECT - FROM hierarchy\_data](javascript:call_link\('abenselect_hierarchy_data.htm'\)) → 
+
+SELECT - FROM hierarchy
+
+Syntax
+
+... [cds\_hierarchy](javascript:call_link\('abenselect_cds_hierarchy.htm'\))
+  *|* [HIERARCHY( ... )](javascript:call_link\('abenselect_hierarchy_generator.htm'\))
+  *|* [cte\_hierarchy](javascript:call_link\('abenselect_cte_hierarchy.htm'\))
+
+Effect
+
+Specifies a [hierarchy](javascript:call_link\('abenhierarchy_glosry.htm'\) "Glossary Entry") as a data source in a ABAP SQL query.
+
+-   The following can be specified:
+
+-   A [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry") [cds\_hierarchy](javascript:call_link\('abenselect_cds_hierarchy.htm'\))
+
+-   The [hierarchy generator](javascript:call_link\('abenhierarchy_generator_glosry.htm'\) "Glossary Entry") [HIERARCHY](javascript:call_link\('abenselect_hierarchy_generator.htm'\))
+
+-   A [CTE hierarchy](javascript:call_link\('abencte_hierarchy_glosry.htm'\) "Glossary Entry") [cte\_hierarchy](javascript:call_link\('abenselect_cte_hierarchy.htm'\))
+
+-   A hierarchy can be specified in the following places:
+
+-   As a data source [data\_source](javascript:call_link\('abapselect_data_source.htm'\)) in a ABAP SQL [query](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry").
+
+-   As the source of a [hierarchy navigator](javascript:call_link\('abenselect_hierarchy_navigators.htm'\))
+
+-   As the source of the hierarchy generator [HIERARCHY](javascript:call_link\('abenselect_hierarchy_generator.htm'\))
+
+A hierarchy is a tabular set of rows that represent the [hierarchy nodes](javascript:call_link\('abenhierarchy_node_glosry.htm'\) "Glossary Entry").
+
+-   A CDS hierarchy and the hierarchy generator HIERARCHY create their results set from the data source defined for them on the basis of a [parent-child relationship](javascript:call_link\('abenpcr_glosry.htm'\) "Glossary Entry") itself defined in a [hierarchy association](javascript:call_link\('abenhierarchy_association_glosry.htm'\) "Glossary Entry").
+
+-   A [CTE hierarchy](javascript:call_link\('abencte_hierarchy_glosry.htm'\) "Glossary Entry") represents the hierarchy (itself specified as the only data source in the subquery of the CTE) under the name of the CTE in the subsequent queries of the current [WITH](javascript:call_link\('abapwith.htm'\)) statement.
+
+The columns of a hierarchy comprise the following:
+
+-   Components of the data source used when the hierarchy is created by a CDS hierarchy or created by the hierarchy generator.
+
+-   In the case of CDS hierarchies and CTE hierarchies these are precisely the components listed here.
+
+-   In the case of the hierarchy generator HIERARCHY, these are all components of the source of the hierarchy.
+
+-   Additional [hierarchy columns](javascript:call_link\('abenddddl_hierarchy.htm'\)). For each hierarchy node, the hierarchy columns contain its [hierarchy attributes](javascript:call_link\('abenhierarchy_attribute_glosry.htm'\) "Glossary Entry"), which describe certain hierarchy-specific properties.
+
+When a hierarchy is used as a data source in a ABAP SQL query, the additional hierarchy columns can be accessed as follows:
+
+-   In the [SELECT](javascript:call_link\('abapselect_list.htm'\)) list
+
+-   Hierarchy columns can be specified as regular columns using [colname](javascript:call_link\('abenopen_sql_columns.htm'\)) and then become part of the results set of the query.
+
+-   If \* or ...~\* is specified, hierarchy columns are not part of the results set of the query. Only the components of the source of the hierarchy are respected. In this case, the hierarchy columns are also ignored by any structure or internal table created in the [INTO clause](javascript:call_link\('abapinto_clause.htm'\)) by an inline declaration @DATA(...).
+
+-   In other clauses, hierarchy columns can be specified regardless of the SELECT list and are evaluated accordingly.
+
+Notes
+
+-   It is possible to evaluate the [hierarchy columns](javascript:call_link\('abenddddl_hierarchy.htm'\)) in a query, but this is not mandatory. In most cases, only the data content of a hierarchy is of interest and not the technical properties of the hierarchy nodes.
+
+-   On [SAP HANA databases](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"), the results sets of CDS hierarchies plus the hierarchy generator HIERARCHY are created by using the SAP HANA hierarchy generator function HIERARCHY and similar. More information can be found in the [documentation](https://help.sap.com/viewer/4fe29514fd584807ac9f2a04f6754767/2.0.03/en-US).
+
+Examples
+
+The following programs demonstrate the three ways of specifying hierarchies as the data source of a SELECT statement while reading all possible [hierarchy columns](javascript:call_link\('abenddddl_hierarchy.htm'\)).
+
+-   DEMO\_HIERARCHY\_TREE
+
+-   DEMO\_HIERARCHY\_PARENT\_CHILD
+
+Continue
+[SELECT - FROM cds\_hierarchy](javascript:call_link\('abenselect_cds_hierarchy.htm'\))
+[SELECT - FROM HIERARCHY](javascript:call_link\('abenselect_hierarchy_generator.htm'\))
+[SELECT - FROM cte\_hierarchy](javascript:call_link\('abenselect_cte_hierarchy.htm'\))
+[Hierarchy Columns](javascript:call_link\('abenddddl_hierarchy.htm'\))

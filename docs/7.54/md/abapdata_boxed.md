@@ -1,0 +1,49 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Objects](javascript:call_link\('abenobjects_statements.htm'\)) →  [DATA](javascript:call_link\('abapdata.htm'\)) → 
+
+DATA - BOXED
+
+[Quick Reference](javascript:call_link\('abapdata_shortref.htm'\))
+
+Syntax
+
+DATA struc TYPE struc\_type BOXED.
+
+Effect
+
+This statement defines a structured attribute of a class or an interface as a [static box](javascript:call_link\('abenstatic_boxes.htm'\)). It can only be located in the declaration section of a class or an interface and only at the highest level.
+
+struc\_type expects a structured data type. This can be a program-local structure, a visible structured type of a class or of a global interface, or a structure from ABAP Dictionary, and can contain boxed components.
+
+Static boxes support [initial value sharing](javascript:call_link\('abeninitial_value_sharing_glosry.htm'\) "Glossary Entry"). Here, the structure is not saved in the higher level context itself. Instead, an internal reference that points to the actual structure is saved in place of the component. This makes a static box a [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") component.
+
+Notes
+
+-   A structure with a static box is a [deep structure](javascript:call_link\('abendeep_structure_glosry.htm'\) "Glossary Entry") and the relevant restrictions apply.
+    
+-   The addition BOXED defines the static box with reference to its context (structure or class). A data type declared using a direct TYPE reference or LIKE reference to a static box is assigned its data type but is not a static box itself.
+    
+-   When a static box is applied from one structure to another structure using the statement [INCLUDE TYPE*|*STRUCTURE](javascript:call_link\('abapinclude_type.htm'\)), its static attribute is also applied.
+    
+-   The addition BOXED can also be used in the statement [TYPES](javascript:call_link\('abaptypes_boxed.htm'\)) to declare a substructure of a nested structured data type.
+    
+
+Example
+
+The following section shows how the addition BOXED is allowed to be used with the statement *\[*CLASS-*\]*DATA. In a class, it declares a static structure struc1 and a structured instance attribute struc2 as a static box.
+
+CLASS c1 DEFINITION.
+  PUBLIC SECTION.
+    TYPES: BEGIN OF t\_struc,
+             comp1 TYPE c LENGTH 100,
+             comp2 TYPE n LENGTH 100,
+           END OF t\_struc.
+  PRIVATE SECTION.
+    CLASS-DATA struc1 TYPE t\_struc BOXED.
+    DATA       struc2 TYPE t100    BOXED.
+ENDCLASS.

@@ -1,0 +1,11 @@
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+deep table
+
+[Internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") with a [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") [row type](javascript:call_link\('abenrow_type_glosry.htm'\) "Glossary Entry").

@@ -1,0 +1,24 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - Definition of Annotations](javascript:call_link\('abencds_anno_definition.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20CDS%20-%20DDL%20for%20Annotation%20Definitions%2C%20ABENCDS_F1_DDLA_SYNTAX%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improv
+ement:)
+
+ABAP CDS - DDL for Annotation Definitions
+
+Alongside the [DDL statements for data definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)), the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") in ABAP CDS makes it possible to define [CDS annotations](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") as [CDS objects](javascript:call_link\('abencds_object_glosry.htm'\) "Glossary Entry") in [DDLA source code](javascript:call_link\('abenddla_source_code_glosry.htm'\) "Glossary Entry"). The following statement is used here:
+
+-   [DEFINE ANNOTATION](javascript:call_link\('abencds_f1_define_annotation.htm'\))
+
+Hints
+
+-   The [DDLA source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") of annotation definitions has its own editor in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), which is documented there. DDLA source code can also be displayed in [Repository Browser](javascript:call_link\('abenrepository_browser_glosry.htm'\) "Glossary Entry") in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry").
+-   Two slashes (//) can be used as [comment characters](javascript:call_link\('abencds_general_syntax_rules.htm'\)) in [DDLA source code](javascript:call_link\('abenddla_source_code_glosry.htm'\) "Glossary Entry") for annotation definitions, but not two dashes (\--).
+
+Continue
+[CDS DDL - DEFINE ANNOTATION](javascript:call_link\('abencds_f1_define_annotation.htm'\))

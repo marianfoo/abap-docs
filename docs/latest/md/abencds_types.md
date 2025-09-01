@@ -1,0 +1,22 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Type Definitions](javascript:call_link\('abencds_tdl.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20CDS%20-%20TDL%20for%20Type%20Definitions%2C%20ABENCDS_TYPES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+ABAP CDS - TDL for Type Definitions
+
+The [CDS type definitions](javascript:call_link\('abencds_type_definition_glosry.htm'\) "Glossary Entry") in ABAP CDS are created using the type definition language [CDS TDL](javascript:call_link\('abencds_tdl_glosry.htm'\) "Glossary Entry") in [TDL source code](javascript:call_link\('abentdl_source_code_glosry.htm'\) "Glossary Entry"). A [CDS user-defined type](javascript:call_link\('abencds_user_defined_type_glosry.htm'\) "Glossary Entry") is defined with the following statement in ADT:
+
+-   [DEFINE TYPE *\[*ENUM*\]*](javascript:call_link\('abencds_define_type.htm'\))
+
+Further Information
+
+[ABAP Data Models](https://help.sap.com/docs/ABAP_Cloud/aaae421481034feab3e71dd9e0f643bf/977a051cea1c4059be2500dcbf2d3d7d?version=sap_cross_product_abap) development guide, section about CDS types.
+
+Continue
+[CDS TDL - DEFINE TYPE](javascript:call_link\('abencds_define_type.htm'\))

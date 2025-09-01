@@ -1,0 +1,103 @@
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Internal Table Processing](javascript:call_link\('abenitab_obsolete.htm'\)) → 
+
+SEARCH itab
+
+[Quick Reference](javascript:call_link\('abapsearch_shortref.htm'\))
+
+Obsolete Syntax
+
+SEARCH itab FOR pattern *\[*IN *{*CHARACTER*|*BYTE*}* MODE*\]*
+       *\[*STARTING AT idx1*\]* *\[*ENDING AT idx2*\]*
+       *\[*ABBREVIATED*\]*
+       *\[*AND MARK*\]*.
+
+Extras:
+
+[1\. ... IN *{*CHARACTER*|*BYTE*}* MODE](#!ABAP_ADDITION_1@1@)
+[2\. ... *\[*STARTING AT idx1*\]* *\[*ENDING AT idx2*\]*](#!ABAP_ADDITION_2@2@)
+[3\. ... ABBREVIATED](#!ABAP_ADDITION_3@3@)
+[4\. ... AND MARK](#!ABAP_ADDITION_4@4@)
+
+Effect
+
+This statement searches the rows of the index table itab for a pattern specified in pattern. SEARCH cannot be used for [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry"). The statement always searches the internal table and not the [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") (if it exists).
+
+For pattern, a character-like or byte-like data object can be specified, depending on the processing type. The pattern in pattern can have the same forms as the statement [SEARCH](javascript:call_link\('abapsearch-.htm'\)) has for character-like or byte-like string processing.
+
+The search ends at the first hit and sy-tabix is set to the index of the table row found. sy-fdpos is set to the offset of the character string or byte string found or word found in the table row. If the pattern is not found, sy-fdpos and sy-tabix are set to 0.
+
+Return Value
+
+sy-subrc
+
+Meaning
+
+0
+
+Pattern found in itab.
+
+4
+
+Pattern not found in itab.
+
+Note
+
+The statement SEARCH has been replaced by the statement [FIND IN TABLE](javascript:call_link\('abapfind_itab.htm'\)).
+
+Addition 1
+
+... IN *{*CHARACTER*|*BYTE*}* MODE
+
+Effect
+
+The addition IN CHARACTER MODE or IN BYTE MODE is used to determine whether [character or byte string processing](javascript:call_link\('abenstring_processing_statements.htm'\)) is carried out. The row type of the internal table must be suitable for the chosen processing type. If no addition is specified, the search is carried out character by character.
+
+Addition 2
+
+... *\[*STARTING AT idx1*\]* *\[*ENDING AT idx2*\]*
+
+Effect
+
+The additions STARTING AT and ENDING AT are used to restrict the search to just some of the table rows of table itab. idx1 and idx2 expect data objects of the type i. The value in idx1 specifies from which row and to which row the value idx2 is searched for. If only one of the additions is specified, the search is carried out from the first to the last row.
+
+The search is not carried out and sy-subrc is set to 4, if:
+
+-   the value of idx1 or idx2 is less than 1
+    
+-   the value of idx1 is greater than the number of rows in itab
+    
+-   the value of idx2 is less than the value of idx1
+    
+
+Addition 3
+
+... ABBREVIATED
+
+Effect
+
+When searching character by character, it is possible to specify an abbreviated pattern in pattern for character string processing by using the addition ABBREVIATED (just as with the statement [SEARCH](javascript:call_link\('abapsearch-.htm'\))).
+
+Addition 4
+
+... AND MARK
+
+Effect
+
+When searching character by character, it is possible to transform a character string or a word found in itab to uppercase using the statement AND MARK (just as with the statement [SEARCH for character string processing](javascript:call_link\('abapsearch-.htm'\))).
+
+Example
+
+The search character by character is successful and sets sy-tabix to the index (2) of the corresponding row and sy-fdpos to the offset (7) of the word "see" in the row. After the statement is executed, the second table row contains the content "you'll SEE the line" specified by the addition AND MARK.
+
+DATA text\_table TYPE TABLE OF string.
+APPEND: 'Sweet child in time' TO text\_table,
+        'you''ll see the line' TO text\_table,
+        'the line between' TO text\_table,
+        'good and bad.' TO text\_table.
+SEARCH text\_table FOR '.see.' AND MARK.

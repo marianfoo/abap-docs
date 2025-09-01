@@ -1,0 +1,24 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Further%20Security%20Risks%2C%20ABENOTHER_PROGRAMMING_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+Further Security Risks
+
+-   [Insufficient Authorization Checks](javascript:call_link\('abenauthority_scrty.htm'\))
+-   [User-Dependent Program Flow](javascript:call_link\('abenuser_dependent_scrty.htm'\))
+-   [System-Dependent Program Flow](javascript:call_link\('abensystem_dependent_scrty.htm'\))
+-   [Client-Independent Database Access](javascript:call_link\('abenclient_dependent_scrty.htm'\))
+-   [Obscuring ABAP Source Code](javascript:call_link\('abenobscure_code_scrty.htm'\))
+
+Continue
+[Insufficient Authorization Checks](javascript:call_link\('abenauthority_scrty.htm'\))
+[User-Dependent Program Flow](javascript:call_link\('abenuser_dependent_scrty.htm'\))
+[System-Dependent Program Flow](javascript:call_link\('abensystem_dependent_scrty.htm'\))
+[Client-Independent Database Access](javascript:call_link\('abenclient_dependent_scrty.htm'\))
+[Obscuring ABAP Source Code](javascript:call_link\('abenobscure_code_scrty.htm'\))

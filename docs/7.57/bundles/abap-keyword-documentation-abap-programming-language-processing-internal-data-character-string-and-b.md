@@ -1,0 +1,162 @@
+# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Character String and Byte String Processing / System Classes for Character String and Byte String Processing
+
+Included pages: 5
+
+
+### abencl_abap_string_utilities.htm
+
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: System Classes for Character String and Byte String Processing, ABENCL_ABAP_STRING_UT
+ILITIES, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+System Classes for Character String and Byte String Processing
+
+-   [Class for Trailing Blanks](javascript:call_link\('abenstring_util.htm'\))
+-   [Class for Compressing Character Strings and Byte Strings](javascript:call_link\('abencl_abap_gzip.htm'\))
+-   [Class with Utilities for String Processing](javascript:call_link\('abencl_abap_char_utilities.htm'\))
+-   [Methods for Handling Code Pages](javascript:call_link\('abencl_abap_conv_codepage.htm'\))
+
+Continue
+[Class for Trailing Blanks](javascript:call_link\('abenstring_util.htm'\))
+[Class for Compressing Character Strings and Byte Strings](javascript:call_link\('abencl_abap_gzip.htm'\))
+[Class with Utilities for String Processing](javascript:call_link\('abencl_abap_char_utilities.htm'\))
+[Methods for Handling Code Pages](javascript:call_link\('abencl_abap_conv_codepage.htm'\))
+
+
+### abenstring_util.htm
+
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [System Classes for Character String and Byte String Processing](javascript:call_link\('abencl_abap_string_utilities.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Class for Trailing Blanks, ABENSTRING_UTIL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0
+D%0ASuggestion for improvement:)
+
+Class for Trailing Blanks
+
+The class CL\_ABAP\_STRING\_UTILITIES contains methods for processing [text strings](javascript:call_link\('abentext_string_glosry.htm'\) "Glossary Entry").
+
+-   C2STR\_PRESERVING\_BLANKS assigns text fields while preserving the trailing blanks.
+-   DEL\_TRAILING\_BLANKS deletes the trailing blanks from strings.
+
+Hint
+
+Tasks like this can now also be performed using statements and built-in functions.
+
+Example
+
+The program compares the method C2STR\_PRESERVING\_BLANKS with the built-in function [shift\_right](javascript:call_link\('abenshift_functions.htm'\)). The implementation of the method now consists of nothing more than this function.
+
+FINAL(str) = \`abc   \`.
+DATA(rslt) = str.
+cl\_abap\_string\_utilities=>del\_trailing\_blanks( CHANGING str = rslt ).
+ASSERT rslt =  shift\_right( str ).
+
+
+### abencl_abap_gzip.htm
+
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [System Classes for Character String and Byte String Processing](javascript:call_link\('abencl_abap_string_utilities.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Class for Compressing Character Strings and Byte Strings, ABENCL_ABAP_GZIP, 757%0D%0A
+%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+Class for Compressing Character Strings and Byte Strings
+
+These classes offer a range of methods that enable text in text fields or text strings, or binary data in byte fields or byte strings to be compressed or decompressed using GZIP.
+
+-   CL\_ABAP\_GZIP
+-   CL\_ABAP\_GZIP\_BINARY\_STREAM
+-   CL\_ABAP\_GZIP\_TEXT\_STREAM
+-   CL\_ABAP\_UNGZIP\_BINARY\_STREAM
+-   CL\_ABAP\_UNGZIP\_TEXT\_STREAM
+
+For more information, see the individual classes and methods.
+
+Example
+
+Compression and decompression of text.
+
+DATA zip TYPE xstring.
+cl\_abap\_gzip=>compress\_text(
+  EXPORTING text\_in  = \`Hello!\`
+  IMPORTING gzip\_out = zip ).
+DATA txt TYPE string.
+cl\_abap\_gzip=>decompress\_text(
+  EXPORTING gzip\_in  = zip
+  IMPORTING text\_out = txt ).
+ASSERT txt = \`Hello!\`.
+
+
+### abencl_abap_char_utilities.htm
+
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [System Classes for Character String and Byte String Processing](javascript:call_link\('abencl_abap_string_utilities.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Class with Utilities for String Processing, ABENCL_ABAP_CHAR_UTILITIES, 757%0D%0A%0D%
+0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+Class with Utilities for String Processing
+
+The class CL\_ABAP\_CHAR\_UTILITIES provides attributes and methods as utilities for string processing.
+
+The components of this class are all static and public and the attributes are read-only and are initialized in the class constructor. Details about the attributes and methods of this class are described in the class documentation.
+
+Example
+
+The following lines demonstrate that attributes of the class CL\_ABAP\_CHAR\_UTILITIES containing control characters can be replaced by a representation of the [control characters](javascript:call_link\('abenstring_templates_separators.htm'\)) in a [string template](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry").
+
+ASSERT cl\_abap\_char\_utilities=>newline        = |\\n|.
+ASSERT cl\_abap\_char\_utilities=>horizontal\_tab = |\\t|.
+ASSERT cl\_abap\_char\_utilities=>cr\_lf          = |\\r\\n|.
+
+
+### abencl_abap_conv_codepage.htm
+
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [System Classes for Character String and Byte String Processing](javascript:call_link\('abencl_abap_string_utilities.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Methods for Handling Code Pages, ABENCL_ABAP_CONV_CODEPAGE, 757%0D%0A%0D%0AError:%0D%
+0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+Methods for Handling Code Pages
+
+The methods CONVERT of the interfaces IF\_ABAP\_CONV\_OUT and IF\_ABAP\_CONV\_IN of objects created with the class CL\_ABAP\_CONV\_CODEPAGE make it possible to convert strings to the binary representation of various code pages and vice versa.
+
+Example
+
+Conversion of the content of a string into its UTF-8 representation. The value UTF-8 is the default value for the parameter CODEPAGE and can also be omitted. The statement [ASSERT](javascript:call_link\('abapassert.htm'\)) shows that the reverse conversion creates the original text again.
+
+FINAL(str) = \`Blah blah ...\`.
+FINAL(xstr) =
+  cl\_abap\_conv\_codepage=>create\_out( codepage = \`UTF-8\`
+    )->convert( source = str ).
+ASSERT
+  cl\_abap\_conv\_codepage=>create\_in( codepage = \`UTF-8\`
+    )->convert( source = xstr ) = str.

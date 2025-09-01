@@ -1,0 +1,13 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+ABAP Daemon session
+
+[User session](javascript:call_link\('abenuser_session_glosry.htm'\) "Glossary Entry") for [ABAP Daemon processing](javascript:call_link\('abenabap_daemon_processing_glosry.htm'\) "Glossary Entry"). An ABAP Daemon session is created by [ABAP Daemon Framework (ADF)](javascript:call_link\('abenabap_daemon_framework_glosry.htm'\) "Glossary Entry") when an [ABAP Daemon](javascript:call_link\('abenabap_daemon_glosry.htm'\) "Glossary Entry") is instantiated.
+
+[→ More](javascript:call_link\('abenabap_daemon.htm'\))

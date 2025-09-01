@@ -1,0 +1,145 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) → 
+
+CALL FUNCTION - RFC
+
+[Quick Reference](javascript:call_link\('abapcall_function_shortref.htm'\))
+
+Syntax Forms
+
+[Synchronous RFC](javascript:call_link\('abapcall_function_destination.htm'\))
+1\. CALL FUNCTION func DESTINATION dest
+                     [parameter\_list](javascript:call_link\('abapcall_function_destination_para.htm'\)).
+[Asynchronous RFC](javascript:call_link\('abapcall_function_starting.htm'\))
+2\. CALL FUNCTION func STARTING NEW TASK task
+                *\[*DESTINATION *{*dest*|**{*IN GROUP *{*group*|*DEFAULT*}**}**}**\]*
+                *\[**{*PERFORMING subr*}**|**{*CALLING meth*}* ON END OF TASK*\]*
+                [parameter\_list](javascript:call_link\('abapcall_function_starting_para.htm'\)).
+[Background RFC](javascript:call_link\('abapcall_function_background_unit.htm'\))
+3\. CALL FUNCTION func IN BACKGROUND UNIT
+                     [parameter\_list](javascript:call_link\('abapcall_function_background_para.htm'\)).
+
+Effect
+
+A function module or a function is called using the RFC interface. If specified, the same applies to func as to [general function module calls](javascript:call_link\('abapcall_function_general.htm'\)).
+
+Notes
+
+-   [Background RFC (bgRFC)](javascript:call_link\('abenbg_remote_function_glosry.htm'\) "Glossary Entry") is the enhanced successor technology of [transactional RFC (tRFC)](javascript:call_link\('abapcall_function_background_task.htm'\)) and makes this technology [obsolete](javascript:call_link\('abenrfc_obsolete.htm'\)). It is strongly recommended to use bgRFC instead of tRFC.
+    
+-   A more detailed description of exceptions that can be raised in RFC can be found in the RFC documentation on [SAP Help Portal](http://help.sap.com).
+    
+
+Security Note
+
+If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, the result is a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](javascript:call_link\('abendyn_call_scrty.htm'\)).
+
+[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+
+Non-Handleable Exceptions
+
+-   Cause: The called function module is not released for RFC.
+    Runtime error: CALL\_BACK\_ENTRY\_NOT\_FOUND
+    
+-   Cause: The destination type is not allowed.
+    Runtime error: CALL\_FUNCTION\_DEST\_TYPE
+    
+-   Cause: The current function was not called remotely.
+    Runtime error: CALL\_FUNCTION\_NO\_SENDER
+    
+-   Cause: Missing communication type (I for internal connection, 3 for AS ABAP) when performing an asynchronous RFC
+    Runtime error: CALL\_FUNCTION\_DESTINATION\_NO\_T
+    
+-   Cause: The specified destination does not exist.
+    Runtime error: CALL\_FUNCTION\_NO\_DEST
+    
+-   Cause: The specified destination (in load balancing mode) does not exist.
+    Runtime error: CALL\_FUNCTION\_NO\_LB\_DEST
+    
+-   Cause: Data received for unknown CPI-C connection.
+    Runtime error: CALL\_FUNCTION\_NO\_RECEIVER
+    
+-   Cause: The function module being called is not flagged as "remotely" callable.
+    Runtime error: CALL\_FUNCTION\_NOT\_REMOTE
+    
+-   Cause: An error occurred in RFC that has been logged in the calling system.
+    Runtime error: CALL\_FUNCTION\_REMOTE\_ERROR
+    
+-   Cause: The user logon data is incomplete.
+    Runtime error: CALL\_FUNCTION\_SIGNON\_INCOMPL
+    
+-   Cause: RFC from external program does not have a valid user name
+    Runtime error: CALL\_FUNCTION\_SIGNON\_INVALID
+    
+-   Cause: Logon attempt to target system without valid user name.
+    Runtime error: CALL\_FUNCTION\_SIGNON\_REJECTED
+    The error code may have any of the following meanings:
+    1) Wrong password or invalid user name
+    2) User locked
+    3) Too many login attempts
+    4) Error in authorization buffer (internal error)
+    5) No external user check
+    6) Invalid user type
+    7) Validity period of the user exceeded
+    
+-   Cause: No authorization to log on as trusted system.
+    Runtime error: CALL\_FUNCTION\_SINGLE\_LOGIN\_REJ
+    The error code may have any of the following meanings:
+    0) Incorrect logon data for valid security ID.
+    1) Calling system is not a Trusted System or security ID is invalid.
+    2) Either user does not have RFC authorization (authorization object S\_RFCACL), or a logon was performed using one of the protected users 'DDIC' or 'SAP\*'.
+    3) Time stamp of the logon data is invalid.
+    
+-   Cause: RFC without valid user name only allowed when calling a system function module. The meaning of the error codes is the same as for CALL\_FUNCTION\_SINGLE\_LOGIN\_REJ.
+    Runtime error: CALL\_FUNCTION\_SYSCALL\_ONLY
+    
+-   Cause: Data error (information in internal table) in a remote function call.
+    Runtime error CALL\_FUNCTION\_TABINFO
+    
+-   Cause: No memory available to import table.
+    Runtime error CALL\_FUNCTION\_TABLE\_NO\_MEMORY
+    
+-   Cause: For asynchronous RFC only: The task name is already being used.
+    Runtime error: CALL\_FUNCTION\_TASK\_IN\_USE
+    
+-   Cause: For asynchronous RFC only: The specified task is already open.
+    Runtime error: CALL\_FUNCTION\_TASK\_YET\_OPEN
+    
+-   Cause: No RFC authorization.
+    Runtime error: CALL\_FUNCTION\_NO\_AUTH
+    
+-   Cause: No RFC authorization for user.
+    Runtime error RFC\_NO\_AUTHORITY
+    
+-   Cause: Destination "BACK" is not allowed in the current system.
+    Runtime error: CALL\_FUNCTION\_BACK\_REJECTED
+    Runtime error: CALL\_XMLRFC\_BACK\_REJECTED
+    
+-   Cause: Type conflict when passing a table.
+    Runtime error: CALL\_FUNCTION\_CONFLICT\_TAB\_TYP
+    
+-   Cause: No memory available for creating a local internal table.
+    Runtime error: CALL\_FUNCTION\_CREATE\_TABLE
+    
+-   Cause: Type conflict when passing a structure.
+    Runtime error: CALL\_FUNCTION\_UC\_STRUCT
+    
+-   Cause: Invalid data type when passing parameters.
+    Runtime error: CALL\_FUNCTION\_WRONG\_VALUE\_LENG
+    
+-   Cause: Invalid LEAVE statement on RFC server
+    Runtime error: CALL\_FUNCTION\_ILLEGAL\_LEAVE
+    
+-   Cause: Incorrect length when passing a parameter of type decfloat16 or decfloat32.
+    Runtime error: CALL\_FUNCTION\_ILL\_DECFLOAT\_LEN
+    
+
+Continue
+[CALL FUNCTION - DESTINATION](javascript:call_link\('abapcall_function_destination.htm'\))
+[CALL FUNCTION - STARTING NEW TASK](javascript:call_link\('abapcall_function_starting.htm'\))
+[CALL FUNCTION - IN BACKGROUND UNIT](javascript:call_link\('abapcall_function_background_unit.htm'\))

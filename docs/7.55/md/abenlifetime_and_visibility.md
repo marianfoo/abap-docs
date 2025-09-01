@@ -1,0 +1,51 @@
+  
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Types and Objects, Overview](javascript:call_link\('abentypes_objects_oview.htm'\)) → 
+
+Validity and Visibility
+
+The context of a declarative statement in the source code of a program determines the validity and visibility of the declared component. In ABAP programs, there are three contexts in which data types and data objects can be declared:
+
+-   Locally in Procedures
+    Local data in [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") is valid while a procedure is being executed. It is created when the procedure is called and deleted when the procedure is exited. In addition to their local data and formal parameters, procedures see the global data of the [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry"). Methods also 'see' the components of their class.
+
+-   As Components of Classes
+    [Static attributes](javascript:call_link\('abenstatic_attribute_glosry.htm'\) "Glossary Entry") of classes exist for as long as the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of the ABAP program exists. Instance attributes of classes are bound to the lifetime of objects. They are created when an object is instantiated and deleted along with the object by the [Garbage Collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry"). Classes also see the global data of the compilation unit.
+
+-   Globally in the Compilation Unit
+    Global program data exists for as long as the internal session of the ABAP program exists. It is created when the program is loaded in the internal session, and deleted from the internal session when the program is removed. An ABAP program usually only sees its own global data (except for [interface work areas](javascript:call_link\('abeninterface_work_area_glosry.htm'\) "Glossary Entry")).
+    
+
+All contexts see the program-independent type definitions of the ABAP Dictionary and the type definitions and data declarations in the public visibility sections of global classes. Local declarations, however, hide global declarations with the same name. There are the following methods to remove such hiding:
+
+-   In methods, components of classes can be addressed using an [object component selector](javascript:call_link\('abenobject_component_select_glosry.htm'\) "Glossary Entry").
+
+-   In statements in which a dynamic specification of a data type, a class, or an interface is possible, a global type can be addressed by specifying an [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry").
+
+In addition to context-dependent visibility, the position of the declaration in the source text also plays a role. In a statement of an ABAP program only previous declarations are visible, regardless of the context. To ensure that the order in the program matches the context-dependent visibility, all global declarations of a program should be listed at the start of the source code, before the first [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry"), and all local declarations should be listed immediately after the introduction of a procedure. The definition of an interface and the declaration part of a class are global declarations in this view. Note that reference variables that refer to a class can only be declared after the class has been declared. The implementation part, on the other hand, is one of the processing blocks.
+
+Hints
+
+-   All data declared in the global declaration part of an ABAP program is global. Apart from the event block AT SELECTION-SCREEN, all data declared within event blocks and dialog modules is also global to the program. The data declared in the event blocks mentioned above is local to them. Data that is declared between closed processing blocks is also global in the program.
+
+-   The [ABAP system fields](javascript:call_link\('abensystem_fields.htm'\)) and the obsolete structure [screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\)) are located outside of the contexts listed above. They are hidden by global program data objects with the same names.
+
+Example
+
+Declaration of a program-global field g\_field, an instance attribute attr of a class, and a local field field of a method. Reference is made to the outer declarations in the inner declarations.
+
+DATA g\_field TYPE string VALUE 'global field'.
+CLASS cls DEFINITION.
+  PUBLIC SECTION.
+    DATA attr LIKE g\_field VALUE 'instance attribute'.
+    METHODS meth.
+ENDCLASS.
+CLASS cls IMPLEMENTATION.
+  METHOD meth.
+    DATA field LIKE attr VALUE 'local field'.
+  ENDMETHOD.
+ENDCLASS.

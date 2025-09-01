@@ -1,0 +1,53 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [Remote Function Call (RFC)](javascript:call_link\('abenrfc.htm'\)) →  [RFC - CALL FUNCTION](javascript:call_link\('abapcall_function_destination-.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CALL FUNCTION IN BACKGROUND UNIT, ABAPCALL_FUNCTION_BACKGROUND_UNIT, 757%0D%0A%0D%0AE
+rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+CALL FUNCTION IN BACKGROUND UNIT
+
+[Short Reference](javascript:call_link\('abapcall_function_shortref.htm'\))
+
+Syntax
+
+CALL FUNCTION func IN BACKGROUND UNIT oref
+              [parameter\_list](javascript:call_link\('abapcall_function_background_para.htm'\)).
+
+Effect
+
+Background Remote Function Call (bgRFC) of a [remote-enabled function module](javascript:call_link\('abenremote_enabled_fm_glosry.htm'\) "Glossary Entry") specified in func using the [RFC interface](javascript:call_link\('abenrfc_interface_glosry.htm'\) "Glossary Entry"). Here, oref is an [object reference variable](javascript:call_link\('abenobject_refer_variable_glosry.htm'\) "Glossary Entry") that must point to an object whose class implements the interface IF\_BGRFC\_UNIT.
+
+The object contains all the information required for the Remote Function Call, including the destination, whether to execute a transactional or queued call and, if required, the quantity of queues. If the same object is used for multiple calls, all called function modules are executed in one unit. Conversely, multiple objects of this type can be used in parallel in one [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"), which enables parallel processing.
+
+Parallel processing is executed if queues or destinations in the used objects have different names. If, in consecutive calls, different objects are used for which the same queues and destinations are specified, they are executed in the same queue one after the other.
+
+Hint
+
+[Background](javascript:call_link\('abenbg_remote_function_glosry.htm'\) "Glossary Entry") RFC (bgRFC) is the enhanced successor technology of [transactional RFC (tRFC)](javascript:call_link\('abapcall_function_background_task.htm'\)) and makes this technology [obsolete](javascript:call_link\('abenrfc_obsolete.htm'\)). It is strongly recommended that bgRFC is used instead of tRFC.
+
+More Information
+
+For more information about bgRFC, see the documentation RFC in SAP Help Portal.
+
+Hints
+
+-   Before the introduction of bgRFC, the parallel processing of multiple function modules was only possible using the addition AS SEPARATE UNIT of the statement [CALL FUNCTION IN BACKGROUND TASK](javascript:call_link\('abapcall_function_background_task.htm'\)). This same functionality is provided by the parallel use of multiple objects, which means this addition is no longer necessary.
+-   If, within the same SAP LUW, bgRFC units and [updates](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry") are executed, the bgRFC units are dependent on the update. Only after the update has been processed can the associated bgRFC be started. When an incorrect update record is deleted, the bgRFC units linked to it are also deleted. The bgRFC can be decoupled from the update using the interface method IF\_BGRFC\_UNIT~SEPARATE\_FROM\_UPDATE\_TASK of the bgRFC object.
+-   [bgRFCs](javascript:call_link\('abenbgrfc_glosry.htm'\) "Glossary Entry") registered in a [dialog module](javascript:call_link\('abendialog_module_object_glosry.htm'\) "Glossary Entry") that are not started there with COMMIT WORK are not started by a COMMIT WORK statement executed by the caller of the dialog module either.
+-   The statements [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) and [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) must not be executed within a unit. In addition, no implicit [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") can be triggered there.
+
+[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+
+Catchable Exceptions
+
+CX\_BGRFC\_INVALID\_UNIT
+
+-   Cause: oref points to an invalid object.
+
+Continue
+[CALL FUNCTION IN BACKGROUND, parameter\_list](javascript:call_link\('abapcall_function_background_para.htm'\))

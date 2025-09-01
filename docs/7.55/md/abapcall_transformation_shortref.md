@@ -1,0 +1,52 @@
+  
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  C
+
+CALL TRANSFORMATION - Quick reference
+
+[Reference](javascript:call_link\('abapcall_transformation.htm'\))
+
+Syntax
+
+CALL TRANSFORMATION *{*trans*|*(name)*}*
+                    *\[*PARAMETERS *{*p1 = e1 p2 = e2 ...*}**|*(ptab)*\]*
+                    *\[*OBJECTS    *{*o1 = e1 o2 = e2 ...*}**|*(otab)*\]*
+                    *\[*OPTIONS    *{*a1 = e1 a2 = e2 ...*}**\]*
+                    SOURCE *{*XML src\_xml*}*
+                         *|* *{**{*bn1 = e1 bn2 = e2 ...*}**|*(stab)*}*
+                    RESULT *{*XML rslt\_xml*}*
+                         *|* *{* *{*bn1 = f1 bn2 = f2 ...*}**|*(rtab)
+                             *\[*AREA HANDLE handle*\]* *}*.
+
+Effect
+
+Calls an [XSL transformation](javascript:call_link\('abenxsl_transformation_glosry.htm'\) "Glossary Entry") or [simple transformation](javascript:call_link\('abensimple_transformation_glosry.htm'\) "Glossary Entry") specified statically in trans or specified dynamically in name. The call of the predefined transformation [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID serializes ABAP data into the [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") format.
+
+Additions
+
+-   PARAMETERS *{*p1 = e1 p2 = e2 ...*}**|*ptab
+    Passes parameters specified individually as p1 = e1 p2 = e2 ... or specified in an internal table ptab to the transformation.
+    
+
+-   [OBJECTS *{*o1 = e1 o2 = e2 ...*}**|*otab](javascript:call_link\('abapcall_transformation_objects.htm'\))
+    Obsolete: Passes object references specified individually as o1 = e1 o2 = e2 ... or specified in an internal table otab to the transformation.
+    
+
+-   OPTIONS *{*a1 = e1 a2 = e2 ...*}*
+    Passes control parameters to the transformation.
+    
+
+-   SOURCE *{*XML src\_xml*}**|**{**{*bn1 = e1 bn2 = e2 ...*}**|*(stab)*}*
+    Specifies the source to be transformed. This can be [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data in src\_xml or data objects specified individually as bn1 = e1 bn2 = e2 ... or specified in an internal table stab.
+    
+
+-   RESULT *{*XML rslt\_xml*}**|**{**{*bn1 = f1 bn2 = f2 ...*}**|*(rtab)*}*
+    Specifies the repository of the transformation result. This can be XML data in rslt\_xml or data objects specified individually as bn1 = f1 bn2 = f2 ... in an internal table rtab.
+    
+
+-   AREA HANDLE handle
+    Instantiates anonymous data objects and instances of classes that are deserialized from XML data with an XSL transformation directly as [shared objects](javascript:call_link\('abenshared_objects_glosry.htm'\) "Glossary Entry") in the [shared memory](javascript:call_link\('abenshared_memory_glosry.htm'\) "Glossary Entry") of the AS instance.

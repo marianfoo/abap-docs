@@ -1,0 +1,26 @@
+  
+
+* * *
+
+AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  N
+
+NEW-LINE - Short Reference
+
+[Reference](javascript:call_link\('abapnew-line.htm'\))
+
+Syntax
+
+NEW-LINE *\[*NO-SCROLLING*|*SCROLLING*\]*.
+
+Effect
+
+Creates a new line in a list.
+
+Additions
+
+-   NO-SCROLLING
+    The new line cannot be moved horizontally in the screen display.
+-   SCROLLING
+    Undoes the addition NO-SCROLLING.

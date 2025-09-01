@@ -1,0 +1,65 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+
+Additions in Release 6.20
+
+[1\. DAYLIGHT SAVING TIME in CONVERT TIME STAMP](#!ABAP_MODIFICATION_1@1@)
+[
+2\. AS PERSON TABLE in infotypes](#!ABAP_MODIFICATION_2@2@)
+[
+3\. TO*|*FROM INTERNAL TABLE in EXPORT*|*IMPORT](#!ABAP_MODIFICATION_3@3@)
+[
+4\. CONNECTION in ABAP SQL](#!ABAP_MODIFICATION_4@4@)
+[
+5\. SOURCE in CALL TRANSFORMATION](#!ABAP_MODIFICATION_5@5@)
+[
+6\. VISIBLE LENGTH in SELECTION-SCREEN PUSHBUTTON](#!ABAP_MODIFICATION_6@6@)
+[
+7\. DISPLAY*|*MEMORY OFFSET in GET*|*SET CURSOR*|*LINE](#!ABAP_MODIFICATION_7@7@)
+
+Modification 1
+
+DAYLIGHT SAVING TIME in CONVERT TIME STAMP
+
+The addition [DAYLIGHT SAVING TIME dst](javascript:call_link\('abapconvert_time-stamp.htm'\)) has been added to the statement CONVERT TIME STAMP tst. This provides a flag in data object dst that indicates whether the time tst is within the summer time.
+
+Modification 2
+
+AS PERSON TABLE in [infotypes](javascript:call_link\('abeninfo_type_glosry.htm'\) "Glossary Entry")
+
+This addition creates an internal table of personal data when [infotype nnnn](javascript:call_link\('abapinfotypes.htm'\)) is declared. The internal table is given the name PPnnnn, unless this was specified explicitly using the addition NAME.
+
+Modification 3
+
+TO*|*FROM INTERNAL TABLE in EXPORT*|*IMPORT
+
+The variant EXPORT ...[](javascript:call_link\('abapexport_data_cluster.htm'\))TO INTERNAL TABLE itab makes it possible to store cluster data in the internal table itab. The variant [IMPORT ... FROM INTERNAL TABLE itab](javascript:call_link\('abapimport_data_cluster.htm'\)) can be used to read this repository again.
+
+Modification 4
+
+CONNECTION in ABAP SQL
+
+The addition CONNECTION enables all [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) statements to use databases other than the standard database. The alternative database systems must be supported by SAP.
+
+Modification 5
+
+SOURCE in CALL TRANSFORMATION
+
+The addition [SOURCE](javascript:call_link\('abapcall_transformation.htm'\)) enables ABAP data and objects to be serialized in a canonical [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") format, where the [SAP XSLT processor](javascript:call_link\('abenxslt_processor_glosry.htm'\) "Glossary Entry") has a direct interface to the serializer. The result of this [XSLT transformation](javascript:call_link\('abenxsl_transformation_1_glosry.htm'\) "Glossary Entry") can be produced as XML data or be converted back into ABAP data and objects.
+
+Modification 6
+
+VISIBLE LENGTH in SELECTION-SCREEN PUSHBUTTON
+
+This addition can be used to change the visible length of pushbuttons for the statement [SELECTION-SCREEN PUSHBUTTON](javascript:call_link\('abapselection-screen_layout.htm'\)).
+
+Modification 7
+
+DISPLAY*|*MEMORY OFFSET in GET*|*SET CURSOR*|*LINE
+
+When OFFSET is specified with the additions DISPLAY or MEMORY in list processing, the statements [GET CURSOR *{* FIELD f *|* LINE l *}*](javascript:call_link\('abapget_cursor_list.htm'\)) and [SET CURSOR *{* FIELD f *|* LINE l*}*](javascript:call_link\('abapset_cursor_list.htm'\)) can be used to specify whether the column in the displayed list or the position in the list buffer is intended. The addition DISPLAY is the standard and can be omitted.

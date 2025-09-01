@@ -1,0 +1,133 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Selection Screens - Create](javascript:call_link\('abenselection_screen_create.htm'\)) →  [PARAMETERS](javascript:call_link\('abapparameters.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20PARAMETERS%2C%20value_options%2C%20ABAPPARAMETERS_VALUE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+PARAMETERS, value\_options
+
+[Short Reference](javascript:call_link\('abapparameters_shortref.htm'\))
+
+Syntax
+
+... *\[*DEFAULT val*\]*
+    *\[*LOWER CASE*\]*
+    *\[*MATCHCODE OBJECT search\_help*\]*
+    *\[*MEMORY ID pid*\]*
+    *\[*VALUE CHECK*\]* ...
+
+Additions:
+
+[1\. ... DEFAULT val](#!ABAP_ADDITION_1@1@)
+[2\. ... LOWER CASE](#!ABAP_ADDITION_2@2@)
+[3\. ... MATCHCODE OBJECT search\_help](#!ABAP_ADDITION_3@3@)
+[4\. ... MEMORY ID pid](#!ABAP_ADDITION_4@4@)
+[5\. ... VALUE CHECK](#!ABAP_ADDITION_5@5@)
+
+Effect
+
+Using these additions, it is possible define a [start value](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry") that allows lowercase letters, a search help, or [SPA/GPA parameter](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry") to be bound, or a check to be executed against a value list.
+
+Addition 1   
+
+... DEFAULT val
+
+Effect
+
+This addition defines a start value for the content of the selection parameter para. The start value val can either be specified as a literal or as a built-in data object.
+
+If the data type of the specified start value does not match the data type of the declaration, it is converted in accordance with the conversion rules. For the time stamp type utclong, only a character literal that contains a [valid representation](javascript:call_link\('abents_value.htm'\)) of a time stamp can be specified as a literal. Without the addition DEFAULT, the [initial value](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry") linked with the data type is used as a start value.
+
+There are two times when a start value can be passed to the selection parameter:
+
+-   When an executable program is started using [SUBMIT](javascript:call_link\('abapsubmit.htm'\)), all values val specified at program start using DEFAULT are passed between the events [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) and [INITIALIZATION](javascript:call_link\('abapinitialization.htm'\)) to the associated selection parameters para.
+-   If a program is not loaded into an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") using a SUBMIT call, but using a [dialog](javascript:call_link\('abendialog_transaction_glosry.htm'\) "Glossary Entry") or an [object transaction](javascript:call_link\('abenoo_transaction_glosry.htm'\) "Glossary Entry"), or in an external procedure call instead, all the values val specified using DEFAULT are passed to the associated selection parameters para when any selection screen is called for the first time using [CALL SELECTION-SCREEN](javascript:call_link\('abapcall_selection_screen.htm'\)) before the event [AT SELECTION-SCREEN OUTPUT](javascript:call_link\('abapat_selection-screen.htm'\)).
+
+In both cases, all the selection parameters are supplied with their start values, regardless of the selection screen on which they are defined. If a selection parameter is not initial at the time the data is passed, the start value is not passed.
+
+Hints
+
+-   The associated input field on the selection screen is only filled with the start value if the value for para is no longer changed before the selection screen is sent. The system displays the exact value that the selection parameter has at the end of processing of the event AT SELECTION-SCREEN OUTPUT.
+-   If start values are specified, these must have the internal format of the ABAP values, and not the output format of the screen display.
+
+Addition 2   
+
+... LOWER CASE
+
+Effect
+
+This addition prevents the content of character-like fields from being converted to uppercase letters when the input field on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") is transported to the data object para in the program and vice versa.
+
+The addition LOWER CASE cannot be combined with the additions [AS CHECKBOX](javascript:call_link\('abapparameters_screen.htm'\)) or [RADIOBUTTON](javascript:call_link\('abapparameters_screen.htm'\)).
+
+Hint
+
+If a parameter is connected to a [DDIC domain](javascript:call_link\('abendomain_glosry.htm'\) "Glossary Entry"), the conversion to upper case letters can also be prevented by the respective [semantic property of the domain](javascript:call_link\('abenddic_domains_sema.htm'\)).
+
+Addition 3   
+
+... MATCHCODE OBJECT search\_help
+
+Effect
+
+This addition links the input field of the selection parameter with a search help search\_help from the ABAP Dictionary. The name of the search help must be specified directly. The input help key is displayed for the input field of the selection parameter on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry"). When the input help (F4) is requested, the hit list from the search help is displayed to the user. When an entry is selected, the corresponding value is placed in the input field. If no search help for the specified name exists in the ABAP Dictionary, a message is displayed in the status line when the input help is requested.
+
+The addition MATCHCODE OBJECT cannot be combined with the additions [AS CHECKBOX](javascript:call_link\('abapparameters_screen.htm'\)) or [RADIOBUTTON](javascript:call_link\('abapparameters_screen.htm'\)).
+
+Hints
+
+-   For search helps with more than one value, the first value of the search help is linked with the input field.
+-   The predecessors of the search helps in the ABAP Dictionary were called matchcode objects, which is why this addition has the name MATCHCODE OBJECT. Matchcode objects that have not yet been replaced by search helps are still supported by this addition.
+
+Example
+
+Linking the selection parameter p\_carrid with a suitable search help. When the input help is selected on the selection screen, a list with the names of the airline carriers is displayed. If a name is selected, the corresponding abbreviation is placed in the input field.
+
+PARAMETERS p\_carrid TYPE s\_carr\_id
+           MATCHCODE OBJECT demo\_f4\_de.
+
+Addition 4   
+
+... MEMORY ID pid
+
+Effect
+
+This addition links the input field of the selection parameter with a [SPA/GPA parameter](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry") in the [user memory](javascript:call_link\('abenuser_memory_glosry.htm'\) "Glossary Entry"). The ID pid of the SPA/GPA parameter must be specified directly and it can contain a maximum of 20 characters.
+
+When the selection screen is called, the input field is filled with the current value of the SPA/GPA parameter in the user memory if the data object para is initial after processing of the event [AT SELECTION-SCREEN OUTPUT](javascript:call_link\('abapselection-screen.htm'\)). Otherwise, the value of para is displayed. If there is a user action on the selection screen, the content of the input field is assigned to the SPA/GPA parameter in the user memory. If no SPA/GPA parameter exists for the specified ID, it is created.
+
+If the specified ID pid is not contained in the database table TPARA, the extended program check reports an error.
+
+Hint
+
+The addition DEFAULT overrides the addition MEMORY ID.
+
+Example
+
+The selection parameter p\_prog is linked with the SPA/GPA parameter RID, which in turn is linked with the input field for the program name in the [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") of the [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry"). Accordingly, the input field of the selection parameter is filled with the name of the program last processed.
+
+PARAMETERS p\_prog TYPE sy-repid MEMORY ID rid.
+
+Addition 5   
+
+... VALUE CHECK
+
+Effect
+
+This addition can only be specified if the type of the selection parameter is defined using a reference to a data type from the ABAP Dictionary.
+
+If a user action is performed on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry"), the current content of the input field is checked against any [fixed values](javascript:call_link\('abenfixed_value_glosry.htm'\) "Glossary Entry") defined in the domain of the data type. If the data type is a component of a [foreign key table](javascript:call_link\('abenforeign_key_table_glosry.htm'\) "Glossary Entry"), a check against the check table is executed. If the check is not successful, an [error message](javascript:call_link\('abenerror_message_glosry.htm'\) "Glossary Entry") is displayed in the status line of the selection screen. If the program was called using [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) without displaying the selection screen, the screen is displayed if an error occurs.
+
+The addition VALUE CHECK cannot be combined with the additions [AS CHECKBOX](javascript:call_link\('abapparameters_screen.htm'\)), [RADIOBUTTON](javascript:call_link\('abapparameters_screen.htm'\)), [AS LISTBOX](javascript:call_link\('abapparameters_screen.htm'\)), or [NO-DISPLAY](javascript:call_link\('abapparameters_screen.htm'\)).
+
+Hints
+
+-   The check against a check table is executed even if the input field is empty. Therefore, it is advisable to use the addition [OBLIGATORY](javascript:call_link\('abapparameters_screen.htm'\)) at the same time.
+-   [Table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry") is effective for the database accesses performed for the check.
+
+Continue
+![Example](exa.gif "Example") [Selection Screens - Value Properties of Selection Parameters](javascript:call_link\('abensel_screen_param_value_abexa.htm'\))

@@ -1,0 +1,16 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Push Channel Protocol, ABENPUSH_CHANNEL_PROTOCOL_GLOSRY, 757%0D%0A%0D%0AError:%0D%0A%
+0D%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+Push Channel Protocol
+
+PCP for short. Describes an SAP communications format used to exchange messages between programs and internal or external interfaces. Currently, PCP is used by [ABAP Channels](javascript:call_link\('abenabap_channel_glosry.htm'\) "Glossary Entry") and [ABAP daemons](javascript:call_link\('abenabap_daemon_glosry.htm'\) "Glossary Entry").
+
+[→ More about](javascript:call_link\('abenpcp.htm'\))

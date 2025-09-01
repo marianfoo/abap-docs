@@ -1,0 +1,103 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [Method Calls](javascript:call_link\('abenmethod_calls.htm'\)) →  [Static Method Calls](javascript:call_link\('abenmethod_calls_static.htm'\)) →  [meth( ... ) - Standalone Method Call](javascript:call_link\('abapcall_method_static_short.htm'\)) → 
+
+super->meth( ... )
+
+[Quick Reference](javascript:call_link\('abapcall_method_shortref.htm'\))
+
+Syntax
+
+... super->meth
+  *|* super->constructor ...
+
+Alternatives:
+
+[1\. ... super->meth ...](#!ABAP_ALTERNATIVE_1@1@)
+[2\. ... super->constructor ...](#!ABAP_ALTERNATIVE_2@2@)
+
+Effect
+
+This special form of [specifying methods statically](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)) can be used in methods of subclasses to call the implementation of a method with the same name in the direct superclass. The superclass is addressed using the [pseudo reference](javascript:call_link\('abenpseudo_reference_glosry.htm'\) "Glossary Entry") super.
+
+Alternative 1
+
+... super->meth ...
+
+Effect
+
+Can be specified in the [redefinition](javascript:call_link\('abenredefinition_glosry.htm'\) "Glossary Entry") of the method meth in the implementation of a subclass and calls the implementation of the method meth in the direct superclass.
+
+A method call super->meth can be used in the same operand positions and in the same syntax forms as [oref->meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)). The same rules apply to the parameter passing.
+
+Example
+
+Implementation call of method meth in superclass cls1 in the redefinition of the method in subclass cls2.
+
+CLASS cls1 DEFINITION ABSTRACT.
+  PUBLIC SECTION.
+    METHODS meth.
+ENDCLASS.
+CLASS cls1 IMPLEMENTATION.
+  METHOD meth.
+    ...
+  ENDMETHOD.
+ENDCLASS.
+CLASS cls2 DEFINITION INHERITING FROM cls1.
+  PUBLIC SECTION.
+    METHODS meth REDEFINITION.
+ENDCLASS.
+CLASS cls2 IMPLEMENTATION.
+  METHOD meth.
+    super->meth( ).
+    ...
+  ENDMETHOD.
+ENDCLASS.
+
+Alternative 2
+
+... super->constructor ...
+
+Effect
+
+Must be specified in an instance constructor implemented in a subclass to call the instance constructor of the direct superclasses. The following restrictions apply before the superclass constructor is called:
+
+-   The instance constructor does not have access to the instance components of its class. The self-reference [me->](javascript:call_link\('abenme.htm'\)) cannot be used. The static components of its class can be accessed only directly.
+    
+-   Before the superclass constructor is called, an instance constructor cannot be exited using statements such as RETURN or CHECK.
+    
+
+After the superclass constructor has been called, the self-reference me-> can be used and instance components can be accessed.
+
+The superclass constructor can be called using super->constructor only as a [standalone statement](javascript:call_link\('abapcall_method_static_short.htm'\)).
+
+Notes
+
+-   When a superclass constructor called using super->constructor is executed, meth and me->meth do not address the method implementations of the subclass (as may be expected), and address the method implementations of the superclass instead.
+    
+-   The instance constructor of the superclass must be called, even if not declared explicitly.
+    
+-   See also [Inheritance and Constructors](javascript:call_link\('abeninheritance_constructors.htm'\)).
+    
+
+Example
+
+Call of superclass constructor in instance constructor of a subclass. Without this call a syntax error will occur.
+
+CLASS cls1 DEFINITION.
+  ...
+ENDCLASS.
+CLASS cls2 DEFINITION INHERITING FROM cls1.
+  PUBLIC SECTION.
+    METHODS constructor.
+ENDCLASS.
+CLASS cls2 IMPLEMENTATION.
+  METHOD constructor.
+    super->constructor( ).
+    ...
+  ENDMETHOD.
+ENDCLASS.

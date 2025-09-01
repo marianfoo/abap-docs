@@ -1,0 +1,46 @@
+  
+
+* * *
+
+SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) → 
+
+Introductory Statements for Programs
+
+The introductory statements for programs are as follows:
+
+-   [REPORT](javascript:call_link\('abapreport.htm'\))
+    
+-   [PROGRAM](javascript:call_link\('abapprogram.htm'\))
+    
+-   [FUNCTION-POOL](javascript:call_link\('abapfunction-pool.htm'\))
+    
+-   [CLASS-POOL](javascript:call_link\('abapclass-pool.htm'\))
+    
+-   [INTERFACE-POOL](javascript:call_link\('abapinterface-pool.htm'\))
+    
+-   [TYPE-POOL](javascript:call_link\('abaptype-pool.htm'\)).
+    
+
+The introductory statement of each program depends on the [program type](javascript:call_link\('abenprogram_type_glosry.htm'\) "Glossary Entry") specified in the [program attributes](javascript:call_link\('abenprogram_attribute_glosry.htm'\) "Glossary Entry").
+
+All statements that follow the introductory statements in the source code or that are included as [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") are handled as a single unit by ABAP Compiler.
+
+The first statement of every standalone ABAP program must be an introductory statement and each program can only contain one of these statements. The only other statement allowed in the first position (alongside the introductory statement) is the statement INCLUDE. In this case, an introductory statement for a program must appear in the first position of the program after the include program is resolved when the program is generated.
+
+Executable programs, module pools, function groups, class pools, interface pools, subroutine pools, and type groups are standalone [compilation units](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry"). Include programs, on the other hand, are only used in the context of compilation units.
+
+Type groups, also known as type pools, are standalone programs from a logical point of view. However, they do not contain executable code but only type definitions and constant definitions. For this reason, type groups have their own introductory program statement, TYPE-POOL.
+
+Note
+
+From a syntax point of view, it is not mandatory to assign introductory program statements to the program types defined in the [program attributes](javascript:call_link\('abenprogram_attribute_glosry.htm'\) "Glossary Entry"). The assignments described in the following sections, however, should always be used. When a program is created, the appropriate statement is created automatically by ABAP Workbench and should be changed only in the additions, when editing. In particular, the keywords FUNCTION-POOL, CLASS-POOL, INTERFACE-POOL, and TYPE-POOL should be created solely by the respective tools of [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry") and never be entered in the source code themselves, to avoid unexpected system behavior.
+
+Continue
+[REPORT](javascript:call_link\('abapreport.htm'\))
+[PROGRAM](javascript:call_link\('abapprogram.htm'\))
+[FUNCTION-POOL](javascript:call_link\('abapfunction-pool.htm'\))
+[CLASS-POOL](javascript:call_link\('abapclass-pool.htm'\))
+[INTERFACE-POOL](javascript:call_link\('abapinterface-pool.htm'\))
+[TYPE-POOL](javascript:call_link\('abaptype-pool.htm'\))

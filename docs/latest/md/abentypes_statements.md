@@ -1,0 +1,25 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Data%20Types%2C%20ABENTYPES_STATEMENTS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+Data Types
+
+Data types are templates for creating data objects. Data types can be defined independently in an ABAP program or in the ABAP Dictionary. Data types can also be non-independent as properties of data objects. Data types do not use any memory space for work data but may require memory for administrative information.
+
+In ABAP programs, data types local to the program can be defined, which can be used for [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") or declaring further data types or data objects, depending on their validity and visibility.
+
+Data types defined in the [public](javascript:call_link\('abenpublic_glosry.htm'\) "Glossary Entry") [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry") of a [global class](javascript:call_link\('abenglobal_class_glosry.htm'\) "Glossary Entry") or [global interface](javascript:call_link\('abenglobal_interface_glosry.htm'\) "Glossary Entry") are visible to other programs.
+
+The associated statements are:
+
+-   [TYPES](javascript:call_link\('abaptypes.htm'\))
+-   [INCLUDE TYPE](javascript:call_link\('abapinclude_type.htm'\))
+
+Continue
+[TYPES](javascript:call_link\('abaptypes.htm'\))

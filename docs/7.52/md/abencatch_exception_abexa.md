@@ -1,0 +1,122 @@
+  
+
+* * *
+
+SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [Examples of Exceptions](javascript:call_link\('abenexception_abexas.htm'\)) → 
+
+Exceptions - CATCH
+
+The example demonstrates the catching of class based exceptions.
+
+Source Code
+
+REPORT demo\_catch\_exception.
+DATA(in) = cl\_demo\_input=>new( ).
+DATA: resumable     TYPE abap\_bool VALUE abap\_false,
+      before\_unwind TYPE abap\_bool VALUE abap\_false,
+      resume        TYPE abap\_bool VALUE abap\_false.
+in->add\_field( EXPORTING as\_checkbox = 'X'
+                         text = 'RAISE RESUMABLE'
+               CHANGING  field = resumable
+)->add\_field( EXPORTING as\_checkbox = 'X'
+                         text = 'CATCH BEFORE UNWIND'
+               CHANGING  field = before\_unwind
+)->add\_field( EXPORTING as\_checkbox = 'X'
+                         text = 'RESUME'
+               CHANGING  field = resume
+)->request( ).
+CLASS lcx\_exception DEFINITION INHERITING FROM cx\_static\_check.
+ENDCLASS.
+CLASS exc\_demo DEFINITION.
+  PUBLIC SECTION.
+    CLASS-DATA out TYPE REF TO if\_demo\_output.
+    CLASS-METHODS: main,
+      meth1 RAISING lcx\_exception,
+      meth2 RAISING RESUMABLE(lcx\_exception).
+ENDCLASS.
+FIELD-SYMBOLS <fs> TYPE any.
+CLASS exc\_demo IMPLEMENTATION.
+  METHOD main.
+    out = cl\_demo\_output=>new( ).
+    DATA exc TYPE REF TO lcx\_exception.
+    IF before\_unwind = abap\_false.
+      TRY.
+          out->write( 'Trying method call' ).
+          IF resumable = abap\_false.
+            exc\_demo=>meth1( ).
+          ELSEIF resumable = abap\_true.
+            exc\_demo=>meth2( ).
+          ENDIF.
+        CATCH lcx\_exception.
+          IF <fs> IS ASSIGNED.
+            out->write( 'Context of method available' ).
+          ELSE.
+            out->write( 'Context of method not available' ).
+          ENDIF.
+      ENDTRY.
+      out->write( 'Continue after main TRY block' ).
+    ELSEIF before\_unwind = abap\_true.
+      TRY.
+          out->write( 'Trying method call' ).
+          IF resumable = abap\_false.
+            exc\_demo=>meth1( ).
+          ELSEIF resumable = abap\_true.
+            exc\_demo=>meth2( ).
+          ENDIF.
+        CATCH BEFORE UNWIND lcx\_exception INTO exc.
+          IF <fs> IS ASSIGNED.
+            out->write( 'Context of method available' ).
+          ELSE.
+            out->write( 'Context of method not available' ).
+          ENDIF.
+          IF resume = abap\_true.
+            IF exc->is\_resumable = abap\_true.
+              RESUME.
+            ELSE.
+              out->write( 'Resumption not possible' ).
+            ENDIF.
+          ENDIF.
+      ENDTRY.
+      out->write( 'Continue after main TRY block' ).
+    ENDIF.
+    out->display( ).
+  ENDMETHOD.
+  METHOD meth1.
+    DATA loc TYPE i.
+    ASSIGN loc TO <fs>.
+    TRY.
+        out->write( 'Raising non-resumable exception' ).
+        RAISE EXCEPTION TYPE lcx\_exception.
+        out->write( 'Never executed' ).
+      CLEANUP.
+        out->write( 'Cleanup in method' ).
+    ENDTRY.
+    out->write( 'Continue after TRY block in method' ).
+  ENDMETHOD.
+  METHOD meth2.
+    DATA loc TYPE i.
+    ASSIGN loc TO <fs>.
+    TRY.
+        out->write( 'Raising resumable exception' ).
+        RAISE RESUMABLE EXCEPTION TYPE lcx\_exception.
+        out->write( 'Resuming method' ).
+      CLEANUP.
+        out->write( 'Cleanup in method' ).
+    ENDTRY.
+    out->write( 'Continue after TRY block in method' ).
+  ENDMETHOD.
+ENDCLASS.
+START-OF-SELECTION.
+  exc\_demo=>main( ).
+
+Description
+
+The meth1 method raises a non-resumable exception, the meth2 method raises a resumable exception that is handled in the TRY\-control structure of the method main using CATCH.
+
+-   If handling takes place without BEFORE UNWIND, the CLEANUP block is executed in both cases before handling and the context of the method called is not available during handling.
+
+-   If handling takes place with BEFORE UNWIND, the context of the method called is available in both cases during handling and the CLEANUP block is executed after the handling.
+
+-   When a resumable exception is raised, the RESUME statement can be executed during the handling. This statement makes sure that processing in the method called is continued without its CLEANUP block being executed.

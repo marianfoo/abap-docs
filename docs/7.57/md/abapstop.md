@@ -1,0 +1,64 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Processing Blocks](javascript:call_link\('abenleave_processing_blocks.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: STOP, ABAPSTOP, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improveme
+nt:)
+
+STOP
+
+[Short Reference](javascript:call_link\('abapstop_shortref.htm'\))
+
+Syntax
+
+STOP.
+
+Effect
+
+The statement STOP is only to be used in [executable programs](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") and in the following event blocks:
+
+-   [AT SELECTION-SCREEN](javascript:call_link\('abapat_selection-screen.htm'\)) (without additions)
+-   [START-OF-SELECTION](javascript:call_link\('abapstart-of-selection.htm'\))
+-   [GET](javascript:call_link\('abapget-.htm'\))
+
+These event blocks are exited immediately using STOP and the runtime framework raises the event END-OF-SELECTION.
+
+Hint
+
+The statement STOP is forbidden in methods and raises a uncatchable exception when processing [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") called using [CALL SCREEN](javascript:call_link\('abapcall_screen.htm'\)), during a [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) event, and in programs not called using [SUBMIT](javascript:call_link\('abapsubmit.htm'\)).
+
+Example
+
+Termination of the event block GET sbook of the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S, after max postings have been issued, and branching to END-OF-SELECTION.
+
+NODES: sflight,
+       sbook.
+DATA: bookings TYPE i,
+      max TYPE i VALUE 100.
+GET sflight.
+  cl\_demo\_output=>next\_section( |{ sflight-carrid } | &&
+                                |{ sflight-connid } | &&
+                                |{ sflight-fldate }| ).
+GET sbook.
+  bookings += 1.
+  cl\_demo\_output=>write( |{ sbook-bookid } | &&
+                         |{ sbook-customid }| ).
+  IF bookings = max.
+    STOP.
+  ENDIF.
+END-OF-SELECTION.
+  cl\_demo\_output=>line( ).
+  cl\_demo\_output=>display( |First { bookings } bookings| ).
+
+[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+
+Uncatchable Exceptions
+
+-   Cause: The statement STOP was executed outside the process flow for an executable program.
+    Runtime error: STOP\_NO\_REPORT
+-   Cause: The statement STOP was executed during the process flow for a dynpro and therefore outside the allowed events.
+    Runtime error: STOP\_WITHIN\_CALLED\_DYNPRO

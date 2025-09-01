@@ -1,0 +1,23 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)) →  [ABAP Objects - Inheritance](javascript:call_link\('abeninheritance.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Abstract%20and%20Final%20Methods%20and%20Classes%2C%20ABENINHERITANCE_ABSTRACT_FINAL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0AS
+uggestion%20for%20improvement:)
+
+ABAP Objects - Abstract and Final Methods and Classes
+
+Abstract and final methods or classes can be defined using the additions ABSTRACT and FINAL of the statements [METHODS](javascript:call_link\('abapmethods.htm'\)) and [CLASS](javascript:call_link\('abapclass.htm'\)).
+
+Abstract methods are declared in abstract classes and cannot be implemented in the same class, only in a subclass of the inheritance tree. Abstract classes cannot, therefore, be instantiated. A non-abstract method is a concrete method. With the exception of the instance constructor, concrete instance methods of a class can also call their abstract methods.
+
+Final methods can no longer be redefined in subclasses. They cannot have any additional subclasses and close an inheritance tree definitively.
+
+Hints
+
+-   In classes that are both abstract and final, only the static components can be used. Although instance components can be declared, they cannot be used. Specifying ABSTRACT and FINAL together is therefore only useful for [static classes](javascript:call_link\('abenstatic_class_glosry.htm'\) "Glossary Entry").
+-   Private methods cannot be redefined and therefore cannot be abstract.

@@ -1,0 +1,44 @@
+  
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Dynpro Fields](javascript:call_link\('abenabap_dynpros_fields.htm'\)) →  [dynpro - Examples of Dynpro Fields](javascript:call_link\('abendynpro_field_abexas.htm'\)) → 
+
+dynpro - Checkboxes and Radio Buttons
+
+This example demonstrates how checkboxes and radio buttons can be processed on dynpros.
+
+Source Code
+
+PROGRAM demo\_dynpro\_check\_radio .
+DATA: radio1(1) TYPE c, radio2(1) TYPE c, radio3(1) TYPE c,
+      field1(10) TYPE c, field2(10) TYPE c, field3(10) TYPE c,
+      box TYPE c.
+DATA: ok\_code TYPE sy-ucomm,
+      save\_ok TYPE sy-ucomm.
+CALL SCREEN 100.
+MODULE user\_command\_0100 INPUT.
+  save\_ok = ok\_code.
+  CLEAR ok\_code.
+  CASE save\_ok.
+    WHEN 'RADIO'.
+      IF radio1 = 'X'.
+        field1 = 'Selected!'.
+        CLEAR: field2, field3.
+      ELSEIF radio2 = 'X'.
+        field2 = 'Selected!'.
+        CLEAR: field1, field3.
+      ELSEIF radio3 = 'X'.
+        field3 = 'Selected!'.
+        CLEAR: field1, field2.
+      ENDIF.
+    WHEN 'CANCEL'.
+      LEAVE PROGRAM.
+  ENDCASE.
+ENDMODULE.
+
+Description
+
+The static next dynpro number of dynpro 100 is 100. The screen fields field1 to field3 are defined as not ready for input in Screen Painter. Selecting one of the three radio buttons raises the event PAI, which passes the function code RADIO and the field contents of the screen fields to the ABAP program. The dialog module user\_command\_0100 fills the fields field1 to field3 according to the radio button that was selected. These field contents appear the next time the dynpro is sent. The PAI event is also raised if you select the checkbox. In this case, the function CANCEL is passed to the ABAP program, and the dialog module user\_command\_0100 immediately ends the program.

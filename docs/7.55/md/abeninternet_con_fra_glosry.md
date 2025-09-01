@@ -1,0 +1,13 @@
+  
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+internet Communication Framework
+
+ICF for short. Internet A software layer in [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry") that provides an ABAP interface for HTTP, HTTPS, and SMTP requests. Using the ICF, [ABAP programs](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry") can communicate with the internet in both the sever and the client role. The ICF receives and sends web-based ABAP calls using the [Internet Communication Manager](javascript:call_link\('abeninternet_con_man_glosry.htm'\) "Glossary Entry").
+
+[→ More about](javascript:call_link\('abenicf.htm'\))

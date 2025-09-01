@@ -1,0 +1,102 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [RAP - Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [RAP - Entity Behavior Body](javascript:call_link\('abenbdl_body.htm'\)) →  [RAP - side effects](javascript:call_link\('abenbdl_side_effects.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20side%20effect%2C%20Targets%2C%20ABENBDL_SIDE_EFFECTS_TARGET%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+RAP - side effect, Targets
+
+Syntax
+
+... field *{* MyField
+          *|* \*
+          *|* \_assoc.MyField *}*
+   *|* permissions *{*( field MyField )
+                 *|* ( action MyAction )
+                 *|* ( \_assoc.*{*field *|* action*}* )
+                 *|* ( update *|* delete )
+                 *|* ( *{*create *|* update *|* delete*}* \_assoc ) *}*
+   *|* $self
+   *|* entity \_MyAssoc
+   *|* messages
+
+Variants:
+
+[1\. ... field ...](#!ABAP_VARIANT_1@1@)
+[2\. ... permissions ...](#!ABAP_VARIANT_2@2@)
+[3\. ... $self](#!ABAP_VARIANT_3@3@)
+[4\. ... entity](#!ABAP_VARIANT_4@4@)
+[5\. ... messages](#!ABAP_VARIANT_5@5@)
+
+Effect
+
+This topic lists the BO properties that can be used as targets Targets for [side effects](javascript:call_link\('abenbdl_side_effects.htm'\)).
+
+One type of side effect can affect multiple targets. The specifier determining the type of target must be defined explicitly for each target. Example:
+side effects { field MyField affects field Field1, field Field2, action Action1, action Action2*\[*, ...*\]* }
+
+It is possible to group multiple targets using brackets. For example, the following groupings are possible:
+
+-   ... affects field(Field1, Field2) ...
+-   ... affects field \_Assoc.(Field1, Field2) ...
+-   ... affects  permissions(field (Field1, Field2)) ...
+-   ... affects  permissions(field Field1, field Field2) ...
+-   ... affects entity (\_Assoc1, \_Assoc2) ...
+-   ... affects entity \_Assoc1.(\_ItemAssoc1, \_ItemAssoc2) ...
+
+Variant 1   
+
+... field ...
+
+Effect
+
+-   The specified field MyField is reloaded when the side effect is triggered. One or more fields can be specified as side effect target.
+-   The asterisk \* reloads all fields of the same entity instance.
+-   It is also possible to specify fields from other entity instances as targets. They must be defined via an association path \_assoc.MyField.
+
+Variant 2   
+
+... permissions ...
+
+Effect
+
+The [feature](javascript:call_link\('abenrap_feature_control_glosry.htm'\) "Glossary Entry") and [authorization control](javascript:call_link\('abenrap_auth_control_glosry.htm'\) "Glossary Entry") of the specified properties are reloaded when the side effect is triggered. The following permissions are available:
+
+-   Fields: permissions(field MyField)
+-   Actions: permissions(field MyField)
+-   Update or delete operation: permissions (update|delete)
+
+You can also specify permissions for elements and operations of associated entities via association path:
+
+-   Fields and actions: permissions ( \_assoc.*{*field*|*action*}* )
+-   Operations: permissions ( *{*create*|*update*|*delete*}* \_assoc )
+
+Multiple permissions can be listed in brackets, separated by commas. Example: permissions(action MyActionFC, update).
+
+Variant 3   
+
+... $self
+
+Effect
+
+The current RAP BO entity is reloaded.
+
+Variant 4   
+
+... entity
+
+Effect
+
+The specified associated entity \_MyAssoc is reloaded when the side effect is triggered.
+
+Variant 5   
+
+... messages
+
+Effect
+
+All messages stored in the [response parameter](javascript:call_link\('abenrap_response_param_glosry.htm'\) "Glossary Entry") reported are reloaded when the side effect is triggered.

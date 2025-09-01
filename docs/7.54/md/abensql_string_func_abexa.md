@@ -1,0 +1,53 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_func](javascript:call_link\('abensql_builtin_func.htm'\)) →  [ABAP SQL - Built-In Functions sql\_func](javascript:call_link\('abenopen_sql_builtin_functions.htm'\)) →  [ABAP SQL - SQL Functions](javascript:call_link\('abenopen_sql_functions.htm'\)) →  [sql\_exp - sql\_string\_func](javascript:call_link\('abensql_string_func.htm'\)) → 
+
+SQL Expressions, String Functions
+
+This example demonstrates [string functions](javascript:call_link\('abensql_string_func.htm'\)) in [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)).
+
+Source Code
+
+REPORT demo\_sql\_function\_string.
+CLASS demo DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS main.
+ENDCLASS.
+CLASS demo IMPLEMENTATION.
+  METHOD main.
+    DELETE FROM demo\_expressions.
+    INSERT demo\_expressions FROM TABLE @( VALUE #(
+      ( id = 'X'
+        char1 = ' 0123'
+        char2 = 'aAaA' ) ) ).
+    SELECT SINGLE
+           char1 AS text1,
+           char2 AS text2,
+           CONCAT(            char1,char2 )     AS concat,
+           CONCAT\_WITH\_SPACE( char1,char2, 1 )  AS concat\_with\_space,
+           INSTR(             char1,'12' )      AS instr,
+           LEFT(              char1,3 )         AS left,
+           LENGTH(            char1 )           AS length,
+           LOWER(             char2 )           AS lower,
+           LPAD(              char1,10,'x' )    AS lpad,
+           LTRIM(             char1,' ' )       AS ltrim,
+           REPLACE(           char1,'12','\_\_' ) AS replace,
+           RIGHT(             char1,3 )         as right,
+           RPAD(              char1,10,'x' )    AS rpad,
+           RTRIM(             char1,'3' )       AS rtrim,
+           SUBSTRING(         char1,3,3 )       AS substring,
+           UPPER(             char2 )           AS upper
+           FROM demo\_expressions
+           INTO @DATA(result).
+    cl\_demo\_output=>display( result ).  ENDMETHOD.
+ENDCLASS.
+START-OF-SELECTION.
+  demo=>main( ).
+
+Description
+
+Uses the string functions supported by ABAP SQL as elements of a SELECT list.

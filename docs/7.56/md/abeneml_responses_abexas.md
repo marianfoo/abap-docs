@@ -1,0 +1,13 @@
+  
+
+* * *
+
+AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - Common EML Statements and Operands](javascript:call_link\('abapcommon_eml_elements.htm'\)) →  [ABAP EML - response\_param](javascript:call_link\('abapeml_response.htm'\)) → 
+
+Examples for responses
+
+Continue
+![Example](exa.gif "Example") [ABAP EML - Responses](javascript:call_link\('abeneml_responses_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP EML - Responses (Dynamic Forms of ABAP EML Statements)](javascript:call_link\('abeneml_responses_dyn_abexa.htm'\))

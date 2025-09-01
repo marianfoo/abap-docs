@@ -1,0 +1,64 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT - GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)) → 
+
+sql\_agg - GROUPING
+
+Syntax
+
+... GROUPING( [col](javascript:call_link\('abenopen_sql_columns.htm'\)) )
+
+Effect
+
+The result of the grouping function GROUPING indicates whether a specific column is part of the [aggregation](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry"). The grouping function GROUPING must be followed by a column name in parentheses as an argument.
+
+The return value of the grouping function GROUPING has the data type [INT1](javascript:call_link\('abenddic_builtin_types.htm'\)). The following return values of the grouping function are possible here:
+
+Value
+
+Meaning
+
+0
+
+The column is not part of the aggregation.
+
+1
+
+The column is part of the aggregation.
+
+The columns that are part of the aggregation contain the null values as placeholders in the corresponding results. More specifically , the grouping function GROUPING determines whether the column that contains a null value in the result was part of the aggregation or whether it was already the null value in the [data source](javascript:call_link\('abapselect_data_source.htm'\)).
+
+Rules
+
+-   The grouping function can only be used in the [SELECT](javascript:call_link\('abapselect_list.htm'\)) list and in the [HAVING](javascript:call_link\('abaphaving_clause.htm'\)) clause.
+
+-   The grouping function can be used only if the [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)) clause contains the addition [GROUPING SETS](javascript:call_link\('abapgrouping_sets_clause.htm'\)).
+
+-   The column used as an argument of the grouping function GROUPING must also be added to the GROUP BY list.
+
+Example
+
+The following example calculates the number of Lufthansa flights by plane type (the column planetype) and by connection (the column connid). Here, the grouping function for the plane type column or connection column is used to determine whether they are part of the aggregation.
+
+SELECT FROM sflight
+       FIELDS carrid,
+              connid,
+              planetype,
+              COUNT( \* ) AS flights\_count,
+              grouping( connid ) AS agg\_connid,
+              grouping( planetype ) AS agg\_planetype
+       WHERE carrid = 'LH'
+       GROUP BY GROUPING SETS ( ( carrid, planetype ),
+                                ( carrid, connid ),
+                                (  ) )
+       ORDER BY connid, planetype
+       INTO TABLE @DATA(result\_grouping).
+cl\_demo\_output=>display( result\_grouping ).
+
+Executable Example
+
+[GROUPING, Aggregate Function](javascript:call_link\('abengrouping_function_abexa.htm'\))

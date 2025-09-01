@@ -1,0 +1,35 @@
+  
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](javascript:call_link\('abencds_operands_and_expr_v2.htm'\)) →  [CDS DDL - CDS View Entity, Elementary CDS Operands](javascript:call_link\('abencds_operands_v2.htm'\)) → 
+
+CDS DDL - CDS View Entity, parameter
+
+Syntax
+
+... $parameters.pname ...
+
+Effect
+
+Specifies an input parameter pname from the parameter list [parameter\_list](javascript:call_link\('abencds_parameter_list_v2.htm'\)) in an operand position of a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\)) of a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry").
+
+The name of the parameter pname must be prefixed by $parameters..
+
+Example
+
+The view shown below defines two parameters, p1 and p2, and uses them in the SELECT list.
+
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+define view entity DEMO\_CDS\_PARAM\_VE
+  with parameters
+    p\_p1 : abap.int4,
+    p\_p2 : abap.int4
+  as select from scarr
+{
+  key carrid,
+      $parameters.p\_p1 as param1,
+      $parameters.p\_p2 as param2
+}

@@ -1,0 +1,13 @@
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+regular expression
+
+A pattern of literal and special characters that describes a set of character strings. The use of regular expressions in text searches locates one or more occurrences of the character strings represented by the expression. A search using a regular expression is more powerful than a search for a simple character string, since the regular expression represents a greater (potentially infinite) number of character strings and searches for them in parallel. In ABAP, regular expressions can be used in the statements [FIND](javascript:call_link\('abapfind_pattern.htm'\)) and [REPLACE](javascript:call_link\('abapreplace_in_pattern.htm'\)), as arguments in certain [built-in functions](javascript:call_link\('abenpredefined_function_glosry.htm'\) "Glossary Entry"), and in the classes CL\_ABAP\_REGEX and CL\_ABAP\_MATCHER.
+
+[→ More](javascript:call_link\('abenregular_expressions.htm'\))

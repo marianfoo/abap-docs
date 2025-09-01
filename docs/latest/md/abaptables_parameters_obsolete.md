@@ -1,0 +1,44 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Function Modules](javascript:call_link\('abenfunction_modules_obsolete.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20FUNCTION%2C%20table_parameters%2C%20ABAPTABLES_PARAMETERS_OBSOLETE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+FUNCTION, table\_parameters
+
+Obsolete Syntax
+
+... TABLES p1  *{*TYPE itab\_type*}* *|* *{* [STRUCTURE struc](javascript:call_link\('abapfunction_typing_obsolete.htm'\))*}* *\[*OPTIONAL*\]*
+           p2  *{*TYPE itab\_type*}* *|* *{* [STRUCTURE struc](javascript:call_link\('abapfunction_typing_obsolete.htm'\))*}* *\[*OPTIONAL*\]*
+           ...
+
+Effect
+
+Defines the [table parameters](javascript:call_link\('abentable_parameter_glosry.htm'\) "Glossary Entry") t1 t2 ... in the [function module interface](javascript:call_link\('abenfunction.htm'\)) display in the source code of function modules. Table parameters are obsolete CHANGING parameters that are typed as internal [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"). If an internal table without a header line or a [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry") is passed as an actual parameter to a formal parameter of this type, an empty local header line is generated in the function module. If an internal table with a header line is used as an actual parameter, both the table body and the header line are passed to the function module. Pass by value is not possible in formal parameters defined using TABLES.
+
+For information about TYPE, STRUCTURE, and OPTIONAL, see [Properties of the Interface Parameters](javascript:call_link\('abenfunction_parameters.htm'\)). The following special rules apply to table parameters:
+
+-   Only [pass by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry") is allowed in TABLES parameters.
+-   Only the following types can be specified after TYPE:
+    
+    -   A table type itab\_type from the ABAP Dictionary (including type pools) with the table category standard table with a flat line type. The table type can be complete or generic.
+    -   The generic type STANDARD TABLE.
+    
+    If no type is specified explicitly, STANDARD TABLE is used implicitly.
+    
+-   A type with TYPE REF TO is not allowed.
+
+When TABLES parameters are accessed to which no type-friendly actual parameters are bound, a special [exception situation](javascript:call_link\('abentables_parameters_restrictions.htm'\)) can occur.
+
+Hints
+
+-   The table key of a table parameter is either defined completely in the typing or it is taken from the actual parameter in the case of generic typing. This means that the table key of a table parameter is not necessarily the [standard key](javascript:call_link\('abenitab_standard_key.htm'\)).
+-   Formal parameters defined with TABLES can be replaced by formal parameters defined with CHANGING. A local work area can be created for the internal table in the function module by using the addition LIKE LINE OF itab of the statement DATA.
+-   Exception: Provided that [basXML](javascript:call_link\('abenbasxml_glosry.htm'\) "Glossary Entry") is not set as the [RFC log](javascript:call_link\('abenrfc_protocol.htm'\)), using TABLES parameters for [remote-enabled function modules](javascript:call_link\('abenremote_enabled_fm_glosry.htm'\) "Glossary Entry") for [RFC](javascript:call_link\('abenrfc_glosry.htm'\) "Glossary Entry") can be significantly faster than passing by means of the CHANGING parameter.
+
+Continue
+[Exceptions when Accessing TABLES Parameters](javascript:call_link\('abentables_parameters_restrictions.htm'\))

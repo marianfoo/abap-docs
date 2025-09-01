@@ -1,0 +1,46 @@
+  
+
+* * *
+
+AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) →  [DESCRIBE DISTANCE](javascript:call_link\('abapdescribe_distance.htm'\)) → 
+
+Determining Data Object Distances
+
+The example demonstrates how the distance between two data objects can be determined at runtime.
+
+Source Code
+
+REPORT demo\_describe\_distance.
+CLASS demo DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS main.
+ENDCLASS.
+CLASS demo IMPLEMENTATION.
+  METHOD main.
+    DATA: BEGIN OF struc,
+            comp1 TYPE i,
+            comp2 TYPE x LENGTH 1,
+            comp3 TYPE c LENGTH 4 VALUE 'Hey',
+            comp4 TYPE c LENGTH 4 VALUE 'you!',
+            comp5 TYPE x,
+          END OF struc.
+    FIELD-SYMBOLS: <hex>    TYPE x,
+                   <result> TYPE c.
+    DESCRIBE DISTANCE BETWEEN:
+             struc       AND struc-comp3 INTO DATA(off) IN BYTE MODE,
+             struc-comp3 AND struc-comp5 INTO DATA(len) IN BYTE MODE.
+    ASSIGN: struc TO <hex> CASTING,
+            <hex>+off(len) TO <result> CASTING.
+    cl\_demo\_output=>display(
+      |Offset off is { off }.\\n| &&
+      |Length len is { len }.\\n| &&
+      |<result> points to "{ <result> }".| ).  ENDMETHOD.
+ENDCLASS.
+START-OF-SELECTION.
+  demo=>main( ).
+
+Description
+
+Determines the offset and length of a character-like fragment within the struc structure in bytes, accesses the fragment using an offset/length access, and assigns it to a field symbol of type c. Since the structure is not character-like only, the offset/length access takes place using a field symbol, otherwise a syntax error occurs. The field symbol is of the type x, since offsets and lengths are determined in bytes. The field symbol <result> refers to the fragment "Hey you!".

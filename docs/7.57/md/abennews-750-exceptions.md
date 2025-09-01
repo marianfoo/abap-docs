@@ -1,0 +1,27 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [News for Release 7.50](javascript:call_link\('abennews-750.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Exception Classes in Release 7.50, ABENNEWS-750-EXCEPTIONS, 757%0D%0A%0D%0AError:%0D%
+0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+Exception Classes in Release 7.50
+
+[1\. New System Interface for Messages](#!ABAP_MODIFICATION_1@1@)
+[2\. MESSAGE Addition for RAISE EXCEPTION and THROW](#!ABAP_MODIFICATION_2@2@)
+
+Modification 1   
+
+New System Interface for Messages
+
+The new system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)) adds predefined attributes for the message type and the placeholders of the message to the interface [IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)). IF\_T100\_DYN\_MSG makes it possible to [associate](javascript:call_link\('abenmessage_exceptions.htm'\)) any message with exception classes.
+
+Modification 2   
+
+MESSAGE Addition for RAISE EXCEPTION and THROW
+
+The new addition [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) of the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) and of the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)) associates any [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") with an exception object. The exception class in question must include the new system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)). It is also possible to use the addition with exception classes that include only the system interface [IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)), but with restrictions.

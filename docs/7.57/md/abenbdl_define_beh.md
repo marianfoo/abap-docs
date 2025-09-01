@@ -1,0 +1,125 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - Entity Behavior Definition, ABENBDL_DEFINE_BEH, 757%0D%0A%0D%0AError:%0D%0A
+%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+CDS BDL - Entity Behavior Definition
+
+Syntax
+
+define behavior for RootEntity *\[*alias AliasName*\]* *\[*external ExternalName*\]*
+*{**\[*[implementation in class ClassName *\[*unique*\]*](javascript:call_link\('abenbdl_in_class_unique.htm'\))*\]**}*
+[entity behavior characteristics](javascript:call_link\('abenbdl_character.htm'\))
+{
+  [entity behavior body](javascript:call_link\('abenbdl_body.htm'\))
+}
+*\[*behavior for ChildEntity1*\]**\[*, behavior for ChildEntity2*\]**\[*, ...
+*\]*
+
+Effect
+
+Defines the behavior for a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") in the [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry"). A [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") can consist of one or more [entity behavior definitions](javascript:call_link\('abencds_entity_bdef_glosry.htm'\) "Glossary Entry") that start with define behavior for, each one referring to a different [node](javascript:call_link\('abenrap_bo_entity_glosry.htm'\) "Glossary Entry") of the business object. An entity behavior definition for the business object's [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") RootEntity must be included, whereas entity behavior definitions for [child entities](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry") are optional. If an entity does not have its own entity behavior definition, the entity does not have a transactional character. It is then not modifiable within the [ABAP RESTful application programming model](javascript:call_link\('abenarap_glosry.htm'\) "Glossary Entry").
+
+In a [managed RAP BO](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), the possible root entities RootEntity are [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") or [CDS DDIC-based views (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry") (deprecated).
+
+In an [unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), the possible root entities RootEntity are [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"), [CDS custom entities](javascript:call_link\('abencds_custom_entity_glosry.htm'\) "Glossary Entry"), or [CDS DDIC-based views (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry") (deprecated). Note: Custom entities serve as data model basis for [RAP unmanaged queries](javascript:call_link\('abenrap_unmanged_query_glosry.htm'\) "Glossary Entry").
+
+Syntax additions and components:
+
+-   An alias name can be specified using the keyword alias. This name can be clearer than the entity name itself, since it does not need to be uniquely global in [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry"). The alias name is visible in the method syntax of the [behavior pool](javascript:call_link\('abenabap_behavior_pools.htm'\)) of the business object and in the [derived types](javascript:call_link\('abenrpm_derived_types.htm'\)). The length of an alias name AliasName is restricted to 30 characters.
+-   The optional addition external can be used to provide an alias name for external usage. This external name is exposed in the OData metadata, but it is not known by ABAP. It can be much longer than the alias name.
+-   An [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"), referred to using [CDS BDL - implementation in class unique](javascript:call_link\('abenbdl_in_class_unique.htm'\)), can be specified for each entity.
+-   [entity behavior characteristics](javascript:call_link\('abenbdl_character.htm'\)) define general properties for each entity.
+-   The [entity behavior body](javascript:call_link\('abenbdl_body.htm'\)) defines, among others, [operations](javascript:call_link\('abenbdl_operations.htm'\)) and [field characteristics](javascript:call_link\('abenbdl_field_char.htm'\)) that define and restrict the access of a [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") to the respective entity.
+
+Hints
+
+-   If [BDEF strict mode](javascript:call_link\('abenbdl_strict.htm'\)) is enabled, no gaps are allowed in the behavior enablement of a [composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry"). For example, if a composition tree consists of entities 1 (root), 2 (child), and 3 (grandchild), the definition of a behavior for entities 1 and 3 but not for entity 2 is not allowed, as that would be a gap.
+-   If [BDEF strict mode](javascript:call_link\('abenbdl_strict.htm'\)) is enabled, the underlying CDS entities RootEntity, ChildEntity1, ChildEntity2 and so on, must be [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry").
+
+Example
+
+The following example shows a managed BDEF based on the CDS root view entity DEMO\_RAP\_MANAGED\_ASSOC\_ROOT. The CDS composition tree consists of the root entity and one child entity. For both entities, an entity behavior definition is defined.
+
+managed;
+define behavior for DEMO\_RAP\_MANAGED\_ASSOC\_ROOT alias \_Root
+persistent table demo\_dbtab\_root
+lock master
+{
+  create;
+  update;
+  delete;
+  association \_child { create; }
+  association \_ext { create; }
+  mapping for demo\_dbtab\_root
+  {
+    KeyFieldRoot = key\_field;
+    DataFieldRoot = data\_field;
+    CharFieldRoot = char\_field;
+    DecFieldRoot = dec\_field;
+  }
+}
+define behavior for DEMO\_RAP\_MANAGED\_ASSOC\_CHILD alias \_Child
+persistent table demo\_dbtab\_child
+lock dependent by \_parent
+{
+  update;
+  delete;
+  association \_parent { }
+  field ( readonly:update ) KeyField;
+  mapping for demo\_dbtab\_child
+  {
+    KeyField = key\_field;
+    KeyFieldChild = key\_field\_child;
+    DataField = data\_field;
+    CharField = char\_field;
+  }
+}
+
+Example
+
+The following example shows an unmanaged BDEF based on the CDS root view entity DEMO\_RAP\_UNMANAGED\_DRAFT\_ROOT. The CDS composition tree consists of the root entity and one child entity. For both entities, an entity behavior definition is defined.
+
+unmanaged implementation in class bp\_demo\_rap\_unmanaged\_draft\_ro unique;
+strict(2);
+with draft;
+define behavior for DEMO\_RAP\_UNMANAGED\_DRAFT\_ROOT alias ParentEntity
+draft table demo\_dbtab\_draft
+lock master
+total etag Timestamp
+etag master LastChangedAt
+authorization master ( global, instance )
+{
+  create;
+  update;
+  delete;
+  draft action Activate;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+  association \_child { create; with draft; }
+}
+define behavior for DEMO\_RAP\_UNMANAGED\_DRAFT\_CHILD alias ChildEntity
+draft table demo\_draft\_child
+lock dependent by \_parent
+etag dependent by \_parent
+authorization dependent by \_parent
+{
+  update;
+  delete;
+  association \_parent { with draft; }
+  field ( readonly ) keyfield;
+}
+
+The behavior is defined in the CCIMP include of the ABAP behavior pool.
+
+Continue
+[CDS BDL - Entity Behavior Characteristics](javascript:call_link\('abenbdl_character.htm'\))
+[CDS BDL - Entity Behavior Body](javascript:call_link\('abenbdl_body.htm'\))

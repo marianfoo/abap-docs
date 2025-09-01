@@ -1,0 +1,27 @@
+  
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [Changes in Release 7.54](javascript:call_link\('abennews-754.htm'\)) →  [ABAP RESTful Programming Model in Release 7.54](javascript:call_link\('abennews-754-restful.htm'\)) → 
+
+ABAP EML in Release 7.54
+
+[1\. Entity Manipulation Language](#!ABAP_MODIFICATION_1@1@)
+
+Modification 1
+
+Entity Manipulation Language
+
+Entity Manipulation Language (or [EML](javascript:call_link\('abeneml.htm'\)) for short) is a set of ABAP-based statements for manipulating the [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") that are granted a behavior by the [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry"). EML statements allow:
+
+-   Write and read operations on CDS entities.
+
+-   Triggering the saver sequence.
+
+-   Handling of the late numbering.
+
+-   Undoing all changes.
+
+-   Explicit locking of instances for a following modification.

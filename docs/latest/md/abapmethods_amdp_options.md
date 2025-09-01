@@ -1,0 +1,154 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Methods](javascript:call_link\('abenamdp_methods.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20%5BCLASS-%5DMETHODS%2C%20AMDP%20OPTIONS%2C%20ABAPMETHODS_AMDP_OPTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+\[CLASS-\]METHODS, AMDP OPTIONS
+
+[Short Reference](javascript:call_link\('abapmethods_shortref.htm'\))
+
+Syntax
+
+\[CLASS-\]METHODS meth ... AMDP OPTIONS *\[*READ-ONLY*\]*
+                                      *\[**{*CDS SESSION CLIENT clnt*|*CURRENT*}*
+                                      *|* CLIENT INDEPENDENT*\]* ...
+
+Additions:
+
+[1\. ... READ-ONLY](#!ABAP_ADDITION_1@1@)
+[2\. ... *{*CDS SESSION CLIENT clnt*|*CURRENT*}**|* CLIENT INDEPENDENT](#!ABAP_ADDITION_2@2@)
+
+Effect
+
+The addition AMDP OPTIONS for [METHODS](javascript:call_link\('abapmethods.htm'\)) and [CLASS-METHODS](javascript:call_link\('abapclass-methods.htm'\)) statements can be used to declare properties of [AMDP methods](javascript:call_link\('abenamdp_methods.htm'\)) of global classes or interfaces. After AMDP OPTIONS, at least one property must be specified.
+
+If the addition AMDP OPTIONS is used in the declaration of a method, but the method is implemented as a regular ABAP method without the addition [BY DATABASE PROCEDURE|FUNCTION](javascript:call_link\('abapmethod_by_db_proc.htm'\)), the properties specified by AMDP OPTIONS are ignored. However, the following restrictions for AMDP methods apply to the method declaration:
+
+-   If there is no RETURNING parameter, the restrictions for [AMDP procedure implementations](javascript:call_link\('abenamdp_procedure_methods.htm'\)) apply.
+-   If there is a RETURNING parameter, the restrictions described for [AMDP function implementations](javascript:call_link\('abenamdp_function_methods.htm'\)) apply.
+
+A prerequisite for using AMDP OPTIONS is that the global class or the interface must contain a [tag interface](javascript:call_link\('abentag_interface_glosry.htm'\) "Glossary Entry") [IF\_AMDP\_MARKER\_...](javascript:call_link\('abenamdp_classes.htm'\)) for [AMDP classes](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry"). AMDP OPTIONS cannot be used in the following cases:
+
+-   in local classes
+-   for the [constructors](javascript:call_link\('abenconstructor_glosry.htm'\) "Glossary Entry") [constructor](javascript:call_link\('abapmethods_constructor.htm'\)) or [class\_constructor](javascript:call_link\('abapclass-methods_constructor.htm'\))
+-   for [event handlers](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry") declared with [FOR EVENT](javascript:call_link\('abapmethods_event_handler.htm'\))
+-   for [redefinitions](javascript:call_link\('abenredefinition_glosry.htm'\) "Glossary Entry") declared with [REDEFINITION](javascript:call_link\('abapmethods_redefinition.htm'\))
+-   for [AMDP function implementations](javascript:call_link\('abenamdp_function_method_glosry.htm'\) "Glossary Entry") for [CDS table functions](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry") declared with [FOR TABLE FUNCTION](javascript:call_link\('abapclass-methods_for_tabfunc.htm'\))
+-   for [AMDP function implementations](javascript:call_link\('abenamdp_function_method_glosry.htm'\) "Glossary Entry") for [CDS scalar functions](javascript:call_link\('abencds_scalar_function_glosry.htm'\) "Glossary Entry") declared with [FOR SCALAR FUNCTION](javascript:call_link\('abapclass-methods_for_scalfunc.htm'\)).
+
+Addition 1   
+
+... READ-ONLY
+
+Effect
+
+If the option READ-ONLY is specified, only reads of database tables are allowed in the [implementation](javascript:call_link\('abapmethod_by_db_proc.htm'\)) of the [database procedure](javascript:call_link\('abendatabase_procedure_glosry.htm'\) "Glossary Entry") or [database function](javascript:call_link\('abendatabase_function_glosry.htm'\) "Glossary Entry"). Only database procedures or database functions of other AMDP methods that are also marked as READ-ONLY can be called. This is checked during the syntax check or at runtime.
+
+This property can also be specified using the addition OPTIONS in the implementation of an AMDP method with [METHOD meth BY DATABASE PROCEDURE|FUNCTION](javascript:call_link\('abapmethod_by_db_proc.htm'\)). It applies when specified either in the declaration or in the implementation of the method, or in both places.
+
+The option READ-ONLY must be specified at least once in the implementation of an [AMDP function](javascript:call_link\('abenamdp_function_glosry.htm'\) "Glossary Entry") or an [L procedure](javascript:call_link\('abenamdp_hdb_l_internal.htm'\)). If the addition AMDP OPTIONS is used in the declaration of a method with a RETURNING parameter, the option READ-ONLY must already be specified in the declaration.
+
+Addition 2   
+
+... *{*CDS SESSION CLIENT clnt*|*CURRENT*}* *|* CLIENT INDEPENDENT
+
+Effect
+
+If the option CDS SESSION CLIENT is used, the [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") of the database that can be addressed in the CDS DDL of the [ABAP CDS](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") under the name $session.client ([CDS view entity](javascript:call_link\('abencds_session_variable_v2.htm'\)), [CDS DDIC-based view (obsolete)](javascript:call_link\('abencds_session_variable_v1.htm'\))) is supplied with a value when the AMDP method is called from ABAP. On the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") this is the ABAP-specific session variable [CDS\_CLIENT](javascript:call_link\('abenhana_session_variables.htm'\)). The value is determined as follows:
+
+-   The name of an input parameter of the current method can be specified for clnt. Its type must be compatible with the built-in DDIC type [CLNT](javascript:call_link\('abenddic_builtin_types.htm'\)). The session variable is set to the value passed to this parameter during the call, or to the value of the replacement parameter declared with [DEFAULT](javascript:call_link\('abapmethods_parameters.htm'\)).
+-   If CURRENT is specified, the session variable is set to its default value, that is, to the nominal value of the ABAP system field [sy-mandt](javascript:call_link\('abensystem_fields.htm'\)) or the [client](javascript:call_link\('abenclient_glosry.htm'\) "Glossary Entry") of the current [logon](javascript:call_link\('abenlogon_glosry.htm'\) "Glossary Entry"). In this case there can be no input parameters with the name current.
+
+The session variable is only set when the AMDP method is called from ABAP. If the associated database procedure or function is called from another AMDP method or from a database procedure or function that is not managed by AMDP, the session variable is not affected.
+
+If the option CLIENT INDEPENDENT is used, the method implementation is [client-independent](javascript:call_link\('abenclient_independent_glosry.htm'\) "Glossary Entry"). Only client-independent database objects can be accessed and specified after the addition [USING](javascript:call_link\('abapmethod_by_db_proc.htm'\)).
+
+If the database procedure or function of an AMDP method that is declared with the option CDS SESSION CLIENT or CLIENT INDEPENDENT is called from an AMDP procedure or function implementation or during a [SELECT](javascript:call_link\('abapselect.htm'\)) statement, the following rules apply:
+
+-   AMDP method as call target
+    -   The implementation of an AMDP method that is declared with the addition CURRENT can only be called in implementations of methods with the addition CURRENT, and not during the execution of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement with the addition [USING CLIENT](javascript:call_link\('abapselect_client.htm'\)).
+    -   The implementation of an AMDP method declared with clnt can only be called in implementations of methods where the addition CURRENT or clnt is specified, and during the execution of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement with the addition [USING CLIENT](javascript:call_link\('abapselect_client.htm'\)).
+    -   The implementation of an AMDP method that is declared with the addition CLIENT INDEPENDENT can be called in implementations of client-dependent or client-independent methods.
+    -   The implementation of an AMDP method that is declared without any additions can be called by any implementations and during the execution of any [SELECT](javascript:call_link\('abapselect.htm'\)) statements.
+-   AMDP method as caller
+    -   The implementation of an AMDP method that is declared with the addition CURRENT can call any implementations.
+    -   The implementation of an AMDP method declared with clnt cannot call any implementations of methods where CURRENT is specified.
+    -   The implementation of an AMDP method that is declared with the addition CLIENT INDEPENDENT can only call other implementations of this type.
+    -   The implementation of an AMDP method that is declared without any additions can only call other implementations of this type.
+
+An AMDP method can be called in a [SELECT](javascript:call_link\('abapselect.htm'\)) statement if the [SELECT](javascript:call_link\('abapselect.htm'\)) statement directly or indirectly accesses a [CDS table function](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry"), because a CDS table function is implemented as an [AMDP table function](javascript:call_link\('abenamdp_table_function_glosry.htm'\) "Glossary Entry").
+
+If an AMDP method accesses the [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") of a [CDS DDIC-based view (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry"), whose [client handling](javascript:call_link\('abencds_view_client_handling_v1.htm'\)) is defined by the annotation [@ClientHandling.algorithm: #SESSION\_VARIABLE](javascript:call_link\('abencds_view_client_handling_v1.htm'\)), it must be declared with the option CDS SESSION CLIENT. Otherwise, a syntax error occurs.
+
+Hints
+
+-   If CDS SESSION CLIENT is used for an AMDP method, the AMDP framework sets the session variable belonging to $session.client exactly once when this method is called from ABAP. The following recommendations apply:
+    
+    -   The value of the input parameter marked with clnt should be handled as a constant and should not be changed when executing the implementation, so that it always matches the value of the session variable. When calling other implementations of AMDP methods that are declared with CDS SESSION CLIENT, only the client ID that matches the value of the session variable should be passed.
+    -   The value of the session variable should not be overwritten using database methods.
+    
+    This ensures that the data of the same [client](javascript:call_link\('abenclient_glosry.htm'\) "Glossary Entry") is used when using the input parameter in self-programmed conditions and accessing CDS-managed DDIC views (obsolete).
+    
+-   AMDP methods can call each other and when this is done, the client handling must match:
+    -   In a call chain that leads to a method with the addition CURRENT, the session variable that belongs to [$session.client](javascript:call_link\('abencds_session_variable_v2.htm'\)) can only have the nominal value of the ABAP system field [sy-mandt](javascript:call_link\('abensystem_fields.htm'\)).
+    -   In a call chain that leads to a method that specifies clnt, the session variable that belongs to $session.client can have a value defined explicitly by clnt.
+-   In AMDP methods that do not access a [CDS-managed DDIC view (obsolete)](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") of a [CDS DDIC-based view (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry"), whose [client handling](javascript:call_link\('abencds_view_client_handling_v1.htm'\)) is defined by the annotation [@ClientHandling.algorithm: #SESSION\_VARIABLE](javascript:call_link\('abencds_view_client_handling_v1.htm'\)), the option CDS SESSION CLIENT can be used to set [$session.client](javascript:call_link\('abencds_session_variable_v1.htm'\)) to a particular value, but this is generally not necessary. Instead of accessing the session variables for the client ID in the implementation, these should be passed to an input parameter and this should then be used.
+-   For the latter, see the [executable example](javascript:call_link\('abenamdp_abexa.htm'\)).
+-   The option CDS SESSION CLIENT is mainly required if an AMDP method accesses the [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") of a [CDS DDIC-based view (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry"), whose [client handling](javascript:call_link\('abencds_view_client_handling_v1.htm'\)) is determined by the annotation [@ClientHandling.algorithm: #SESSION\_VARIABLE](javascript:call_link\('abencds_view_client_handling_v1.htm'\)). In such DDIC database views, the session variable belonging to [$session.client](javascript:call_link\('abencds_session_variable_v1.htm'\)) is usually evaluated in comparisons with a client column. If the option CDS SESSION CLIENT is not used when calling AMDP methods or the addition [USING CLIENT](javascript:call_link\('abapselect_client.htm'\)) in ABAP SQL, the default value for the session variable would be the nominal value of the ABAP system field [sy-mandt](javascript:call_link\('abensystem_fields.htm'\)). By setting the session variable when an AMDP method is called, the [CDS-managed DDIC views (obsolete)](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") that are used select the data of the required [client](javascript:call_link\('abenclient_glosry.htm'\) "Glossary Entry"). If, in the implementation of the AMDP method, there is a separate selection of a client ID when the CDS-managed DDIC view (obsolete) is accessed that does not match the value of the session variable, the result set is empty.
+
+Example
+
+The following implementation of an AMDP method accesses the [CDS-managed DDIC view (obsolete)](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") DEMO\_CDS\_PRJCT0A of a client-dependent [CDS DDIC-based view (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry").
+
+Note: CDS DDIC-based views (obsolete) are deprecated and have been replaced by CDS view entities.
+
+METHOD get\_spfli\_view BY DATABASE PROCEDURE FOR HDB
+                      LANGUAGE SQLSCRIPT
+                      USING demo\_cds\_prjct0a.
+  connections  = select \*
+                        from DEMO\_CDS\_PRJCT0A;
+ENDMETHOD.
+
+The [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") used to define the actual [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") DEMO\_CDS\_SPFLI\_CLIENT\_0A is as follows:
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_PRJCT0A'
+@AccessControl.authorizationCheck: #NOT\_ALLOWED
+@ClientHandling.type: #CLIENT\_DEPENDENT
+@ClientHandling.algorithm: #SESSION\_VARIABLE
+define view demo\_cds\_spfli\_client\_0a
+  as select from
+    spfli
+    {
+      key spfli.carrid,
+      key spfli.connid,
+          spfli.cityfrom,
+          spfli.cityto
+    }
+
+Client handling is defined using the annotation @ClientHandling.algorithm: #SESSION\_VARIABLE. For this reason, the version of the view in the database contains the following WHERE condition (in this case for the SAP HANA database):
+
+WHERE ( "SPFLI"."MANDT" = SESSION\_CONTEXT( 'CDS\_CLIENT') )
+
+This WHERE condition applies each time the view is accessed. If the SELECT statement in the above AMDP method had its own WHERE condition for the client column MANDT and this would select a client other than the session variable CDS\_CLIENT, the result set would be empty. For this reason, accessing such a CDS-managed DDIC view in an AMDP method causes a syntax check warning by default. This warning can be bypassed using the addition AMDP OPTIONS CDS SESSION CLIENT when declaring the method in the class CL\_DEMO\_AMDP\_SESSION\_CLIENT:
+
+CLASS cl\_demo\_amdp\_session\_client DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC.
+  PUBLIC SECTION.
+    INTERFACES if\_amdp\_marker\_hdb.
+    TYPES t\_connections TYPE STANDARD TABLE OF demo\_cds\_prjct0a
+                        WITH EMPTY KEY.
+    METHODS get\_spfli\_view
+      AMDP OPTIONS READ-ONLY
+                   CDS SESSION CLIENT clnt
+      IMPORTING VALUE(clnt)        TYPE sy-mandt
+      EXPORTING VALUE(connections) TYPE t\_connections
+      RAISING   cx\_amdp\_error.
+
+When the method is called from ABAP, the session variable CDS\_CLIENT is set to the value passed to the input parameter clnt. The class CL\_DEMO\_AMDP\_SESSION\_CLNT calls the AMDP method and it is possible to enter different values for the client ID. The data of the relevant client is selected.

@@ -1,0 +1,13 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20cluster%20table%2C%20ABENCLUSTER_TABLE_GLOSRY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+cluster table
+
+Before [ABAP release](javascript:call_link\('abenabap_release_glosry.htm'\) "Glossary Entry") 7.53, [table category](javascript:call_link\('abenddic_database_tables_tab_cat.htm'\)) of a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry") in [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry"). A cluster table was not defined as such on the [database](javascript:call_link\('abendatabase_glosry.htm'\) "Glossary Entry"). Instead, multiple cluster tables were stored in a [table cluster](javascript:call_link\('abentable_cluster_glosry.htm'\) "Glossary Entry") in the database. Only [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry") could be used to access cluster tables, whereby certain restrictions applied. Cluster tables are no longer supported as of ABAP release 7.53. Any existing cluster tables were converted to [transparent tables](javascript:call_link\('abentransparent_table_glosry.htm'\) "Glossary Entry").

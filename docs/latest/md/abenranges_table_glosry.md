@@ -1,0 +1,13 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ranges%20table%2C%20ABENRANGES_TABLE_GLOSRY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+ranges table
+
+[Internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") with the columns SIGN, OPTION, LOW, and HIGH. Declared with the addition [TYPE RANGE OF](javascript:call_link\('abaptypes_ranges.htm'\)) of the statements [DATA](javascript:call_link\('abapdata.htm'\)) and [TYPES](javascript:call_link\('abaptypes.htm'\)), or the obsolete statement [RANGES](javascript:call_link\('abapranges.htm'\)). A ranges table is used to store a [ranges condition](javascript:call_link\('abenranges_condition_glosry.htm'\) "Glossary Entry") internally. A ranges table can be evaluated in a [comparison expression](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry") using the [comparison operator](javascript:call_link\('abencomp_operator_glosry.htm'\) "Glossary Entry") [IN](javascript:call_link\('abenlogexp_select_option.htm'\)), where each line of the table represents a separate comparison. A [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") declared with [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)) has the same structure as a ranges table.

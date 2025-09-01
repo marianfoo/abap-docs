@@ -1,0 +1,14 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: locale, ABENLOCALE_GLOSRY, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion fo
+r improvement:)
+
+locale
+
+Part of the [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry"). Defines the language-specific and country-specific characteristics of characters, such as the sort sequence or the uppercase/lowercase conversion. Local properties are defined in a library independent of the operating system.

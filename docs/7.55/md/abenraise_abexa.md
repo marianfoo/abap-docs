@@ -1,0 +1,52 @@
+  
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [Examples of Exceptions](javascript:call_link\('abenexception_abexas.htm'\)) → 
+
+Exceptions, RAISE
+
+This example demonstrates the statement RAISE EXCEPTION.
+
+Source Code
+
+REPORT demo\_raise\_exception.
+CLASS demo DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS main.
+ENDCLASS.
+CLASS demo IMPLEMENTATION.
+  METHOD main.
+    DATA: oref    TYPE REF TO cx\_demo\_constructor,
+          text     TYPE string,
+          position TYPE i.
+    TRY.
+        TRY.
+            RAISE EXCEPTION TYPE cx\_demo\_constructor
+              EXPORTING
+                my\_text = sy-repid.
+          CATCH cx\_demo\_constructor INTO oref.
+            text = oref->get\_text( ).
+            oref->get\_source\_position(
+              IMPORTING  source\_line  = position ).
+            cl\_demo\_output=>WRITE\_text( |{ position } { text }| ).
+            RAISE EXCEPTION oref.
+        ENDTRY.
+      CATCH cx\_demo\_constructor INTO oref.
+        text = oref->get\_text( ).
+        oref->get\_source\_position(
+          IMPORTING source\_line  = position ).
+        cl\_demo\_output=>WRITE\_text( |{ position } { text }| ).
+    ENDTRY.
+    cl\_demo\_output=>display( ).  ENDMETHOD.
+ENDCLASS.
+START-OF-SELECTION.
+  demo=>main( ).
+
+Description
+
+This example shows the two variants of the statement RAISE EXCEPTION. The first statement raises an exception of the class CX\_DEMO\_CONSTRUCTOR in the inner TRY block, creates the relevant object, and passes the program name to the instance constructor. The inner CATCH block handles the exception, puts out the exception text and raises the exception again without creating a new object. The outer CATCH block handles the exception again. The CX\_DEMO\_CONSTRUCTOR class is defined in such a way that the passed program name appears in the exception text. The generated instance constructor ensures this.
+
+The output of the line number in which the exception was raised indicates that, when the existing exception object was reused, its information was changed.

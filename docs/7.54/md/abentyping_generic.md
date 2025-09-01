@@ -1,0 +1,73 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) →  [typing Addition](javascript:call_link\('abentyping_syntax.htm'\)) → 
+
+Typing Addition - generic\_type
+
+[Quick Reference](javascript:call_link\('abentyping_shortref.htm'\))
+
+Syntax
+
+... *{* TYPE [generic\_type](javascript:call_link\('abenbuilt_in_types_generic.htm'\)) *}*
+  *|* *{* LIKE <generic\_fs>*|*generic\_para *}* ...
+
+Effect
+
+To type a formal parameter or a field symbol generically, the following is possible:
+
+-   specify any generic ABAP type [generic\_type](javascript:call_link\('abenbuilt_in_types_generic.htm'\)) (except object) after TYPE.
+
+-   specify a field symbol visible at this position (<generic\_fs>) or a formal parameter (generic\_para) with generic typing, after LIKE. The typing defined is applied when the field symbol/parameter is declared. In method parameters, all generic typings are possible. No complete generic typings are possible in parameters of subroutines and field symbols.
+
+When an actual parameter or memory area is assigned to a generically typed formal parameter or field symbol, the system [checks](javascript:call_link\('abentyping_check.htm'\)) whether the specified data type is a subset of the generic type. The type of the formal parameter or field symbol is derived from the type of the actual parameter.
+
+The formal parameter or field symbol can be used as operands anywhere that is not excluded by this typing. The following exceptions apply:
+
+-   [Operand positions](javascript:call_link\('abenoperand_position_glosry.htm'\) "Glossary Entry") that expect internal tables. Here, only formal parameters or field symbols with the requisite internal table type are allowed.
+
+-   [Reading positions](javascript:call_link\('abenreading_position_glosry.htm'\) "Glossary Entry") in which an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") (known statically) is expected, such as the source field of an assignment to an [enumerated variable](javascript:call_link\('abenenumerated_variable_glosry.htm'\) "Glossary Entry"), or an operand in a comparison with an enumerated object. Only operands with the same [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") are allowed here. In [writing positions](javascript:call_link\('abenwriting_position_glosry.htm'\) "Glossary Entry"), however, generic formal parameters or field symbols are allowed for enumerated types. If the operand type is not known statically, the check is only made at runtime in reading positions too.
+
+The type attributes specified by the typing are used in static access to a generically typed formal parameter or field symbol. In dynamic access, the attributes of the actual parameter or memory area assigned apply.
+
+If an actual parameter is not specified for a generically typed optional formal parameter of a method or a function module when calling the procedure and no replacement parameter is defined in the procedure, the formal parameter is typed with a [standard type](javascript:call_link\('abenstandard_type_glosry.htm'\) "Glossary Entry") in accordance with the following rules:
+
+-   any and data are converted to the type c with length 4.
+
+-   c, clike, csequence, and simple are converted to the type c with length 1.
+
+-   n is converted to the type n with length 1.
+
+-   numeric and p are converted to the type p with length 8 without decimal places.
+
+-   x and xsequence are converted to the type x with length 1.
+
+-   ANY TABLE and INDEX TABLE are converted to STANDARD TABLE.
+
+-   For ANY TABLE, INDEX TABLE, *\[*STANDARD*\]* TABLE SORTED TABLE, and HASHED TABLE, the row type is set to c with length 1.
+
+-   For generic table types without specification of a primary table key, the standard key is completed for standard tables and the entire table row (without any table-like parts) is completed as the key specification for sorted tables and hashed tables.
+
+-   For generic table types, for which the primary table key is specified but uniqueness is not specified, the standard key is set to non-unique for standard tables and sorted tables, and to unique for hashed tables.
+
+-   This generic property is ignored for table types that are generic with respect to the secondary table key. This applies even if the generic property was defined explicitly with the addition [WITH FURTHER SECONDARY KEYS](javascript:call_link\('abaptypes_keydef.htm'\)).
+
+If a replacement parameter is specified, then the type attributes of this parameter are applied.
+
+Note
+
+In typings of formal parameters with the generic type [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\)), it should be noted that no [numeric functions](javascript:call_link\('abenmathematical_funktion_glosry.htm'\) "Glossary Entry"), no [description functions](javascript:call_link\('abendescription_function_glosry.htm'\) "Glossary Entry"), and no [arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") can be passed to these parameters. This restriction can be bypassed by applying the [conversion operator](javascript:call_link\('abenconversion_operator_glosry.htm'\) "Glossary Entry") [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) to the actual parameter. This restriction does not apply to the generic type any.
+
+Example
+
+In the following example, two generically typed field symbols are used in [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)) statement. To avoid syntax errors, <any\_table> must be defined as an internal table. However, the system does not check the type of <any\_object> until runtime, to ensure that the type of the data object assigned to it is compatible with the row type of the table.
+
+FIELD-SYMBOLS: <any\_object> TYPE ANY,
+               <any\_table>  TYPE ANY TABLE.
+...
+LOOP AT <any\_table> INTO <any\_object>.
+  ...
+ENDLOOP.

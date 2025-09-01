@@ -1,0 +1,29 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20string_exp%2C%20ABENSTRING_EXP_SHORTREF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+string\_exp - Short Reference
+
+[Reference](javascript:call_link\('abapcompute_string.htm'\))
+
+Syntax
+
+... *{* |string\_template| *}*
+  *|* *{* operand1 && operand2 *\[*&&  operand3 ... *\]* *}* ...
+
+Effect
+
+String expression for creating a character string
+
+Additions   
+
+-   [string\_template](javascript:call_link\('abenstring_templates.htm'\))
+    String template that represents a character string
+-   [&&](javascript:call_link\('abenstring_operators.htm'\))
+    String operator for concatenating two character strings

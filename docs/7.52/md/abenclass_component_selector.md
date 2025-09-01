@@ -1,0 +1,47 @@
+  
+
+* * *
+
+SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Names for Individual Operands](javascript:call_link\('abenoperands_names.htm'\)) → 
+
+Class Component Selector
+
+A [static component](javascript:call_link\('abenstatic_component_glosry.htm'\) "Glossary Entry") comp of a class can be accessed using the name
+
+class=>comp
+
+In this case, no instance of the class needs to be created. The characters \=> are the class component selector. The name class of a class must be on the left of the class component selector. The name comp of the component must be on the right of the class component selector.
+
+The class component selector can also be used to access the data types and constants of an interface.
+
+intf=>type, intf=>const
+
+The name intf of an interface must be on the left of the class component sector. The name type of a data type defined using TYPES or the name const of a constant defined using CONSTANTS must be on the right of the object component selector.
+
+Note
+
+It is also possible to access the static components of a class using the object component selector if an instance of the class was created.
+
+Example
+
+Declares a class factory and accesses its static attribute oref.
+
+CLASS factory DEFINITION CREATE PRIVATE.
+  PUBLIC SECTION.
+    CLASS-DATA oref TYPE REF TO factory.
+    CLASS-METHODS class\_constructor.
+    METHODS do\_something.
+ENDCLASS.
+...
+factory=>oref->do\_something( ).
+...
+CLASS factory IMPLEMENTATION.
+  METHOD class\_constructor.
+    CREATE OBJECT oref.
+  ENDMETHOD.
+  METHOD do\_something.
+    ...
+  ENDMETHOD.
+ENDCLASS.

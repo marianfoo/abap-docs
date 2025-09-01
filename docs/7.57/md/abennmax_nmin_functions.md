@@ -1,0 +1,61 @@
+  
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: num_func - nmax, nmin, ABENNMAX_NMIN_FUNCTIONS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%
+0A%0D%0ASuggestion for improvement:)
+
+num\_func - nmax, nmin
+
+Syntax
+
+... nmax*|*nmin( val1 = arg1 val2 = arg2 *\[*val3 = arg3*\]* ... *\[*val9 = arg9*\]* ) ...
+
+Effect
+
+These [built-in functions](javascript:call_link\('abenbuilt_in_functions.htm'\)) return the value of the largest or smallest of the passed arguments. A minimum of two arguments, arg1 and arg2 must, and a maximum of nine arguments can be passed. Here, the optional input parameters val3 to val9 must be filled in ascending order without gaps. The arguments arg1 to arg9 are [numeric expression positions](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry").
+
+The following applies to the data type of the return value:
+
+-   Outside of an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), a [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined from all arguments and used to perform the comparison. The calculation type is determined just like an [arithmetic expression](javascript:call_link\('abenarith_type.htm'\)) and also determines the data type of the return value.
+-   Within an arithmetic expression, the arguments of the function contribute to the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") of the entire expression and the function is calculated using the calculation type. If an argument itself is an arithmetic expression, its operands contribute to the entire calculation type and the argument is also calculated using this type.
+
+Hints
+
+-   The extremum functions [cmax](javascript:call_link\('abencmax_cmin_functions.htm'\)) and [cmin](javascript:call_link\('abencmax_cmin_functions.htm'\)) can be used to determine character-like extreme values.
+-   When using two input parameters:
+    
+    result =  nmax*|*nmin( val1 = arg1 val2 = arg2 )
+    
+
+the evaluation of the functions is equivalent to:
+
+IF num1 >= num2 *|* num1 <= num2.
+  result = num1.
+ELSE.
+  result = num2.
+ENDIF.
+
+When using more than two input parameters, an equivalent control structure would be more complex.
+
+Example
+
+Determination of the smaller of two time stamps in packed numbers, whereby the initial value of the conditional operator [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)) is not regarded as the smallest value.
+
+CONSTANTS max\_ts TYPE timestamp VALUE 999999999999999.
+DATA: ts1 TYPE timestamp,
+      ts2 TYPE timestamp.
+GET TIME STAMP FIELD ts1.
+FINAL(min\_ts) =
+  nmin( val1 = COND timestamp( WHEN ts1 IS INITIAL
+                               THEN max\_ts ELSE ts1 )
+        val2 = COND timestamp( WHEN ts2 IS INITIAL
+                               THEN max\_ts ELSE ts2 ) ) ##type.
+
+Executable Example
+
+[Extremum Functions nmax, nmin](javascript:call_link\('abennmax_nmin_function_abexa.htm'\))

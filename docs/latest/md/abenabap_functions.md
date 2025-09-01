@@ -1,0 +1,27 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Structure](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Function%20Modules%2C%20ABENABAP_FUNCTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+
+Function Modules
+
+Function modules are reusable cross-program [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") that are organized into [function pools](javascript:call_link\('abenfunction_pool_glosry.htm'\) "Glossary Entry") and whose functionality is implemented between the following statements:
+
+[FUNCTION](javascript:call_link\('abapfunction.htm'\))
+  ...
+[ENDFUNCTION](javascript:call_link\('abapendfunction.htm'\))
+
+Function modules and their [interfaces](javascript:call_link\('abenfunction.htm'\)) are created in the [Function Builder](javascript:call_link\('abenfunction_builder_glosry.htm'\) "Glossary Entry") in the ABAP Workbench or in the [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry").
+
+Hint
+
+Function modules in function pools are the predecessor technology of public [methods](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") in global classes.
+
+Continue
+[FUNCTION](javascript:call_link\('abapfunction.htm'\))
+[ENDFUNCTION](javascript:call_link\('abapendfunction.htm'\))

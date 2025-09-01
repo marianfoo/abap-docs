@@ -1,0 +1,67 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) →  [CALL TRANSFORMATION, Examples](javascript:call_link\('abencall_transformation_abexas.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Transformation%20of%20XML%20Syntax%20Characters%2C%20ABENCALL_TRAFO_ESCAPING_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impro
+vement:)
+
+Transformation of XML Syntax Characters
+
+This example demonstrates the serialization of characters from the XML syntax using various transformations.
+
+Source Code   
+
+\* Public class definition
+CLASS cl\_demo\_transformation\_escpng DEFINITION
+  INHERITING FROM cl\_demo\_classrun
+  PUBLIC
+  CREATE PUBLIC.
+  PUBLIC SECTION.
+    METHODS main REDEFINITION.
+ENDCLASS.
+\* Public class implementation
+CLASS cl\_demo\_transformation\_escpng IMPLEMENTATION.
+  METHOD main.
+    DATA xml TYPE string.
+    FINAL(text) = \`<>&"\`.
+    out->begin\_section( \`Text\`
+      )->write( text
+      )->next\_section( \`XSLT\`
+      )->begin\_section( \`<xsl:output method="text" />\` ).
+    CALL TRANSFORMATION demo\_escaping\_text SOURCE text = text
+                                           RESULT XML xml.
+    out->write( xml
+      )->next\_section( \`<xsl:output method="xml" />\` ).
+    CALL TRANSFORMATION demo\_escaping\_xml SOURCE text = text
+                                          RESULT XML xml.
+    out->write( xml
+      )->next\_section( \`<xsl:output method="html" />\` ).
+    CALL TRANSFORMATION demo\_escaping\_html SOURCE text = text
+                                           RESULT XML xml.
+    out->write( xml
+      )->next\_section( \`<xsl:output method="html" />\` ).
+    CALL TRANSFORMATION demo\_escaping\_js SOURCE text = text
+                                         RESULT XML xml.
+    out->write( xml
+      )->end\_section(
+      )->next\_section( \`ST\` ).
+    CALL TRANSFORMATION demo\_escaping\_st SOURCE text = text
+                                         RESULT XML xml.
+    out->write( xml ).
+  ENDMETHOD.
+ENDCLASS.
+
+Description   
+
+Four XSLT programs with different output methods are called and an ST program for serializing a text string containing the syntax characters <>&". The results are as follows:
+
+-   No replacements are made in the results of the XSL transformation DEMO\_ESCAPING\_TEXT with the output method text.
+-   In the results of the XSL transformation DEMO\_ESCAPING\_XML with the output method xml, the syntax characters <, \>, and & are replaced by &lt;, &gt;, and &amp;.
+-   In the results of the XSL transformation DEMO\_ESCAPING\_HTML with the output method html, the syntax characters <, \>, and & are replaced by &lt;, &gt;, and &amp;.
+-   In the results of the XSL transformation DEMO\_ESCAPING\_JS with the output method html, the syntax characters are not replaced because they are part of JavaScript.
+
+The result of the Simple Transformation DEMO\_ESCAPING\_ST matches the XSL transformation with the output method xml. Also, the text string is output here as an attribute in which the syntax character " is replaced by &quot;.

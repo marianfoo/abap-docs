@@ -1,0 +1,39 @@
+  
+
+* * *
+
+SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) → 
+
+ABAP CDS - SAP Annotations
+
+SAP annotations are [CDS annotations](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") created and delivered by SAP as [CDS objects](javascript:call_link\('abencds_object_glosry.htm'\) "Glossary Entry") in the form of [CDS annotation definitions](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry").
+
+The annotation definitions provide the following for these objects:
+
+-   The name of the annotation
+
+-   The [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry") that can be specified
+
+-   [Subannotations](javascript:call_link\('abensub_annotation_glosry.htm'\) "Glossary Entry") (if specified)
+
+-   [Annotation arrays](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") (if specified)
+
+Any SAP annotations specified in [annotation syntax](javascript:call_link\('abencds_annotation_syntax_glosry.htm'\) "Glossary Entry") in [CDS source code](javascript:call_link\('abencds_source_code_glosry.htm'\) "Glossary Entry") are evaluated by SAP. These include:
+
+-   [ABAP annotations](javascript:call_link\('abencds_annotations_abap.htm'\))
+
+-   [Framework-specific annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\))
+
+ABAP annotations are evaluated when the object defined in the CDS source code is activated or when the object is used in the ABAP runtime environment. Framework-specific annotations, on the other hand, are evaluated by frameworks of other software components. An ABAP annotation can also be evaluated by frameworks of other software components. Any application annotations that are not evaluated by a framework are ignored.
+
+Notes
+
+-   Apart from the SAP annotations delivered by SAP, no annotations should currently be specified in [CDS source code](javascript:call_link\('abencds_source_code_glosry.htm'\) "Glossary Entry").
+
+-   The program ABAP\_DOCU\_CDS\_ANNOS\_OVERVIEW shows all SAP annotations and their properties.
+
+Continue
+[ABAP CDS - ABAP Annotations](javascript:call_link\('abencds_annotations_abap.htm'\))
+[ABAP CDS - Framework-Specific Annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\))

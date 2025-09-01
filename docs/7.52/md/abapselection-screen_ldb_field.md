@@ -1,0 +1,32 @@
+  
+
+* * *
+
+SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Statements](javascript:call_link\('abenldb_abap_statements.htm'\)) →  [Statements in Logical Databases](javascript:call_link\('abenldb_statements.htm'\)) →  [SELECTION-SCREEN - ldb\_options](javascript:call_link\('abapselection-screen_ldb.htm'\)) → 
+
+SELECTION-SCREEN FIELD SELECTION
+
+[Quick Reference](javascript:call_link\('abapselection-screen_fiel_shortref.htm'\))
+
+Obsolete Syntax
+
+SELECTION-SCREEN FIELD SELECTION
+                 FOR *{*NODE*|*TABLE*}* node *\[*ID id*\]*.
+
+Effect
+
+This variant of statement [SELECTION-SCREEN](javascript:call_link\('abapselection-screen.htm'\)) defines a node in the structure of the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") for field selection. If a node belongs to type T, the addition TABLE can be used instead of NODE. The statement cannot be used for type C nodes. A description of the node types is available under the statement [NODES](javascript:call_link\('abapnodes.htm'\)).
+
+If a node is defined for field selection, an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") associated with the logical database in the [GET](javascript:call_link\('abapget-.htm'\)) statement to control which fields in the node are read by the logical database. If the function module LDB\_PROCESS is used, the parameter FIELD\_SELECTION must be specified accordingly.
+
+More information about the addition ID is available in [ldb\_additions](javascript:call_link\('abapselection-screen_ldb_additions.htm'\)).
+
+Notes
+
+-   While the [database program](javascript:call_link\('abendatabase_program_glosry.htm'\) "Glossary Entry") is running, the names of the fields to be read are available in the internal table SELECT\_FIELDS in the structure RSFS\_TAB\_FIELDS from [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") RSFS.
+    
+-   See also [Field Selections](javascript:call_link\('abenldb_field_selections.htm'\)).
+    
+-   If logical databases are no longer created, it is no longer necessary to use this variant of the statement SELECT-OPTIONS.

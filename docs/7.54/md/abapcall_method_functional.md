@@ -1,0 +1,125 @@
+  
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [Method Calls](javascript:call_link\('abenmethod_calls.htm'\)) →  [Static Method Calls](javascript:call_link\('abenmethod_calls_static.htm'\)) → 
+
+meth( ... ) - Functional Method Call
+
+Syntax
+
+... *{* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( )
+    *|* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( a )
+    *|* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( p1 = a1 p2 = a2 ... )
+    *|* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( *\[*[EXPORTING p1 = a1 p2 = a2 ...](javascript:call_link\('abapcall_method_parameters.htm'\))*\]*
+            *\[* [IMPORTING p1 =a1 p2 = a2 ...](javascript:call_link\('abapcall_method_parameters.htm'\))*\]*
+            *\[*[CHANGING  p1 =a1 p2 = a2 ...](javascript:call_link\('abapcall_method_parameters.htm'\))*\]* ) *}* ...
+
+Effect
+
+Functional call of a [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)) in a suitable [reading position for functions and expressions](javascript:call_link\('abenexpression_positions.htm'\)). The return code of the method declared using [RETURNING](javascript:call_link\('abapmethods_functional.htm'\)) is used as an operand and its full typing determines the data type of the operand. The actual parameters bound to [output parameters](javascript:call_link\('abenoutput_parameter_glosry.htm'\) "Glossary Entry") and [input/output parameters](javascript:call_link\('abeninput_output_parameter_glosry.htm'\) "Glossary Entry") are handled in the same way as in [standalone method calls](javascript:call_link\('abapcall_method_static_short.htm'\)).
+
+The semantics of the syntax used in parameter passing are the same as in standalone method calls. Functional method calls differ from standalone method calls in the following ways:
+
+-   The return code in functional method calls cannot be assigned to an actual parameter explicitly using [RECEIVING](javascript:call_link\('abapcall_method_parameters.htm'\)).
+    
+-   [Inline declarations](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry") are not possible for actual parameters.
+    
+-   Non-class-based exceptions cannot be handled using [EXCEPTIONS](javascript:call_link\('abapcall_method_parameters.htm'\)).
+    
+
+If the return code of the method has a structured data type, a functional method call can, like a structure, be specified in front of the [structure component selector](javascript:call_link\('abenstructure_component_sel_glosry.htm'\) "Glossary Entry") \- and use this to access a component of the structure.
+
+If the functional method has the same name as a [built-in function](javascript:call_link\('abenpredefined_function_glosry.htm'\) "Glossary Entry"), the functional method is always called.
+
+If an exception is raised when the functional method call is used as an operand, the exception cannot always be handled, and a runtime error can occur instead (depending on the position of the operand).
+
+Notes
+
+-   In functional method calls, class-based exceptions propagated from the method can be handled as usual in a [TRY](javascript:call_link\('abaptry.htm'\)) control structure or propagated further. The [non-class-based](javascript:call_link\('abenexceptions_non_class.htm'\)) exceptions of a functional method, however, always produce a runtime error.
+    
+-   The same applies to [resumable exceptions](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry") in functional method calls as to all other methods. If processing can be resumed successfully, execution of the statement called in the method can be completed.
+    
+-   [Method chaining](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry") is possible in the operand positions where functional methods can be specified.
+    
+-   A functional method call whose first method is an instance method can be introduced using the instance operator [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) or the casting operator [CAST](javascript:call_link\('abenconstructor_expression_cast.htm'\)).
+    
+-   A single functional method call can be used as a [predicative method call](javascript:call_link\('abenpredicative_method_call_glosry.htm'\) "Glossary Entry") and as a [relational expression](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry").
+    
+-   In functional calls of a functional method, an implicit temporary actual parameter is always assigned to the return value, This parameter is used as the operand of the current operand position. This means that the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [IS SUPPLIED](javascript:call_link\('abenlogexp_supplied.htm'\)) is always true for the return value within a functionally called method.
+    
+-   Functional method calls can be nested in any way, which means that inline declarations for actual parameters can produce confusing results. For this reason, inline declarations are not allowed.
+    
+-   If successful, each method call sets the system field sy-subrc to 0, which means that all statements with functional method calls modify the value of this field.
+    
+
+Example
+
+Functional call of a method. Unlike in the example for [standalone method calls](javascript:call_link\('abapcall_method_static_short.htm'\)), the return code is assigned to the result. The inline declarations made in that example, however, are not possible here.
+
+CLASS c1 DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS do\_something IMPORTING p1 TYPE i
+                                         p2 TYPE i
+                               EXPORTING p3 TYPE i
+                                         p4 TYPE i
+                               RETURNING VALUE(r) TYPE i.
+ENDCLASS.
+CLASS c1 IMPLEMENTATION.
+  METHOD do\_something .
+    ...
+  ENDMETHOD.
+ENDCLASS.
+DATA: a1 TYPE i,
+      a2 TYPE i.
+START-OF-SELECTION.
+  DATA(result) =
+    c1=>do\_something( EXPORTING p1 = 333
+                                p2 = 444
+                      IMPORTING p3 = a1
+                                p4 = a2 ).
+
+Example
+
+The [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") factorial in this example has the return code fact of type int8, used on the right side of an assignment in an expression.
+
+CLASS math DEFINITION.
+  PUBLIC SECTION.
+    METHODS factorial
+      IMPORTING n           TYPE i
+      RETURNING VALUE(fact) TYPE int8.
+ENDCLASS.
+CLASS math IMPLEMENTATION.
+  METHOD factorial.
+    fact = COND int8( WHEN n < 0 THEN 0
+                                 ELSE REDUCE int8(
+                                   INIT f = CONV int8( 1 )
+                                   FOR  i = 1 UNTIL i > n
+                                   NEXT f =  f \* i  ) ).
+  ENDMETHOD.
+ENDCLASS.
+START-OF-SELECTION.
+  DATA(result) = 100 + NEW math( )->factorial( 4 ).
+
+Example
+
+The [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") get in this example has a structured return code whose component carrname is accessed.
+
+CLASS carriers DEFINITION.
+  PUBLIC SECTION.
+    METHODS get
+      IMPORTING carrid   TYPE scarr-carrid
+      RETURNING VALUE(r) TYPE scarr.
+ENDCLASS.
+CLASS carriers IMPLEMENTATION.
+  METHOD get.
+    SELECT SINGLE \*
+           FROM scarr
+           WHERE carrid = @carrid
+           INTO @r.
+  ENDMETHOD.
+ENDCLASS.
+START-OF-SELECTION.
+  cl\_demo\_output=>display( NEW carriers( )->get( 'LH' )-carrname ).

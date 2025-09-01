@@ -1,0 +1,72 @@
+  
+
+* * *
+
+SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+
+SELECT-OPTIONS - Quick reference
+
+[Reference](javascript:call_link\('abapselect-options.htm'\))
+
+Syntax
+
+SELECT-OPTIONS selcrit FOR *{*dobj*|*(name)*}*
+              *\[*OBLIGATORY*|*NO-DISPLAY*\]*
+              *\[*VISIBLE LENGTH vlen*\]*
+              *\[*NO-EXTENSION*\]*
+              *\[*NO INTERVALS*\]*
+              *\[*MODIF ID modid*\]*
+              *\[*DEFAULT val1 *\[*TO val2*\]* *\[*OPTION opt*\]* *\[*SIGN sign*\]**\]*
+              *\[*LOWER CASE*\]*
+              *\[*MATCHCODE OBJECT search\_help*\]*
+              *\[*MEMORY ID pid*\]*
+              *\[*NO DATABASE SELECTION*\]*
+              *\[*HELP-REQUEST  *\[*FOR *{*LOW*|*HIGH*}**\]**\]*
+              *\[*VALUE-REQUEST *\[*FOR *{*LOW*|*HIGH*}**\]**\]*.
+
+Effect
+
+Declares an internal [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") selcrit for a [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") and creates the corresponding input fields on the current [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry").
+
+Additions
+
+-   [FOR *{*dobj*|*(name)*}*](javascript:call_link\('abapselect-options_for.htm'\))
+    Specifies the data type with a static reference to a data object dobj or defines the data type using c with a length of 45, and represents the input fields according to the type specified dynamically in name.
+    
+-   [OBLIGATORY](javascript:call_link\('abapselect-options_screen.htm'\))
+    Defines the first input field as a mandatory field.
+    
+-   [NO-DISPLAY](javascript:call_link\('abapselect-options_screen.htm'\))
+    Does not create any input fields on the selection screen.
+    
+-   [VISIBLE LENGTH vlen](javascript:call_link\('abapselect-options_screen.htm'\))
+    Sets the visible length of the input fields to vlen.
+    
+-   [NO-EXTENSION](javascript:call_link\('abapselect-options_screen.htm'\))
+    Prevents multiple selections.
+    
+-   [NO INTERVALS](javascript:call_link\('abapselect-options_screen.htm'\))
+    Creates only the first input field on the selection screen.
+    
+-   [MODIF ID modid](javascript:call_link\('abapselection-screen_modif_id.htm'\))
+    Assigns the input fields to the [modification group](javascript:call_link\('abenmodification_group_glosry.htm'\) "Glossary Entry") modid.
+    
+-   [DEFAULT val1 *\[*TO val2*\]* *\[*OPTION opt*\]* *\[*SIGN sign*\]*](javascript:call_link\('abapselect-options_value.htm'\))
+    Creates [start values](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry") val1, val2, opt, and sign for the first row of the selection table.
+    
+-   [LOWER CASE](javascript:call_link\('abapselect-options_value.htm'\))
+    Prevents the content of character-like data objects from being converted into uppercase when they are transferred between input fields and an internal table.
+    
+-   [MATCHCODE OBJECT search\_help](javascript:call_link\('abapselect-options_value.htm'\))
+    Associates the input fields with a search help search\_help from [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry").
+    
+-   [MEMORY ID pid](javascript:call_link\('abapselect-options_value.htm'\))
+    Associates the first input field with the [SPA/GPA parameter](javascript:call_link\('abenspa_gpa_parameter_1_glosry.htm'\) "Glossary Entry") pid in the [user memory](javascript:call_link\('abenuser_memory_glosry.htm'\) "Glossary Entry").
+    
+-   [NO DATABASE SELECTION](javascript:call_link\('abapselect-options_no_db_sel.htm'\))
+    Does not send the selection table to the logical database as a dynamic selection after [selection screen processing](javascript:call_link\('abenselscreen_processing_glosry.htm'\) "Glossary Entry").
+    
+-   [*\[*HELP-REQUEST*\]* *\[*VALUE-REQUEST*\]* *\[*FOR *{*LOW*|*HIGH*}**\]*](javascript:call_link\('abapselect-options_ldb.htm'\))
+    Obsolete: Enables self-defined field helps (in [logical databases](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry")) and input helps for the first or second input field.

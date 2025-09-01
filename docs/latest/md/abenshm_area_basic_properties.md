@@ -1,0 +1,46 @@
+  
+
+* * *
+
+AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Areas](javascript:call_link\('abenshm_areas.htm'\)) → 
+
+ [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Shared%20Objects%20-%20Basic%20Properties%20of%20Areas%2C%20ABENSHM_AREA_BASIC_PROPERTIES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%
+20improvement:)
+
+Shared Objects - Basic Properties of Areas
+
+An area has the following basic properties:
+
+-   Area name
+    
+    The name of an area. This is also the name of the generated global [area class](javascript:call_link\('abenshm_area_class.htm'\)) and is therefore unique across the system. It is recommended that the naming conventions for global classes use the prefix CL\_.
+    
+-   Area root class
+    
+    The area root class is a global shared-memory-enabled class that has to be assigned to an area when it is defined. A non-empty area instance version must contain at least one instance of the area root class as a [root object](javascript:call_link\('abenroot_object_glosry.htm'\) "Glossary Entry"), from which the other objects are referenced. The attribute ROOT of an associated [area handle](javascript:call_link\('abenarea_handle_glosry.htm'\) "Glossary Entry") is generated as a reference variable with the static type of the [area root class](javascript:call_link\('abenroot_data_class_glosry.htm'\) "Glossary Entry").
+    
+-   Client-dependent area
+    
+    An area can be identified as client-dependent. In this case, an [area instance](javascript:call_link\('abenarea_instance_glosry.htm'\) "Glossary Entry") of the area is identified by a [client identifier](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") and not just by its name. In client-dependent areas, the area class methods always refer to the current client when accessing an area instance. In client-dependent areas, these methods have the additional input parameter CLIENT, which enables explicit access to other clients. If automatic area building is possible, it is not possible to set locks by specifying the client explicitly. In methods where this makes sense, the value of constant CL\_SHM\_AREA=>ALL\_CLIENTS can be passed to CLIENT to execute it on all clients. In the standard setting, the runtime-dependent area properties are client-dependent. The system does no check whether a specified client actually exists in the system.
+    
+-   Automatic area building
+    
+    There are three ways to set the automatic area building. Either there is no automatic area building (None), or the building is carried out using the current user (Using the current user) or a system user (Using the system user). When building a new area automatically, a new [area instance](javascript:call_link\('abenarea_instance_glosry.htm'\) "Glossary Entry") is created automatically at the time selected in the [area build type](javascript:call_link\('abenshm_area_runtime_properties.htm'\)). As a prerequisite, an [area constructor class](javascript:call_link\('abenshm_area_constructor_class.htm'\)) must be specified in the [dynamic area properties](javascript:call_link\('abenshm_area_dynamic_properties.htm'\)) and the area is bound to the AS instance. If automatic area building is enabled and an [area build type](javascript:call_link\('abenshm_area_runtime_properties.htm'\)) with server start is selected, the area constructor is executed at server start.
+    
+    The system user denotes a technical user. It has the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") rdisp/server\_startup/user. The parameter's format covers the client and the user name. Since release 7.55, the system user is not required in the system. In this case, the current user is not logged on and a space is set for the user name in the parameter. For the server start, a system user is already available in the system client. This user can be used to build client-independent areas. In case of client-dependent areas, a user in the corresponding client is necessary, i. e. a user must exist in the client with the name of the system user. If the user does not exist, the building of the area is terminated with the runtime error SYSTEM\_SHMCONSTR\_LOGON\_FAILED up to release 7.55. Since release 7.55, the runtime error can only occur if the area is client-dependent and the client does not exist or is locked. The user is always logged on with the default language. If the area that is to be built should be language-dependent, the language must be specified in the area instance names at the beginning of the area constructor using [SET LOCALE LANGUAGE](javascript:call_link\('abapset_locale.htm'\)). Since the system user does not have special authorizations, the implementation of the area constructor must not contain any authorization checks. The use of the following statements results in the runtime error SYSTEM\_SHMCONSTR\_ILL\_STATEMENT:
+    
+    -   [AUTHORITY-CHECK OBJECT](javascript:call_link\('abapauthority-check.htm'\)) except when used with the addition [FOR USER](abapauthority-check.htm#!ABAP_ONE_ADD@1@)
+    -   [SELECT](javascript:call_link\('abapselect.htm'\)) on [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") that include CDS access control with [DCL source code](javascript:call_link\('abendcl_source_code_glosry.htm'\) "Glossary Entry")
+    -   [CALL FUNCTION](javascript:call_link\('abapcall_function_destination-.htm'\))
+    
+    Note:: Since release 7.55, [RFC calls](javascript:call_link\('abenremote_function_call_glosry.htm'\) "Glossary Entry") in the area constructor are not supported any more. Necessary authorization checks must be carried out when accessing data in the shared object area. The addition [FOR USER](abapauthority-check.htm#!ABAP_ONE_ADD@1@) in an [AUTHORITY-CHECK OBJECT](javascript:call_link\('abapauthority-check.htm'\)) statement is allowed in the constructor, however, specifying the system user with this statement also results in the runtime error SYSTEM\_SHMCONSTR\_ILL\_STATEMENT.
+    
+    The area constructor is always executed with the system user so that the constructor has the same behavior when executed at server start and in case of a read request. The point in time at which the area building and the execution of the are constructor is to take place can be specified in the [runtime settings](javascript:call_link\('abenshm_area_runtime_properties.htm'\)).
+    
+-   Transactional area
+    
+    An [area instance version](javascript:call_link\('abenarea_instance_version_glosry.htm'\) "Glossary Entry") of a transactional area is not active immediately after the removal of a change lock using the method DETACH\_COMMIT of the [area handle](javascript:call_link\('abenarea_handle_glosry.htm'\) "Glossary Entry"), but only after the next [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") instead. Between the time when the lock is removed and the database commit is set up, the area instance version is displayed as specified in the layout. No new change locks can be set on the area instance and any read locks access the previous active version. In non-transactional areas, the [state](javascript:call_link\('abenshm_area_instance_state.htm'\)) of the area instance version is immediately set to active when the method DETACH\_COMMIT is executed.
+    
+    Transactional areas enable data or objects in the area instance versions to join such areas with database content. To ensure that the reference between database content and shared objects is not damaged, changes to the shared objects should be made only in contexts in which the database changes were also made in the current application. In updates, for example, any changes to the shared objects should only be made while the corresponding update functional module is executed.

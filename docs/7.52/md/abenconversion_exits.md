@@ -1,0 +1,73 @@
+  
+
+* * *
+
+SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
+
+[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) → 
+
+Conversion Routines
+
+A conversion routine (also known as a conversion exit) uses a self-written implementation to override standard conversions (where values are passed from an ABAP data object to a dynpro field or from a dynpro field to an ABAP data object and in the formatting of data using the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) and [WRITE TO](javascript:call_link\('abapwrite_to.htm'\))).
+
+-   [Properties of Conversion Routines](#@@ITOC@@ABENCONVERSION_EXITS_1)
+
+-   [Executing Conversion Routines](#@@ITOC@@ABENCONVERSION_EXITS_2)
+
+-   [Function Modules for Conversion Routines](#@@ITOC@@ABENCONVERSION_EXITS_3)
+
+Properties of Conversion Routines
+
+A conversion routine has a five-character name, CNVRT, used to
+
+-   enter the routine as a semantic attribute of a [domain](javascript:call_link\('abendomain_glosry.htm'\) "Glossary Entry") in [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry").
+
+-   assign the routine directly to a dynpro field in [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry").
+
+-   specify the routine using the addition [USING EDIT MASK](javascript:call_link\('abapwrite_to_options.htm'\)) of the WRITE statement.
+
+From a technical perspective, a conversion routine consists of two [function modules](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry"). The function modules are associated with the conversion routine using a naming convention:
+
+-   A function module called CONVERSION\_EXIT\_CNVRT\_INPUT performs the conversion from the display format to the ABAP representation, if CNVRT is the five-character name of the conversion routine.
+
+-   A function module called CONVERSION\_EXIT\_CNVRT\_OUTPUT performs the conversion from the ABAP representation to the display format, if CNVRT is the five-character name of the conversion routine.
+
+Executing Conversion Routines
+
+Conversion routines are executed as follows:
+
+-   If a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") is defined using a reference to a domain with a conversion routine or if a conversion routine is assigned to the field directly in its attributes, the INPUT function module is executed automatically when entries made in the associated screen field are passed to ABAP and the OUTPUT function module is executed automatically when ABAP output is passed to the screen field. In each case, the converted content is used.
+
+-   If an [ABAP data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry") is declared with reference to a domain with a conversion routine, the OUTPUT function module is executed by default when formatting the content using [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) and the converted content is produced or assigned. The default behavior can be overridden using the addition [USING *\[*NO*\]* EDIT MASK](javascript:call_link\('abapwrite_to_options.htm'\)).
+
+The function modules can of course be called and tested in the usual way.
+
+Function Modules for Conversion Routines
+
+As well as the naming conventions, the function modules must meet the following requirements:
+
+-   Both function modules must be implemented in the same [function group](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry") and this group cannot contain further function modules.
+
+-   Both functions must have the following mandatory parameters:
+
+-   The input parameter INPUT for the value being converted
+
+-   The output parameter OUTPUT for the converted value
+
+Additional optional input parameters can also be specified. In the INPUT conversion, the parameter INPUT must be generic, and in the OUTPUT conversion, the parameter OUTPUT must be generic. This is because the type of the assigned dynpro field or ABAP field can change depending on how it is used.
+
+-   Statements that interrupt the program flow or terminate an [SAP LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry") cannot be executed in the function modules. In OUTPUT conversions, only [termination messages](javascript:call_link\('abentermination_message_glosry.htm'\) "Glossary Entry") are valid. In INPUT conversions, [termination messages](javascript:call_link\('abentermination_message_glosry.htm'\) "Glossary Entry"), [error messages](javascript:call_link\('abenerror_message_glosry.htm'\) "Glossary Entry"), and (less useful) [status message](javascript:call_link\('abenstatus_message_glosry.htm'\) "Glossary Entry") can all be sent. Error messages produce in an error dialog.
+
+-   Describe the effects of the conversion in the documentation.
+
+Any exceptions raised in conversion routines always terminate the program. Conversion routines can only be debugged using the two-process debugger.
+
+Notes
+
+-   OUTPUT conversions needs to display very good performance, since an OUTPUT function modules can be called very often in list output.
+
+-   Conversion routines are subject to the [rule](javascript:call_link\('abenintern_extern_proc_call_guidl.htm'\) "Guideline") that no external subroutines can be called, since in this case their assigned to a [program group](javascript:call_link\('abenprogram_group_glosry.htm'\) "Glossary Entry") cannot be identified.
+
+Example
+
+The function modules CONVERSION\_EXIT\_SDURA\_INPUT and CONVERSION\_EXIT\_SDURA\_OUTPUT of the conversion routine SDURA. In its output, this conversion routine transforms seconds to minutes or minutes to hours, and in its input minutes to seconds or hours to minutes.

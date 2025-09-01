@@ -1,0 +1,11 @@
+  
+
+* * *
+
+AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+
+scaling
+
+Property of a [decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry"). A decimal floating point number can be viewed as an integer number of a given length that is scaled by dividing through a power of 10. This defines the number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry"). In this sense, the negative exponent of a decimal floating point number is called scaling, which is applied to the mantissa. If the scaling is positive, it is equivalent to the number of decimal places. Decimal floating point numbers with the same value can have different scaling. Operations on decimal floating point numbers usually retain the scaling and therefore the number of decimal places. A [built-in function](javascript:call_link\('abenbuiltin_function_glosry.htm'\) "Glossary Entry") for changing the scaling is [rescale](javascript:call_link\('abendec_floating_point_functions.htm'\)). See also [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry").
